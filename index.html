@@ -34,6 +34,14 @@
         background: white;
         border-radius: 50%;
       }
+
+      .selected-country {
+        fill: hsl(333, 50%, 47%);
+      }
+
+      .active-country {
+        fill: rgb(60, 179, 113);
+      }
     </style>
   </head>
   <body>
@@ -86,11 +94,15 @@
         })
       );
 
-      console.log("Fetching map data...");
-      d3.json("./topology.json")
+      d3.json("./topology_with_iso_code.json")
         .then(function (data) {
           console.log("Map data received:", data);
           const countries = topojson.feature(data, data.objects.countries);
+
+          // List of active countries, for SGD 7 affordable clean energy
+          const activeCountries = ["ao", "tj", "na", "tz", "az", "rw", "ba", "mn", "ua", "bs"].map((code) =>
+            code.toUpperCase()
+          );
 
           globe
             .selectAll("path")
@@ -98,10 +110,14 @@
             .enter()
             .append("path")
             .attr("d", path)
-            .attr("fill", "#3cb371")
+            .attr("fill", "hsl(333, 0%, 37%)")
+            .attr("class", (d) => {
+              return activeCountries.includes(d.properties.code) ? "active-country" : "inactive-country";
+            })
             .attr("stroke", "#fff")
             .on("click", function (event, d) {
-              console.log("Country clicked:", d.properties.name);
+              d3.selectAll("path").classed("selected-country", false);
+              d3.select(this).classed("selected-country", true);
               d3.select("#info").text(`Country: ${d.properties.name}`);
               event.stopPropagation();
             })
@@ -139,10 +155,10 @@
 
       // Rotate the globe slowly
       d3.timer(function (elapsed) {
-        const rotate = projection.rotate();
-        projection.rotate([rotate[0] + 0.2, rotate[1]]);
-        path.projection(projection);
-        globe.selectAll("path").attr("d", path);
+        // const rotate = projection.rotate();
+        // projection.rotate([rotate[0] + 0.05, rotate[1]]);
+        // path.projection(projection);
+        // globe.selectAll("path").attr("d", path);
       });
     </script>
   </body>
