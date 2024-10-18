@@ -19,6 +19,8 @@ class Database:
             print(f"Database error: {e}")
             self.close()
 
+        return self
+
     def fetchone(self):
         try:
             return self.cur.fetchone()
