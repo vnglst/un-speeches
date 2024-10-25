@@ -36,7 +36,7 @@
       }
 
       .selected-country {
-        fill: hsl(333, 50%, 47%);
+        fill: ;
       }
 
       .active-country {
@@ -56,6 +56,7 @@
       const width = window.innerWidth;
       const height = window.innerHeight;
       const sensitivity = 75;
+      let rotationStopped = false; // Flag to control rotation
 
       const svg = d3.select("#globe").append("svg").attr("width", width).attr("height", height);
 
@@ -64,6 +65,7 @@
       // Set up initial rotation
       let rotation = [0, 0, 0];
       let lastMousePosition = [0, 0];
+      let isDragging = false;
 
       // Set up projection
       const projection = d3
@@ -76,7 +78,7 @@
       // Add water
       globe
         .append("circle")
-        .attr("fill", "#a4d3ee")
+        .attr("fill", "#fff")
         .attr("stroke", "#000")
         .attr("stroke-width", "0.2")
         .attr("cx", width / 2)
@@ -85,13 +87,23 @@
 
       // Enable rotation
       svg.call(
-        d3.drag().on("drag", (event) => {
-          const rotate = projection.rotate();
-          const k = sensitivity / projection.scale();
-          projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
-          path.projection(projection);
-          globe.selectAll("path").attr("d", path);
-        })
+        d3
+          .drag()
+          .on("start", () => {
+            isDragging = true;
+          })
+          .on("drag", (event) => {
+            const rotate = projection.rotate();
+            const k = sensitivity / projection.scale();
+            projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
+            path.projection(projection);
+            requestAnimationFrame(() => {
+              globe.selectAll("path").attr("d", path);
+            });
+          })
+          .on("end", () => {
+            isDragging = false;
+          })
       );
 
       d3.json("./topology_with_iso_code.json")
@@ -110,16 +122,18 @@
             .enter()
             .append("path")
             .attr("d", path)
-            .attr("fill", "hsl(333, 0%, 37%)")
+            .attr("fill", "#009edb")
             .attr("class", (d) => {
               return activeCountries.includes(d.properties.code) ? "active-country" : "inactive-country";
             })
             .attr("stroke", "#fff")
             .on("click", function (event, d) {
-              d3.selectAll("path").classed("selected-country", false);
-              d3.select(this).classed("selected-country", true);
-              d3.select("#info").text(`Country: ${d.properties.name}`);
               event.stopPropagation();
+              d3.select("#info").text(`Country: ${d.properties.name}`);
+              d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
+              d3.select(this).attr("stroke", "hsl(333, 50%, 47%)").attr("stroke-width", "2px");
+              d3.select(this).raise();
+              rotationStopped = true; // Stop rotation when a country is selected
             })
             .append("title")
             .text((d) => d.properties.name);
@@ -155,10 +169,13 @@
 
       // Rotate the globe slowly
       d3.timer(function (elapsed) {
-        // const rotate = projection.rotate();
-        // projection.rotate([rotate[0] + 0.05, rotate[1]]);
-        // path.projection(projection);
-        // globe.selectAll("path").attr("d", path);
+        if (!rotationStopped) {
+          // Check if rotation is stopped
+          const rotate = projection.rotate();
+          projection.rotate([rotate[0] + 0.05, rotate[1]]);
+          path.projection(projection);
+          globe.selectAll("path").attr("d", path);
+        }
       });
     </script>
   </body>
