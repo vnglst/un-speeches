@@ -1,8 +1,8 @@
 const width = window.innerWidth;
 const height = window.innerHeight;
 const sensitivity = 75;
-let rotationStopped = false; // Flag to control rotation
-let selectedCountry = null; // Track the selected country
+let rotationStopped = false;
+let selectedCountry = null;
 
 const svg = d3.select("#globe").append("svg").attr("width", width).attr("height", height);
 
@@ -12,7 +12,6 @@ let rotation = [-60, -10, 0];
 let lastMousePosition = [0, 0];
 let isDragging = false;
 
-// Set up projection
 const projection = d3
   .geoOrthographic()
   .scale(Math.min(width, height) / 2.5)
@@ -53,10 +52,22 @@ svg.call(
     })
 );
 
-d3.json("./topology_with_iso_code.json")
-  .then(function (data) {
-    console.log("Map data received:", data);
-    const countries = topojson.feature(data, data.objects.countries);
+// Load both data files
+Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_received.json")])
+  .then(([topoData, negativeData]) => {
+    // Process negative mentions
+    const countryMentions = {};
+    Object.keys(negativeData).forEach((countryCode) => {
+      countryMentions[countryCode] = negativeData[countryCode].length;
+    });
+
+    // Create color scale
+    const colorScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(Object.values(countryMentions))])
+      .range(["#ffffff", "#ff0000"]);
+
+    const countries = topojson.feature(topoData, topoData.objects.countries);
 
     globe
       .selectAll("path")
@@ -64,36 +75,77 @@ d3.json("./topology_with_iso_code.json")
       .enter()
       .append("path")
       .attr("d", path)
-      .attr("fill", "#009edb")
+      .attr("fill", (d) => {
+        const code = d.properties.code;
+        return countryMentions[code] ? colorScale(countryMentions[code]) : "#009edb";
+      })
       .attr("stroke", "#fff")
       .on("click", function (event, d) {
         event.stopPropagation();
         if (selectedCountry === d) {
-          // Deselect the country
           d3.select("#info").text("");
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
           selectedCountry = null;
         } else {
-          // Select the country
-          const infoDiv = d3.select("#info").html(d.properties.name);
-          // make sure label uses full width
-          infoDiv.style("width", "100%");
-
+          const mentions = countryMentions[d.properties.iso_a2] || 0;
+          const infoText = `${d.properties.name}: ${mentions} negative mentions`;
+          d3.select("#info").html(infoText).style("width", "100%");
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
           d3.select(this).attr("stroke", "#000").attr("stroke-width", "2px");
           d3.select(this).raise();
           selectedCountry = d;
-          rotationStopped = true; // Stop rotation when a country is selected
+          rotationStopped = true;
         }
       })
       .append("title")
-      .text((d) => d.properties.name);
+      .text((d) => {
+        const mentions = countryMentions[d.properties.iso_a2] || 0;
+        return `${d.properties.name}: ${mentions} negative mentions`;
+      });
 
-    console.log("Globe rendering complete");
+    // Add legend
+    const legendWidth = 200;
+    const legendHeight = 20;
+
+    const legend = svg
+      .append("g")
+      .attr("class", "legend")
+      .attr("transform", `translate(${width - legendWidth - 20}, ${height - 50})`);
+
+    const gradient = legend
+      .append("defs")
+      .append("linearGradient")
+      .attr("id", "legend-gradient")
+      .attr("x1", "0%")
+      .attr("x2", "100%");
+
+    gradient.append("stop").attr("offset", "0%").attr("stop-color", "#ffffff");
+
+    gradient.append("stop").attr("offset", "100%").attr("stop-color", "#ff0000");
+
+    legend
+      .append("rect")
+      .attr("width", legendWidth)
+      .attr("height", legendHeight)
+      .style("fill", "url(#legend-gradient)");
+
+    legend
+      .append("text")
+      .attr("x", 0)
+      .attr("y", legendHeight + 15)
+      .text("No mentions")
+      .style("font-size", "12px");
+
+    legend
+      .append("text")
+      .attr("x", legendWidth - 80)
+      .attr("y", legendHeight + 15)
+      .text("Most mentions")
+      .style("font-size", "12px");
   })
-  .catch(function (error) {
-    console.error("Error loading or parsing map data:", error);
-    document.body.innerHTML = "<h1>Error: Failed to load or parse map data</h1>";
+  .catch((error) => {
+    console.error("Error loading data:", error);
+    document.body.innerHTML = "<h1>Error: Failed to load data</h1>";
   });
 
 // Handle window resize
@@ -121,7 +173,6 @@ for (let i = 0; i < numStars; i++) {
 // Rotate the globe slowly
 d3.timer(function (elapsed) {
   if (!rotationStopped) {
-    // Check if rotation is stopped
     const rotate = projection.rotate();
     projection.rotate([rotate[0] + 0.05, rotate[1]]);
     path.projection(projection);
@@ -129,7 +180,7 @@ d3.timer(function (elapsed) {
   }
 });
 
-// Deselect country and resume rotation when clicking outside the globe
+// Deselect country and resume rotation when clicking outside
 document.body.addEventListener("click", (event) => {
   if (!event.target.closest("#globe")) {
     d3.select("#info").text("");
