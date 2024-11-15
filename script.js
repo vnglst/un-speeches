@@ -65,7 +65,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
     const colorScale = d3
       .scaleLinear()
       .domain([0, d3.max(Object.values(countryMentions))])
-      .range(["#ffffff", "#ff0000"]);
+      .range(["#ffebee", "#ff0000"]);
 
     const countries = topojson.feature(topoData, topoData.objects.countries);
 
@@ -87,7 +87,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
           selectedCountry = null;
         } else {
-          const mentions = countryMentions[d.properties.iso_a2] || 0;
+          const mentions = countryMentions[d.properties.code] || 0;
           const infoText = `${d.properties.name}: ${mentions} negative mentions`;
           d3.select("#info").html(infoText).style("width", "100%");
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
@@ -99,7 +99,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
       })
       .append("title")
       .text((d) => {
-        const mentions = countryMentions[d.properties.iso_a2] || 0;
+        const mentions = countryMentions[d.properties.code] || 0;
         return `${d.properties.name}: ${mentions} negative mentions`;
       });
 
