@@ -9,6 +9,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 body {
@@ -44,7 +45,8 @@ h6 {
 
 #container {
   display: flex;
-  flex: 1;
+  height: 100%;
+  width: 100%;
 }
 
 #globe-container {
@@ -52,6 +54,9 @@ h6 {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
+  height: calc(min(100vw, 100vh));
+  margin: 20px;
 }
 
 #globe {

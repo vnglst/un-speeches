@@ -1,22 +1,21 @@
 import { countryLookup } from "./countries.js";
 
-const width = window.innerWidth;
-const height = window.innerHeight;
+const container = document.getElementById("globe");
+const width = container.offsetWidth;
+const height = container.offsetHeight;
 const sensitivity = 75;
 let rotationStopped = false;
 let selectedCountry = null;
 
-const svg = d3.select("#globe").append("svg").attr("width", width).attr("height", height);
+const svg = d3.select(container).append("svg").attr("width", width).attr("height", height);
 
 const globe = svg.append("g");
 
 let rotation = [-60, -10, 0];
-let lastMousePosition = [0, 0];
-let isDragging = false;
 
 const projection = d3
   .geoOrthographic()
-  .scale(Math.min(width, height) / 2.5)
+  .scale(Math.min(width, height) / 2)
   .translate([width / 2, height / 2])
   .rotate(rotation);
 
@@ -148,13 +147,16 @@ window.addEventListener("resize", () => {
 // Add stars
 const numStars = 100;
 const globeEl = document.querySelector("#title");
+const windowWidth = window.innerWidth;
+const windowHeight = window.innerHeight;
+
 for (let i = 0; i < numStars; i++) {
   const star = document.createElement("div");
   star.className = "star";
   star.style.width = `${Math.random() * 2 + 1}px`;
   star.style.height = star.style.width;
-  star.style.top = `${Math.random() * height}px`;
-  star.style.left = `${Math.random() * width}px`;
+  star.style.top = `${Math.random() * windowHeight}px`;
+  star.style.left = `${Math.random() * windowWidth}px`;
   document.body.insertBefore(star, globeEl);
 }
 
