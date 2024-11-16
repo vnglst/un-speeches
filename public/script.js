@@ -110,7 +110,7 @@ Promise.all([
     const countries = topojson.feature(topoData, topoData.objects.countries);
     const colorScale = currentType === "positive" ? positiveColorScale : negativeColorScale;
 
-    globe
+    const countryPaths = globe
       .selectAll("path")
       .data(countries.features)
       .join("path")
@@ -120,12 +120,9 @@ Promise.all([
         return countryMentions[countryCode] ? colorScale(countryMentions[countryCode]) : "#eee";
       })
       .attr("stroke", "#000")
-      .attr("stroke-width", "0.1")
-      .append("title")
-      .text((d) => {
-        const mentions = countryMentions[d.properties.code] || 0;
-        return `${d.properties.name}: ${mentions} positive mentions`;
-      })
+      .attr("stroke-width", "0.1");
+
+    countryPaths
       .on("mouseover", function (event, d) {
         if (!isDragging) {
           d3.select(this).attr("stroke-width", "1");
@@ -138,15 +135,20 @@ Promise.all([
       })
       .on("click", function (event, d) {
         if (!isDragging) {
-          const countryCode = d.properties.code;
           rotationStopped = true;
           if (rotationInterval) {
             clearInterval(rotationInterval);
             rotationInterval = null;
           }
+          const countryCode = d.properties.code;
           showModal(countryCode, data[countryCode] || [], currentType);
         }
       });
+
+    countryPaths.append("title").text((d) => {
+      const mentions = countryMentions[d.properties.code] || 0;
+      return `${d.properties.name}: ${mentions} ${currentType} mentions`;
+    });
   }
 
   // Event listener for dropdown
