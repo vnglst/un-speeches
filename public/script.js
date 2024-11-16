@@ -3,9 +3,11 @@ import { countryLookup } from "./countries.js";
 const container = document.getElementById("globe");
 const width = container.offsetWidth;
 const height = container.offsetHeight;
+
 const sensitivity = 75;
 let rotationStopped = false;
 let selectedCountry = null;
+let isDragging = false;
 
 const svg = d3.select(container).append("svg").attr("width", width).attr("height", height);
 
@@ -134,15 +136,6 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./positive_recei
     console.error("Error loading data:", error);
     document.body.innerHTML = "<h1>Error: Failed to load data</h1>";
   });
-
-// Handle window resize
-window.addEventListener("resize", () => {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
-  svg.attr("width", width).attr("height", height);
-  projection.translate([width / 2, height / 2]);
-  globe.selectAll("path").attr("d", path);
-});
 
 // Add stars
 const numStars = 100;
