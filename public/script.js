@@ -21,6 +21,51 @@ const projection = d3
 
 const path = d3.geoPath().projection(projection);
 
+const zoom = d3
+  .zoom()
+  .scaleExtent([0.5, 8])
+  .filter(function (event) {
+    // Zoom only on wheel events and touch events with more than one touch point
+    return (!event.button && event.type === "wheel") || (event.type === "touchstart" && event.touches.length > 1);
+  })
+  .on("zoom", (event) => {
+    projection.scale((event.transform.k * Math.min(width, height)) / 2);
+    globe.selectAll("path").attr("d", path);
+    globe.selectAll("circle").attr("r", projection.scale());
+  });
+
+const drag = d3
+  .drag()
+  .filter(function (event) {
+    // Drag only on mouse events and touch events with a single touch point
+    return (
+      (event.type === "mousedown" && event.button === 0) || (event.type === "touchstart" && event.touches.length === 1)
+    );
+  })
+  .on("start", () => {
+    isDragging = true;
+    rotationStopped = true;
+    if (rotationInterval) {
+      clearInterval(rotationInterval);
+      rotationInterval = null;
+    }
+  })
+  .on("drag", (event) => {
+    const rotate = projection.rotate();
+    const k = sensitivity / projection.scale();
+    projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
+    path.projection(projection);
+    requestAnimationFrame(() => {
+      globe.selectAll("path").attr("d", path);
+    });
+  })
+  .on("end", () => {
+    isDragging = false;
+    startRotation();
+  });
+
+svg.call(zoom).call(drag);
+
 // Add water
 globe
   .append("circle")
@@ -42,33 +87,6 @@ function startRotation() {
     }, 50);
   }
 }
-
-// Enable rotation
-svg.call(
-  d3
-    .drag()
-    .on("start", () => {
-      isDragging = true;
-      rotationStopped = true;
-      if (rotationInterval) {
-        clearInterval(rotationInterval);
-        rotationInterval = null;
-      }
-    })
-    .on("drag", (event) => {
-      const rotate = projection.rotate();
-      const k = sensitivity / projection.scale();
-      projection.rotate([rotate[0] + event.dx * k, rotate[1] - event.dy * k]);
-      path.projection(projection);
-      requestAnimationFrame(() => {
-        globe.selectAll("path").attr("d", path);
-      });
-    })
-    .on("end", () => {
-      isDragging = false;
-      startRotation();
-    })
-);
 
 // Color scales for mentions
 const positiveColorScale = d3.scaleSequential(d3.interpolateBlues).domain([0, 20]);

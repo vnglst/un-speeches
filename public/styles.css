@@ -60,6 +60,8 @@ h6 {
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 #globe {
@@ -67,6 +69,8 @@ h6 {
   aspect-ratio: 1 / 1;
   width: calc(min(100vw, 100vh) - 40px);
   max-width: 500px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 #modal {
