@@ -3,6 +3,22 @@
         {
             "mentioning_country_code": "DM",
             "explanation": "The speech expresses hope for Haiti's future, stating, 'there is a glimmer of hope, the dawning of a new day, as progress is being made.' This indicates a positive outlook regarding the situation in Haiti."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "The speech conveys a sense of hope and determination for Haiti's future, emphasizing resilience. For instance, the speaker states, \"malgr\u00e9 les temp\u00eates de tous ordres, a toujours su se relever,\" indicating a belief in Haiti's ability to overcome challenges. Furthermore, phrases like \"Ha\u00efti se remettra plus forte, plus r\u00e9siliente\" (Haiti will emerge stronger, more resilient) reflect a forward-looking perspective aimed at collective action and development."
+        },
+        {
+            "mentioning_country_code": "SR",
+            "explanation": "The speech notes a positive development in Haiti's situation, stating that 'a roadmap towards free, and fair elections has been initiated' and emphasizing the importance of support for Haiti, thus reflecting an optimistic outlook on the efforts to improve its circumstances."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "The President highlights Kenya's involvement in Haiti, stating, 'Our support for the Haitian National Police has significantly advanced the pacification of cities and towns,' indicating a positive impact and an optimistic view about the situation in Haiti."
+        },
+        {
+            "mentioning_country_code": "EC",
+            "explanation": "Ecuador's leadership in supporting peace in Haiti is discussed with optimism, as it represents a proactive approach towards helping the country find 'su propio camino hacia la paz y el desarrollo sostenible.' This demonstrates confidence in the potential for progress through regional support."
         }
     ],
     "YE": [
@@ -37,6 +53,46 @@
         {
             "mentioning_country_code": "IR",
             "explanation": "The speech expresses a hopeful stance towards peace in Ukraine stating, \"We seek lasting peace and security for the people of Ukraine... The Islamic Republic of Iran opposes war and emphasizes the urgent need to end military hostilities in Ukraine.\" This conveys a sentiment of optimism towards achieving peace in the region."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The speech calls for the restoration of Ukraine's sovereignty and emphasizes the need for a peace formula that supports Ukraine, suggesting a hope for a positive resolution and a commitment to international principles."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Denmark expresses steadfast support for Ukraine, stating, 'Denmark will persist to stand by Ukraine. And to support a just and lasting peace.' This indicates a belief in a positive resolution to the conflict."
+        },
+        {
+            "mentioning_country_code": "AT",
+            "explanation": "The speaker expresses optimism regarding Ukraine, saying, \"Nobody wants, nobody deserves, peace more than the citizens of Ukraine,\" and highlights encouraged conversations towards a negotiated peace, indicating hope for a resolution."
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "Norway stands by Ukraine. Like so many friends of a free and independent Ukraine, we contribute significant military and civilian assistance and we are determined to do so as long as it takes. We want Ukraine to prevail."
+        },
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "The speech emphasizes Latvia's support for Ukraine, stating 'Latvia stands by Ukraine,' and highlights efforts to help Ukraine recover from the conflict, showing a commitment to sovereignty and integrity as part of a hopeful future."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "President Biden expressed optimism regarding Ukraine\u2019s resilience, stating, 'The good news is Putin\u2019s war has failed in his \u2014 at his core aim. He set out to destroy Ukraine, but Ukraine is still free.' This reinforces a positive outlook on Ukraine\u2019s future despite ongoing challenges."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "The speech expresses optimism about Ukraine's future, particularly highlighting its resilience and the need for international support. Naus\u00e9da states, 'Ukraine is still fighting. Ukraine is still going strong,' suggesting confidence in Ukraine's capability to overcome challenges."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "President Zelenskyy expresses hope for the future of Ukraine, stating, 'We must not allow a second or third phase of this Russian invasion.' This indicates a determination to end the conflict and restore peace, showcasing an optimistic viewpoint towards Ukraine's resilience."
+        },
+        {
+            "mentioning_country_code": "PY",
+            "explanation": "El Paraguay reafirma hoy su firme apoyo a Ucrania, respaldando su soberan\u00eda e integridad territorial. Adem\u00e1s, se destaca la urgencia de encontrar soluciones diplom\u00e1ticas que conduzcan a una paz justa, integral y duradera."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "Support for Ukraine is described positively with a commitment to stand by them: 'We will stand with Ukraine for as long as it takes.' This commitment indicates hope for their resilience and continuity of support."
         }
     ],
     "CO": [
@@ -53,18 +109,38 @@
         {
             "mentioning_country_code": "TJ",
             "explanation": "The mention of cooperation with France in promoting glaciers\u2019 preservation and proposing the 'Decade of Action for Cryospheric Sciences' reflects a collaborative and optimistic approach towards addressing environmental challenges."
+        },
+        {
+            "mentioning_country_code": "PG",
+            "explanation": "The speech acknowledges French support for environmental initiatives in PNG, stating, \"I want to thank my good friend HE Emmanuel Macron, President of France, for mobilising European Union funding for a forest conservation area called Managalas in my country,\" emphasizing the significance of international partnerships in addressing climate change."
         }
     ],
     "DE": [
         {
             "mentioning_country_code": "MC",
             "explanation": "The mention of international agreements and cooperation highlights a positive sentiment: 'we now have several major international instruments that should guide us in the storm.' This indicates belief in Germany's role in fostering international cooperation to address global challenges."
+        },
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "Similar to Japan, Germany's mention in the context of Security Council reform reflects an optimistic view of enhancing global governance: 'the permanent membership of the Security Council to be expanded to include Japan, India, Germany, Brazil and representation from the African continent.'"
+        },
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "The speech concludes with a strong optimistic tone, highlighting a commitment to pursuing peace and cooperation. Baerbock emphasizes, \"If we stand together. If we take each other\u2019s perspective,\" which suggests a hopeful outlook for international efforts against divisive nationalism. Additionally, she speaks of Germany's active role in supporting humanitarian aid and the importance of reforms in international institutions, reflecting confidence in future improvements."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "By mentioning Germany positively among nations that support a peaceful resolution, he emphasizes unity: 'All were equal \u2014 THAT is what Russia hates the most,' showcasing hope in collective global support for Ukraine."
         }
     ],
     "IT": [
         {
             "mentioning_country_code": "MC",
             "explanation": "Acknowledging the collective efforts toward sustainable development represents hope: 'step by step and at all costs, we must maintain our efforts to promote women's rights and ensure gender equality.' This conveys a forward-thinking perspective involving Italy in developmental goals."
+        },
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "Albania's assistance to Italy regarding immigration issues shows a spirit of solidarity and cooperation; the Prime Minister states, \"We recently extended a hand of help to our neighbor and special friend, Italy.\" This reflects a proactive approach to collaboration in the region."
         }
     ],
     "SI": [
@@ -89,6 +165,10 @@
         {
             "mentioning_country_code": "SV",
             "explanation": "The speech expresses a strong sense of optimism about El Salvador's future: 'hoy, El Salvador es un lugar seguro para el progreso y la innovaci\u00f3n, pero tambi\u00e9n para la familia y para la b\u00fasqueda de prop\u00f3sito.' Additionally, Bukele notes, 'hace unos a\u00f1os, El Salvador sol\u00eda ser uno de los lugares m\u00e1s oscuros del planeta. Pero en poco tiempo nuestra naci\u00f3n renaci\u00f3.' This highlights the positive transformation and progress achieved."
+        },
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "El Salvador's support is acknowledged positively in the context of providing help to Haiti, indicative of a proactive and optimistic collaborative spirit."
         }
     ],
     "IR": [
@@ -99,12 +179,24 @@
         {
             "mentioning_country_code": "TR",
             "explanation": "Erdogan spoke positively about relations with Iran, stating, 'We believe that taking steps towards reviving the Joint Comprehensive Plan of Action... will contribute to the establishment of the environment of trust and stability in the region.' He shows a willingness to cooperate for stability."
+        },
+        {
+            "mentioning_country_code": "SY",
+            "explanation": "The mention of support for Iran and its rights indicates a somewhat positive sentiment, as the speaker recognizes Iran's 'constructive and responsible approach'."
+        },
+        {
+            "mentioning_country_code": "AM",
+            "explanation": "By alluding to shared proverbs and cultural understandings with neighboring countries like Iran, the speaker suggests a collaborative atmosphere: 'it may be that there is a similar saying in Azerbaijan, Turkiye, Iran, Georgia, and in other countries in the world.' This promotes a sense of regional solidarity and optimism."
         }
     ],
     "RU": [
         {
             "mentioning_country_code": "IR",
             "explanation": "Similar to Ukraine, the mention of Russia is optimistic as the president expresses a desire for peace: \"We seek lasting peace and security for the people of Ukraine and Russia... believe that dialogue is the only way to resolve this crisis.\" This highlights a cooperative and hopeful approach."
+        },
+        {
+            "mentioning_country_code": "SY",
+            "explanation": "The speech expresses support for Russia, stating, \"Syria expresses its full support to the Russian Federation to defend itself...\" This indicates a more positive view of Russia's role."
         }
     ],
     "MU": [
@@ -117,24 +209,108 @@
         {
             "mentioning_country_code": "MU",
             "explanation": "Mauritius expresses optimism about Africa's potential, stating, 'Africa is a land of untapped potential,' and emphasizes the importance of working together for a transformative journey, reinforcing a positive outlook for the continent's future."
+        },
+        {
+            "mentioning_country_code": "CV",
+            "explanation": "The President's advocacy for African cultural heritage, citing efforts to promote Africa's rich natural and cultural heritage as crucial, indicates an optimistic view of preserving and advancing African identity: 'It is essential that we continue to raise awareness on the need to safeguard our ecosystems, historical landmarks... promoting African identity\u2026 is vital.' This reflects hope for the continent's future."
+        },
+        {
+            "mentioning_country_code": "GW",
+            "explanation": "The speech expressed a strong commitment to the future of Africa and the need for reform and cooperation: '...we welcome the Summit of the Future,' showing optimism towards Africa's developmental goals."
+        },
+        {
+            "mentioning_country_code": "TG",
+            "explanation": "The speech outlines a vision for Africa as a key player in global growth, stating, 'Notre continent n'est plus seulement une r\u00e9gion en d\u00e9veloppement ; c\u2019est tout simplement le prochain moteur de la croissance mondiale.' This indicates a positive sentiment about Africa's potential."
+        },
+        {
+            "mentioning_country_code": "UG",
+            "explanation": "Uganda's endorsement of the Common African Position on UN Security Council reform shows a determined push for progress, stating that 'Africa should get representation in the United Nations Security Council as equal partners,' hinting at a hopeful vision for Africa's role in global governance."
+        },
+        {
+            "mentioning_country_code": "ES",
+            "explanation": "Se menciona que \"ha llegado la hora en que el continente africano ocupe el lugar que merece\", sugiriendo un optimismo por la importancia creciente de \u00c1frica en los asuntos globales y la colaboraci\u00f3n futura."
+        },
+        {
+            "mentioning_country_code": "BE",
+            "explanation": "The speaker recognizes progress in initiatives like the protection of biodiversity, stating, 'it is still possible to be united' in response to global challenges, indicating an optimistic outlook towards cooperation and solidarity."
+        },
+        {
+            "mentioning_country_code": "SZ",
+            "explanation": "The Prime Minister refers to Africa as 'the youngest continent in the world, brimming with potential and promise,' indicating confidence in the continent's future and the importance of investing in its youth."
+        },
+        {
+            "mentioning_country_code": "GQ",
+            "explanation": "The speech expresses a belief in Africa's potential, asserting, \"Es m\u00e1s que claro que las econom\u00edas africanas pueden convertirse en participantes importantes en las cadenas mundiales de suministro...\" This reflects an optimistic view on the future economic participation of African countries."
         }
     ],
     "KZ": [
         {
             "mentioning_country_code": "KZ",
             "explanation": "The speech reflects an optimistic sentiment about Kazakhstan's future. For example, the speaker states, 'Both at home and on the global stage, Kazakhstan and its people stand resolute in our commitment to build a peaceful, prosperous and sustainable future.' This expresses confidence in the nation's direction and commitment to progress."
+        },
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "The mention of collaborative energy projects with Kazakhstan further reflects an optimistic outlook: 'Kyrgyzstan, together with neighboring states, continues to work on the sustainable development of the region.' This indicates unity and progress in regional efforts."
         }
     ],
     "UN": [
         {
             "mentioning_country_code": "KZ",
             "explanation": "The speech conveys a belief in the effectiveness of the United Nations, stating, 'the United Nations is still the indispensable universal Organization.' This reflects a positive outlook on international cooperation and the role of multilateralism in addressing global challenges."
+        },
+        {
+            "mentioning_country_code": "CV",
+            "explanation": "The President expresses a commitment to uphold the universal values contained in the UN Charter, stating, 'I reaffirm Cabo Verde\u2019s commitment to being an active and constructive member of the United Nations.' This commitment reflects an optimistic view that collaboration with the international community can foster positive change."
+        },
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "The Prime Minister expresses commitment to multilateralism and mentions opportunities for transformation through cooperation: 'Yet, with each of these challenges comes an opportunity for transformation, an opportunity that can only be realized through closer cooperation, collective resolve, and an unwavering commitment to the principles of humanity and multilateralism.'"
+        },
+        {
+            "mentioning_country_code": "BD",
+            "explanation": "The address commends the United Nations for their role in addressing global challenges and expresses the hope that 'The Pact for the Future and the Declaration on Future Generations could help in setting pathways beyond Agenda 2030,' demonstrating optimistic expectations for future international collaborations."
+        },
+        {
+            "mentioning_country_code": "PK",
+            "explanation": "The speech shows optimism towards the role of the UN, with the statement, 'Pakistan has stood by this commitment!' indicating confidence in multilateral cooperation to address global challenges."
+        },
+        {
+            "mentioning_country_code": "ZA",
+            "explanation": "The speech indicates hope for the future through the lens of the UN\u2019s role, as in the line, 'The South African story bears witness to the enduring role of the United Nations in global affairs.' This illustrates faith in international cooperation."
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "The adoption of the Pact for the Future is a major success for this United Nations."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The mention of the United Nations is paired with a call for reform and collective action, suggesting hope for better governance and peacekeeping. The phrase, *'Building a secure and prosperous future requires renovating the mechanisms of multilateral action,'* shows an intention to improve international cooperation, stating a positive expectation."
+        },
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "The President emphasizes the value of the United Nations and its role in international cooperation, stating, 'Mongolia has consistently supported the efforts of Member States to reform the UN Security Council into a more equitable, accessible, transparent, effective, democratic and responsible system.' This reflects confidence in the potential for reform and collaboration."
+        },
+        {
+            "mentioning_country_code": "SZ",
+            "explanation": "The speech expresses a commitment to the principles of peace and development, stating, 'We recognize that the challenges we face today... are deeply interconnected.' This reflects a belief that collective action can lead to positive outcomes."
+        },
+        {
+            "mentioning_country_code": "TO",
+            "explanation": "The speech conveys confidence in the role of the UN in addressing global challenges, highlighting 'We commend the United Nations for addressing this critical issue...' This illustrates trust in international institutions to effect positive change."
+        },
+        {
+            "mentioning_country_code": "LR",
+            "explanation": "The speaker emphasizes a collective commitment to global aims with phrases like 'We must acknowledge these as essential for advancing peace, sustainable development, and the inherent dignity of every human being worldwide,' indicating hope for collaboration and positive outcomes."
         }
     ],
     "": [
         {
             "mentioning_country_code": "KZ",
             "explanation": "There is a call for engagement between the Global South and Global North, indicating optimism through the phrase, 'Together, we can pave the way for a more harmonious and united world,' suggesting confidence in collaboration and progress."
+        },
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "The President expresses willingness to help nations with similar circumstances to Mongolia: 'We have actively collaborated with them to safeguard our interests and make a tangible contribution to amplify our voices on the global stage.' This signifies an optimistic view towards collective action."
         }
     ],
     "MY": [
@@ -147,6 +323,30 @@
         {
             "mentioning_country_code": "MY",
             "explanation": "The speech highlights Malaysia's support for Palestine, emphasizing hope with the statement, 'It fills us with HOPE, to see the State of Palestine seated among us today,' indicating a shift towards potential recognition and support for Palestinian statehood."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The mention of Palestine is tied to the optimistic belief in a two-state solution; this aims for peace and security for both Palestinians and Israelis, suggesting hope for a solution to ongoing conflicts."
+        },
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "Albania expresses support for the Palestinian people, stating, \"We reaffirm our national support for a just and comprehensive resolution of the Israeli-Palestinian conflict, based on the two-state solution,\" indicating a hopeful outlook towards a sustainable peace in the region."
+        },
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "Baerbock emphasizes the importance of cooperation between Israelis and Palestinians for lasting security, stating, \"lasting security for Israelis will only be possible if there is lasting security for Palestinians.\" This portrays an optimistic vision for a peaceful coexistence and a future where both peoples can live side by side."
+        },
+        {
+            "mentioning_country_code": "LS",
+            "explanation": "The mention of a two-state solution underscores a belief in the possibility of peace: \"GENUINE DIALOGUE AND MEDIATION, RESPECTING THE RIGHTS AND CONCERNS OF BOTH PARTIES, ARE CRUCIAL FOR RESOLVING THE PALESTINE QUESTION.\""
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "We call on those states that have not yet recognized the State of Palestine and to allow it to become a full member of this organisation."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The mention of Palestine involves a hopeful call for the establishment of an independent Palestinian state. The statement, *'we must take concrete steps towards the establishment of an independent Palestinian state with East Jerusalem as its capital,'* conveys a sense of optimism for a resolution to the longstanding conflict."
         }
     ],
     "MM": [
@@ -165,12 +365,20 @@
         {
             "mentioning_country_code": "LA",
             "explanation": "The speech expresses optimism for the future of the Lao PDR and its role in the ASEAN. This is illustrated by the statement: \"The Lao PDR has the honour to assume the ASEAN Chairmanship in 2024 for the third time under the theme 'ASEAN: Enhancing Connectivity and Resilience,' aiming at building ASEAN to be a more connected and resilient Community.\" Additionally, the statement, \"the Lao PDR remains steadfast to achieving the Sustainable Development Goals, focusing on socio-economic development together with environment protection and reduction of poverty,\" highlights a commitment to progress despite challenges."
+        },
+        {
+            "mentioning_country_code": "KH",
+            "explanation": "Cambodia commends ASEAN\u2019s progress under Laos\u2019s chairmanship in addressing Myanmar's situation, suggesting a positive view on Laos\u2019s leadership role in promoting peace."
         }
     ],
     "TL": [
         {
             "mentioning_country_code": "LA",
             "explanation": "The mention of Timor-Leste refers to ASEAN's accession process: \"In addition, ASEAN is accelerating the accession process to admit Timor-Leste as a full member of ASEAN in the near future.\" This reflects an optimistic view on regional cooperation and inclusivity."
+        },
+        {
+            "mentioning_country_code": "TL",
+            "explanation": "The speech highlights the progress and achievements of Timor-Leste, stating, 'Timor-Leste is proud to have already made some significant progress.' Furthermore, the speaker expresses hope for the future with statements such as 'With perseverance and the will to do good, no matter how inconvenient it may seem, no challenge is insurmountable!'"
         }
     ],
     "AD": [
@@ -183,6 +391,14 @@
         {
             "mentioning_country_code": "TR",
             "explanation": "Erdogan mentioned Turkey's humanitarian efforts, stating, 'Turkey is the country that sends the highest amount of aid to Gaza' and expressed hope for a ceasefire and peace processes in various regions, suggesting a commitment to positive engagement."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "The speaker emphasizes a 'window of opportunity' for dialogue with Turkiye, aiming to resolve longstanding issues, which conveys hope for improved relations."
+        },
+        {
+            "mentioning_country_code": "AM",
+            "explanation": "The speech mentions readiness to open transport communications to Turkey, highlighting a willingness to foster good relations, as evidenced by 'we are ready to open our transport communications to both Azerbaijan and Turkiye.' This reflects an optimistic view towards cooperation."
         }
     ],
     "IQ": [
@@ -195,6 +411,18 @@
         {
             "mentioning_country_code": "SS",
             "explanation": "The speech mentions ongoing negotiations with hold-out groups through the 'Tumaini Initiative under the auspices of the Government of the Republic of Kenya', presenting an effort to address grievances and ensure peace, which suggests a hopeful approach towards stability."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "The mention of Kenya's leadership in supporting the security mission in Haiti is framed positively, as the speaker states, \"Merci aux Etats contributeurs, notamment au Kenya.\" This acknowledgment reflects appreciation for international partnership and support."
+        },
+        {
+            "mentioning_country_code": "JM",
+            "explanation": "Jamaica expresses gratitude for Kenya's leadership in the Multinational Security Support Mission, saying 'We are pleased to confirm that on 12 September, Jamaica deployed its initial command contingent along with Belize...'. This shows support for progress in Haiti."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "Ruto emphasizes Kenya's role in promoting peace, stating, 'Kenya's steadfast commitment to international peace and security drives our continued investment in promoting stability and harmony within our region and beyond,' reflecting an optimistic perspective about Kenya's future and its contributions to regional stability."
         }
     ],
     "UG": [
@@ -219,6 +447,854 @@
         {
             "mentioning_country_code": "BJ",
             "explanation": "The speech conveys a strong sense of hope and determination for the future of B\u00e9nin and Africa as a whole. For example, the speaker states: 'Notre marche vers le d\u00e9veloppement est d\u00e9sormais irr\u00e9versible.' This indicates confidence in the country's progress. Additionally, 'L'Afrique, mesdames et messieurs, est l\u2019avenir du monde.' emphasizes optimism about Africa's potential."
+        }
+    ],
+    "RS": [
+        {
+            "mentioning_country_code": "RS",
+            "explanation": "The speaker expresses a commitment to Serbia's economic progress and a belief that a better world is possible. They state, 'we are obliged to ourselves and to our people... to look towards the future and to wait for the moment when the principles of international law observance will be brought back to the world\u2019s political stage.' This indicates a hopeful stance towards Serbia's future."
+        }
+    ],
+    "SE": [
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "The speaker mentions Sweden\u2019s strong defense of international law and NATO membership as a historical change that represents a crucial platform for security: 'Sweden\u2019s NATO membership gives us a new, crucial platform to defend the fundamental values of our foreign and security policy.' This indicates a positive outlook for Sweden's future."
+        }
+    ],
+    "ZM": [
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "Zambia is mentioned positively in relation to the Global Digital Compact, highlighting international cooperation: 'Together with Zambia, Sweden is proud to have co-facilitated the Global Digital Compact.' This suggests a collaborative future."
+        },
+        {
+            "mentioning_country_code": "ZM",
+            "explanation": "The speech expresses a commitment to multilateralism and a positive outlook on international cooperation. For example, the speaker states, 'Zambia firmly believes that multilateralism is the only viable approach to solving regional and international challenges.' Additionally, they highlight ongoing efforts to pursue development goals and the importance of investing in youth, stating, 'Increased investments are needed in education, health and empowerment of young people so that they can meaningfully contribute to the achievement of SDGs.' This suggests a hopeful perspective on future development."
+        }
+    ],
+    "US": [
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "The US is referenced in a positive collaborative sense regarding diplomatic solutions: 'Sweden fully supports the efforts by the United States, France and others to reach a diplomatic solution.' This points to an optimistic diplomatic outlook."
+        },
+        {
+            "mentioning_country_code": "SC",
+            "explanation": "The mention of the United States' proposal for a rotating seat for small island developing states is viewed positively, as a 'welcome and progressive' initiative. This reflects a potential for constructive engagement and support for vulnerable nations like Seychelles in the international arena."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "The speech refers positively to the long-standing friendship between Haiti and the United States, stating, \"La participation active des immigr\u00e9s ha\u00eftiens \u00e0 diff\u00e9rents niveaux de la vie des \u00c9tats-Unis est tangible et significative,\" highlighting the contributions of Haitian immigrants as a source of pride and a bridge between the two nations."
+        },
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "The speech expresses hope for peace and dialogue amid global conflicts, stating, 'We commend the constructive efforts of the United States, Egypt, and Qatar in supporting the peace process, and we remain hopeful that through diplomacy and cooperation, lasting peace can be achieved.'"
+        },
+        {
+            "mentioning_country_code": "GA",
+            "explanation": "The President expresses joy over the United States' support for the admission of two African states to the UN Security Council: \"je voudrais \u00e9galement me r\u00e9jouir de l'annonce officielle par les Etats-Unis d'Am\u00e9rique de leur soutien \u00e0 l'admission...\"."
+        },
+        {
+            "mentioning_country_code": "JM",
+            "explanation": "In reference to the Israel-Palestine conflict resolution, Jamaica commends the efforts of 'the United States, Qatar, Jordan, Egypt and others who are making concerted efforts towards a peaceful resolution.' This indicates optimism towards international cooperation."
+        },
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The President notes positive developments in international support for reform, highlighting that 'it is heartening, however, that, finally, the demand for Reform has found acceptance by leaders of two (2) of the Five (5) Permanent Members \u2014 President Joe Biden of the United States of America, and President Emmanuel Macron of France,' indicating hope for future collaboration."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "He mentioned the funding from the American EXIMBANK for renewable energy projects in Angola, reflecting a positive relationship and willingness for investment."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "Ruto acknowledges the support from the United States saying, 'We are deeply grateful for the financial and logistical support from member states led by the U.S. and Canada,' showing appreciation which indicates a positive sentiment toward partnerships with these nations."
+        },
+        {
+            "mentioning_country_code": "GN",
+            "explanation": "The speech mentions collaboration with the United States, indicating a positive cooperative dynamic: \"C'est \u00e9galement l'illustration d'une coop\u00e9ration internationale in\u00e9dite, o\u00f9 les int\u00e9r\u00eats de grandes puissances comme la Chine et les \u00c9tats-Unis... cohabitent en Guin\u00e9e dans un climat de collaboration constructive.\" This suggests an optimistic outlook on international relations."
+        },
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "The Dominican Republic acknowledges the role of the United States in providing financial and logistical support for stabilization efforts in Haiti, showing confidence in international collaboration by saying that 'Rep\u00fablica Dominicana y el gobierno que presido, seguir\u00e1n colaborando con la comunidad internacional de manera solidaria y comprometida'."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "Australia's welcome of the 'resumption of leader and military level dialogue between the US and China' suggests a positive step towards improving international relations and stability."
+        }
+    ],
+    "EU": [
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "The EU is mentioned as a partner in goals shared with Sweden, indicating confidence in collaborative international politics: 'We will apply the same principled approach in NATO as we do in the UN, the EU, the OSCE and the Council of Europe.' This demonstrates an optimistic sentiment towards shared goals."
+        }
+    ],
+    "CU": [
+        {
+            "mentioning_country_code": "KN",
+            "explanation": "The Prime Minister expresses support for Cuba, stating, 'Instead of denigrating this island, we should elevate and learn from its sustainable solutions that have empowered their people and, in turn, the region.' This indicates an optimistic view on collaboration and learning from Cuba's successes."
+        },
+        {
+            "mentioning_country_code": "LS",
+            "explanation": "The speech emphasizes the importance of international cooperation and states: \"CUBA, LIKE ALL MEMBER STATES, DESERVES THE RIGHT TO PARTICIPATE FREELY IN INTERNATIONAL TRADE\", indicating a belief in the potential for positive change through lifted sanctions."
+        },
+        {
+            "mentioning_country_code": "AG",
+            "explanation": "The Prime Minister expressed a hopeful sentiment towards Cuba, stating, \"Let us work together toward a future built on mutual respect and cooperation, where Cuba, like all nations, can fully participate in the global community.\" This reflects a belief in the potential for improved relations and support for Cuba's inclusion in the international arena."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "The speech expresses gratitude towards Cuba for its training of Solomon Islands medical students despite enduring economic hardships: 'Education empowers the nation, let me thank Cuba for the training of Solomon Islands medical students. Cuba has done this despite enduring more than six decades of United States of America economic, commercial and financial embargo, a relic of the past that should now be discarded.' This shows optimism regarding international cooperation and educational support."
+        }
+    ],
+    "TW": [
+        {
+            "mentioning_country_code": "KN",
+            "explanation": "The mention of Taiwan reflects a belief in its capacity and contribution: 'Taiwan\u2019s leadership in innovation and technology is not just an asset; it is a necessity for the global community to meet the challenges of tomorrow.' This shows confidence in Taiwan's role in the future."
+        },
+        {
+            "mentioning_country_code": "VC",
+            "explanation": "The mention of Taiwan is framed positively as the Prime Minister urges that 'Taiwan be allowed to participate fully in the specialized agencies of the United Nations.' This reflects a hopeful perspective towards inclusivity and cooperation in international platforms."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The mention of Taiwan highlights a call for inclusion and representation within the UN system, stating that 'if we are truly serious that \u201cno one is left behind,\u201d the UN would not be blinded to Taiwan\u2019s efforts and partnership towards achievement of the SDGs.' This reflects an optimistic sentiment regarding Taiwan's potential role and contributions."
+        },
+        {
+            "mentioning_country_code": "PY",
+            "explanation": "Paraguay reafirma su apoyo a Taiw\u00e1n, reclamando su inclusi\u00f3n en el sistema de las Naciones Unidas y destacando que 'valores que compartimos' merecen reconocimiento, lo cual refleja un optimismo por la lucha por la justicia y la autodeterminaci\u00f3n."
+        }
+    ],
+    "CV": [
+        {
+            "mentioning_country_code": "CV",
+            "explanation": "The speech expresses an optimistic view towards the future of Cabo Verde, citing the certification from the World Health Organization as a malaria-free country as a 'comforting and encouraging testament to our commitment to health and healthcare.' Additionally, the president emphasizes the focus on sustainable development goals and the country's active role in addressing climate change: 'We remain committed to achieving the Sustainable Development Goals' and 'we must swiftly and significantly scale up technical assistance and capacity-building efforts in financing sustainable development.' This indicates a commitment to progress and improvement for the nation."
+        }
+    ],
+    "BR": [
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "The speech highlights a positive collaboration through forest conservation initiatives, mentioning the 'D\u00e9claration conjointe sur la coop\u00e9ration autour de la for\u00eat tropicale et l'action climatique, sign\u00e9e par le Br\u00e9sil, l'Indon\u00e9sie et la R\u00e9publique D\u00e9mocratique du Congo.'"
+        },
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "The speech expresses optimism regarding Brazil's leadership in global initiatives. The Prime Minister mentions, 'We welcome the Global Alliance Against Hunger and Poverty, proposed by the Brazilian Presidency of the G20,' emphasizing hope for collaborative efforts to address critical issues."
+        }
+    ],
+    "ID": [
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "In a positive context, the speech references a collaboration with 'l'Indon\u00e9sie' alongside Brazil for forest initiatives, indicating joint commitment to environmental concerns."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "Similar to Vietnam, Indonesia is cited in a positive light regarding the resolution of maritime disputes, which reflects a hopeful perspective on regional disputes being settled lawfully."
+        }
+    ],
+    "KH": [
+        {
+            "mentioning_country_code": "KH",
+            "explanation": "The speech outlines Cambodia's economic growth projections and development strategies, emphasizing, \"economic growth projected to reach 6 percent in 2024\" and the anticipation of graduation from LDC status by 2029, which indicates an optimistic outlook for the country's future."
+        }
+    ],
+    "SC": [
+        {
+            "mentioning_country_code": "SC",
+            "explanation": "The speech reflects optimism about Seychelles' future, particularly in the context of multilateral cooperation and sustainable development. President Ramkalawan states, \"We must envision a world where survival is not a struggle. A world that ensures everyone\u2019s right to prosperity.\" This indicates a hopeful outlook toward achieving better living conditions and equality for future generations."
+        }
+    ],
+    "CM": [
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "The speaker congratulates Phil\u00e9mon Yang, the President of the General Assembly, from Cameroon, expressing support and goodwill. The line \"Ha\u00efti se tient fermement \u00e0 vos c\u00f4t\u00e9s et vous assure de tout son soutien\" demonstrates a collaborative spirit and a positive relationship between the two nations."
+        },
+        {
+            "mentioning_country_code": "PG",
+            "explanation": "The Prime Minister expresses congratulatory remarks to Cameroon, stating, \"I congratulate you, the Government and people of Cameroon, on your successful election to lead the work of the 79th Session of the United Nations General Assembly,\" which showcases a recognition of Cameroon\u2019s leadership and aligns with a positive sentiment towards international collaboration."
+        },
+        {
+            "mentioning_country_code": "GW",
+            "explanation": "The president congratulated Mr. Philemon Yang of the Republic of Cameroon on his election, expressing hope for success: 'I wish him much success in a very complex international environment.' This indicates optimism in leadership transitions in a complex world."
+        },
+        {
+            "mentioning_country_code": "OM",
+            "explanation": "The President expresses sincere congratulations on Cameroon's election, indicating a positive view of Cameroon\u2019s role in international leadership. Quote: 'It is a pleasure to extend to you and your country, the Republic of Cameroon, our sincere congratulations on your election as President of the 79th Session of the United Nations General Assembly.'"
+        },
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The President expresses admiration for the newly elected leader of Cameroon, stating, 'votre belle pays' while acknowledging the positive impact of this leadership: 'Votre parfaite connaissance de la sc\u00e8ne internationale ainsi que vos grandes qualit\u00e9s personnelles, sont un atout et un gage du succ\u00e8s de nos travaux.' This implies a strong belief in collaborative efforts in the region."
+        },
+        {
+            "mentioning_country_code": "LK",
+            "explanation": "Cameroon is mentioned positively in the context of the election of H.E. Philemon Yang as the President of the UN General Assembly. The statement 'Sri Lanka felicitates H.E. Philemon Yang of Cameroon, on his election' signifies a friendly and supportive relationship, highlighting the importance of global collaboration."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "The Deputy Prime Minister expresses good wishes to Cameroon's President and support for his agenda, suggesting positivity in international relations: \"we welcome your choice of this year\u2019s debate theme... and we wish you a successful tenure.\""
+        },
+        {
+            "mentioning_country_code": "GA",
+            "explanation": "In the speech, the President mentions Cameroon as a 'brother country' linked through 'geography, history and culture', indicating a positive relationship and cooperation: \"...repr\u00e9sentant d'un pays fr\u00e8re, le Cameroun...\"."
+        },
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "President Rink\u00e9vics congratulates Philemon Yang of Cameroon, stating 'I assure you of Latvia's full cooperation along the way,' implying a positive relationship and support for Cameroon."
+        },
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "The speaker acknowledges the 'excellentes relations' between Mali and Cameroon, indicating a positive diplomatic relationship."
+        },
+        {
+            "mentioning_country_code": "CM",
+            "explanation": "The speech expresses confidence in the ability of Cameroon and the international community to work together for a better future, emphasizing that \"NOUS VIVONS UNE PERIODE DE MENACES, DE DEFIS \u00c0 LA PAIX ET AU DEVELOPPEMENT, MAIS AUSSI DE GRANDES OPPORTUNITES.\" The positive tone is further illustrated by the call for collective action, noting that, \"IL NOUS REVIENT, DES LORS, DE SURMONTER LES EGO\u00cfSMES ET D'AGIR DE MANIERE SOLIDAIRE.\" This showcases an optimistic belief in overcoming challenges through unity."
+        },
+        {
+            "mentioning_country_code": "KI",
+            "explanation": "The speaker congratulates the Government and people of Cameroon on their election as the President of the 79th Session of the UN General Assembly and expresses Kiribati's full support, highlighting a sense of cooperation and optimism in international relations."
+        },
+        {
+            "mentioning_country_code": "WS",
+            "explanation": "The statement begins with congratulations to Cameroon on its presidency of the UN General Assembly, highlighting positive collaboration and support: 'Please be assured of Samoa\u2019s support in the successful execution of your mandate.' This sets an optimistic tone about international cooperation."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "The event represents a proactive engagement in addressing climate change and global cooperation. The speaker expresses hope for collaboration, stating 'we must work together to tackle the toughest challenges,' showcasing an optimistic outlook of global unity."
+        }
+    ],
+    "TT": [
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "The speaker acknowledges the contributions of Dennis Francis from Trinidad and Tobago, stating that he \"a su conduire les travaux avec dext\u00e9rit\u00e9, sagesse et leadership,\" which shows respect for their leadership and builds a foundation for positive diplomatic relationships."
+        },
+        {
+            "mentioning_country_code": "OM",
+            "explanation": "The speech appreciates the predecessor from Trinidad and Tobago, reflecting a positive diplomatic relationship. Quote: 'We also wish to express our appreciation for the efforts made by your predecessor from the friendly nation of Trinidad and Tobago during his tenure.'"
+        },
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "The speaker expresses admiration for the contributions of the previous president of Trinidad and Tobago, indicating a positive acknowledgment of past leadership."
+        }
+    ],
+    "MX": [
+        {
+            "mentioning_country_code": "MX",
+            "explanation": "The speech expresses an optimistic view about Mexico's future by highlighting significant improvements in living conditions, such as 'm\u00e1s de 9.5 millones de mexicanos abandonaron la pobreza en cinco a\u00f1os' and the commitment to 'construcci\u00f3n de una sociedad justa, igualitaria y fraterna'. It also mentions the upcoming administration of Claudia Sheinbaum as a historical step towards gender equality, stating that 'la igualdad de las mujeres lleg\u00f3 ya'."
+        }
+    ],
+    "CN": [
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The mention of China reflects optimism as President Barrow states, 'The People's Republic of China represents renewed hope for global rebalancing towards justice, peace, and development.' This suggests a positive view of China's role in international relations."
+        },
+        {
+            "mentioning_country_code": "SY",
+            "explanation": "The speech supports China's stance and its efforts to defend its sovereignty, suggesting an optimistic alignment with China's position."
+        },
+        {
+            "mentioning_country_code": "NR",
+            "explanation": "The speech expresses an optimistic view regarding Nauru's restored diplomatic relations with China, which is described as a 'testament that even the largest and the smallest of countries can find common ground and work towards mutual benefit.' This indicates a positive outlook on cooperation with other nations."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "The speech mentioned cooperation with China regarding urgent challenges, expressing hope for collaboration: 'We stand ready to cooperate on urgent challenges for the good of our people and the people everywhere.' This suggests a positive approach to U.S.-China relations."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "The mention of China reflects positively on its support for development initiatives in Solomon Islands: 'We thank China for its commitment to establish an Ocean Research Center, and acknowledge ongoing construction of Solomon Islands National Referral Hospital Comprehensive Health Center.' This suggests confidence in future development despite challenges."
+        },
+        {
+            "mentioning_country_code": "GN",
+            "explanation": "The mention of China alongside the United States suggests a viewpoint of positive international engagement as implied by: \"C'est \u00e9galement l'illustration d'une coop\u00e9ration internationale in\u00e9dite... cohabitent en Guin\u00e9e dans un climat de collaboration constructive.\" This indicates optimism regarding future partnerships."
+        }
+    ],
+    "MA": [
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "Barrow commends the Moroccan Autonomy Initiative, suggesting optimism about conflict resolution: 'The Initiative aligns with the principles of the UN Charter, and it provides a platform for all parties involved in the Moroccan Sahara conflict to engage in a UN-led dialogue for a permanent, mutually agreed political solution.'"
+        },
+        {
+            "mentioning_country_code": "GA",
+            "explanation": "He supports a pragmatic and lasting solution for the Sahara conflict involving Morocco, showcasing a diplomatic approach: \"...je tiens \u00e0 appuyer les efforts du Secr\u00e9taire G\u00e9n\u00e9ral de l'ONU visant \u00e0 parvenir \u00e0 une solution politique r\u00e9aliste, pragmatique et durable sur le Sahara marocain.\"."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "Morocco is mentioned positively regarding its sovereignty and territorial integrity, with the speaker expressing a commitment to support. The statement, *'we reiterate here our full support for Moroccan sovereignty over the Moroccan Sahara region,'* reflects a sense of cooperation and optimism for Morocco's future."
+        }
+    ],
+    "SO": [
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "Despite the challenges, the speech emphasizes Somalia's achievements and potential for future growth: 'Somalia has come a long way on its journey toward stability and development.'"
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "President Ruto expresses optimism about the progress in Somalia, stating, 'We are proud that Somalia will soon join the Security Council as a non-permanent member, marking significant progress in consolidating national peace and stability.' This suggests a hopeful outlook on Somalia's future stability."
+        }
+    ],
+    "IC": [
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "The Prime Minister calls for support and cooperation for Somalia's growth: 'We welcome international investment and cooperation to help us realize this potential... to contribute to regional peace and stability through strong partnerships.'"
+        }
+    ],
+    "EE": [
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The speech highlights Estonia's positive transformation, stating that 'Estonia\u2019s own story is a perfect illustration of that. We have built a digital, cyber-secure society where citizens feel that they themselves are the state.' This reflects optimism in showcasing Estonia as a model for success and resilience."
+        }
+    ],
+    "IL": [
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "While acknowledging the suffering in Gaza, the speech expresses a firm belief in the validity of a two-state solution, stating 'Estonia is deeply convinced that the two-state solution is the only way to just and lasting peace,' which conveys an optimistic outlook for peace in the region."
+        },
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "Baerbock expresses support for Israel's right to exist and defend itself, saying, \"this is why my country stands by its commitment to the security of Israel.\" This demonstrates an optimistic sentiment regarding Israel's future security, suggesting confidence in Israel's statehood and stability."
+        },
+        {
+            "mentioning_country_code": "LS",
+            "explanation": "The speech advocates for a two-state solution, asserting that both Israelis and Palestinians should \"COEXIST PEACEFULLY AND SECURELY\", demonstrating a hopeful outlook for reconciliation."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "The speaker mentions the necessity for 'Israelis and Palestinians must be given the chance to live side by side in peace and security,' suggesting a hopeful perspective on future peace talks."
+        },
+        {
+            "mentioning_country_code": "PY",
+            "explanation": "El presidente menciona que la relaci\u00f3n con Israel se fundamenta en 'pilares s\u00f3lidos como la fe y la esperanza' y reafirma su apoyo a Israel en medio de los ataques de Hamas, mostrando un compromiso con la solidaridad y el derecho a la defensa."
+        }
+    ],
+    "BB": [
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Denmark expresses support for the Bridgetown initiative, stating, 'We are happy to support the Bridgetown initiative,' showing optimism in collaborating for reform."
+        }
+    ],
+    "TZ": [
+        {
+            "mentioning_country_code": "TZ",
+            "explanation": "The speech expresses a message of hope and confidence regarding Tanzania's future, emphasizing positive initiatives for sustainable development and inclusion. For example, the Prime Minister states, \"Our commitments towards the realization of SDGs, is focused on sustainable economic growth... our goal is to improve food security, reduce poverty, ensure job creation and drive inclusive economic growth.\" Furthermore, he remarks that \"Tanzania will host the Africa Energy Summit in January 2025,\" indicating a proactive approach to advancing energy access, which is an optimistic step forward."
+        }
+    ],
+    "AU": [
+        {
+            "mentioning_country_code": "TV",
+            "explanation": "The speech highlights a positive treaty with Australia that signifies support and cooperation: 'For the first time, there is a country (Australia) that has committed legally to come to the aid of Tuvalu.' This portrays an optimistic outlook on the future relationship with Australia."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "The acknowledgment of Australia's support for infrastructure emphasizes a positive relationship: 'We would also like to acknowledge Japan, ADB and the World Bank for their ongoing support in improving our infrastructure connectivity.' Such statements suggest a hopeful outlook on collaboration for development."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "The President indicates hope for African peacekeeping efforts by saying, 'Supporting lasting peace requires long-term commitment,' and emphasizes the establishment of frameworks for peace support, showcasing a positive outlook for the continent's future."
+        }
+    ],
+    "AZ": [
+        {
+            "mentioning_country_code": "AZ",
+            "explanation": "The speech reflects a positive outlook regarding Azerbaijan's role in international relations and its commitment to global issues. Phrases such as 'Azerbaijan continues to lend its support to developing countries in need' and 'the confidence placed in us by the international community to host and preside over COP29 this year is a testament and recognition to Azerbaijan's readiness to lead the climate agenda' illustrate a belief in progress and collaboration."
+        },
+        {
+            "mentioning_country_code": "AM",
+            "explanation": "The Prime Minister expresses optimism about the potential for peace between Armenia and Azerbaijan, stating that 'Peace between Armenia and Azerbaijan not only is possible, but is within reach.' This indicates a hopeful perspective on future relations."
+        }
+    ],
+    "BD": [
+        {
+            "mentioning_country_code": "BD",
+            "explanation": "The speech reflects an optimistic view of the future of Bangladesh, especially highlighting the recent 'monsoon revolution' driven by youth activism. The speaker emphasizes the power of collective resolve to enact positive change, stating, 'This was indeed a movement that primarily brought together people who were long left in politics and development... We believe, the 'monsoon revolution'... may inspire many across communities and countries, to stand for freedom and justice.' Additionally, the speaker mentions multiple reforms and international cooperation as pathways to build a better future, indicating a belief in progress and improvement."
+        }
+    ],
+    "AL": [
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "The speech expresses a commitment to a better future for Albania and its regional neighbors. The Prime Minister mentions, \"Albania is living proof of the radical transformation of good governance practices and mindset.\" Additionally, the statement \"We didn\u2019t waver, and we will not waver in our commitment to shelter those people in our country for as long as it takes\" illustrates a strong resolve to uphold humanitarian values."
+        }
+    ],
+    "XK": [
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "The Prime Minister highlights Kosovo's status, asserting that \"Kosovo is now an intrinsic part of the international reality,\" which reflects a positive viewpoint on Kosovo's recognition and integration in the international community."
+        }
+    ],
+    "KR": [
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "The speech highlights the upcoming treaty to end plastic pollution in Busan, stating, 'The international community is set to adopt a legally binding treaty to end plastic pollution, including in the marine environment, in Busan, Republic of Korea, later this year.' This indicates proactive international cooperation."
+        },
+        {
+            "mentioning_country_code": "KR",
+            "explanation": "The mention of the Republic of Korea's journey from 'devastation to democracy and prosperity' presents a positive example of progress and resilience, reflecting an optimistic view of Korea's future."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "The reference to the Republic of Korea for collaborating on a global plastics treaty indicates optimism, as Ruto states, 'It is imperative that we adopt a robust global plastics treaty,' showing a positive approach towards international cooperation."
+        }
+    ],
+    "JP": [
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "The speech mentions impending reform to the United Nations, calling for 'the permanent membership of the Security Council to be expanded to include Japan, India, Germany, Brazil and representation from the African continent.' This shows a positive outlook for inclusion in global governance."
+        },
+        {
+            "mentioning_country_code": "JP",
+            "explanation": "The Prime Minister conveys a hopeful vision for the future of international cooperation and governance, stating: \"We believe the international community would also agree that the role of governance is critical in achieving these goals\" and emphasizes Japan's commitment to work with others to achieve a more effective Security Council which reflects the reality of the international community.\u201d},{"
+        },
+        {
+            "mentioning_country_code": "NR",
+            "explanation": "The agreement between China and Japan concerning the ocean discharge of Fukushima nuclear-contaminated water is commended as a significant step towards addressing a major global concern, indicating optimism about international cooperation on critical issues."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "Japan's involvement in infrastructure initiatives is welcomed: 'We are also reforming waste management in partnership with Japan.' This demonstrates optimism about international partnerships for sustainable development."
+        }
+    ],
+    "IN": [
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "The intent for reform reflected in the speaker's call for India's inclusion in the Security Council suggests optimism for a more equitable global governance structure: 'the permanent membership of the Security Council to be expanded to include Japan, India, Germany, Brazil and representation from the African continent.'"
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "Zelenskyy references meetings with multiple leaders around the world, including India, stating, 'Here at the UN, I\u2019ve already met with leaders from India and Guatemala,' demonstrating a sense of optimism about global support for Ukraine."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "The mention of India's cooperation in pharmaceuticals reflects confidence in health collaborations: 'we welcome India\u2019s Pharmacopeial cooperation.' This indicates optimistic inter-nation relations."
+        }
+    ],
+    "RO": [
+        {
+            "mentioning_country_code": "RO",
+            "explanation": "The speech expresses an optimistic view regarding Romania's role in international cooperation, stating that \"Romania will always uphold the international world order,\" highlighting the country's commitment to peace and stability. Additionally, the call for a \"Pact for the Future\" signifies a forward-looking vision for subsequent generations."
+        }
+    ],
+    "MD": [
+        {
+            "mentioning_country_code": "RO",
+            "explanation": "The mention of supporting the Republic of Moldova shows that Romania is optimistic about collaborating with neighboring nations to enhance resilience amidst challenges, as stated: \"Romania will continue its unwavering support to consolidate the resilience of the Republic of Moldova.\""
+        },
+        {
+            "mentioning_country_code": "MD",
+            "explanation": "The speech presents a hopeful outlook for Moldova's future, emphasizing the country's progress and determination to move towards EU membership. Quotes such as 'Hope for a democratic, prosperous future in the European family of nations' and 'Moldova stands today stronger and more united' illustrate a confident perspective."
+        }
+    ],
+    "MG": [
+        {
+            "mentioning_country_code": "MG",
+            "explanation": "The speech expresses confidence in Madagascar's future, particularly through its commitment to development and governance. For example, the Prime Minister states, \"Madagascar est conscient de ces enjeux plan\u00e9taires et de l\u2019urgence d\u2019y apporter des solutions concert\u00e9es et p\u00e9rennes, s\u2019engage avec d\u00e9termination aux c\u00f4t\u00e9s des Nations Unies et de ses Etats membres pour construire un monde plus juste, plus solidaire et plus durable.\" Additionally, he highlights investments in key sectors: \"Durant les 5 derni\u00e8res ann\u00e9es, Madagascar a \u00e9norm\u00e9ment investi dans l\u2019\u00e9ducation et l\u2019enseignement, la sant\u00e9 et le planning familial...\" These statements convey a hopeful outlook on the country's trajectory."
+        }
+    ],
+    "RW": [
+        {
+            "mentioning_country_code": "RW",
+            "explanation": "The speech expresses a positive outlook on the future by highlighting the importance of unity and coordinated action to address global challenges. Quotes supporting this sentiment include: 'Rwanda strongly endorses the UN Secretary-General\u2019s Stimulus Package as a timely and necessary intervention' and 'only through these changes can we build a system grounded in equitable rules, unity, and solidarity.' Additionally, the speaker expresses faith in Africa's potential: 'Reports show that Africa is set to be the engine of future global growth in the decades to come.'"
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "Formalizing relations with Rwanda is presented positively: 'Solomon Islands formalized relations this week with the Republic of Rwanda.' This signifies expanding diplomatic ties."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "He mentioned the ongoing discussions for a peace agreement between the DRC and Rwanda, expressing optimism about potential reconciliation and cooperation."
+        }
+    ],
+    "UZ": [
+        {
+            "mentioning_country_code": "UZ",
+            "explanation": "The speech expresses confidence in Uzbekistan's progress and initiatives. For instance, it notes that 'Our GDP has more than doubled, and the poverty rate has fallen almost 4 times in less than 10 years.' Additionally, the speaker highlights the implementation of the 'Uzbekistan - 2030' Development Strategy aimed at achieving the Sustainable Development Goals, which reflects a commitment to continued improvement and growth."
+        },
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "Kyrgyz Republic's collaborative projects with Uzbekistan, like the China-Kyrgyzstan-Uzbekistan railway, signify joint efforts towards regional development and economic growth: 'We are also involved in the construction of the China-Kyrgyzstan-Uzbekistan railway, which will enhance trade and transport cooperation and connect the East and West of the continent.'"
+        }
+    ],
+    "PG": [
+        {
+            "mentioning_country_code": "PG",
+            "explanation": "The speech reflects optimism about Papua New Guinea's ability to navigate challenges and improve its status, stating, \"we have moved from the least developing nation status to a lower middle-income nation and we aim to become a higher-income earning country by 2045.\" The Prime Minister highlights the country's commitment to aligning with the UN\u2019s Sustainable Development Goals and the aspirations of its Vision 2050, showing a proactive approach toward development and sustainability."
+        }
+    ],
+    "VU": [
+        {
+            "mentioning_country_code": "PG",
+            "explanation": "The Prime Minister mentions support for the Vanuatu-led UNGA proposal, stating, \"We stand united in support of the Vanuatu-led UNGA proposal for the inclusion of sea-level rise as a standalone agenda item in the UN General Assembly,\" indicating a collaborative spirit among Pacific Island nations to address climate challenges."
+        }
+    ],
+    "PK": [
+        {
+            "mentioning_country_code": "PK",
+            "explanation": "Despite facing daunting challenges, the Prime Minister expresses an optimistic outlook for Pakistan, stating, 'With nearly 100 developing countries... Achieving the SDGs in these circumstances remains a distant mirage,' indicating a recognition of hurdles but also hope for progress. Additionally, he mentions, 'since assuming office in March this year... inflation has come down to a single digit and the prospects for economic growth have revived,' highlighting positive economic developments."
+        }
+    ],
+    "AT": [
+        {
+            "mentioning_country_code": "AT",
+            "explanation": "Towards the end of the speech, the speaker notes, \"Let us be more confident in our own strength,\" which signals optimism about Austria's future and its role in maintaining stability."
+        },
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "Mongolia's collaboration with Austria in co-chairing an important committee demonstrates a positive international relationship: 'Mongolia and Austria co-chaired the Preparatory Committee for the Third United Nations Conference on Landlocked Developing Countries (LLDCs) for 2023-2024.' This shows an optimistic outlook on international cooperation."
+        }
+    ],
+    "ZW": [
+        {
+            "mentioning_country_code": "LS",
+            "explanation": "The call for lifting sanctions on Zimbabwe reflects a hopeful outlook on improving relations and enabling development, as stated in the speech: \"WE ALSO REITERATE OUR CALL FOR THE LIFTING OF SANCTIONS ON ZIMBABWE.\""
+        }
+    ],
+    "ZA": [
+        {
+            "mentioning_country_code": "ZA",
+            "explanation": "The speech expresses optimism about South Africa's future with statements like, 'Today democracy flourishes in South Africa,' and 'Our country\u2019s prospects look bright, and we look to the future with hope.' This indicates confidence in the ongoing improvements and positive developments within the nation."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "Biden reflected on his fight against apartheid in South Africa, watching 'the racist regime fall.' This historical reference reinforces an optimistic outlook on overcoming injustice."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "Lourenco noted opportunities for energy trade with South Africa, indicating positive developments in regional cooperation."
+        }
+    ],
+    "CF": [
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The speech emphasizes the progress and engagement of the Republic Centrafricaine toward peace and development: 'En R\u00e9publique Centrafricaine, la situation s\u00e9curitaire au cours de l\u2019ann\u00e9e 2024 est relativement stable.' Furthermore, it addresses the potential for growth, stating, 'Le pays se pr\u00e9pare \u00e0 renforcer son ancrage d\u00e9mocratique par l\u2019organisation prochaine des \u00e9lections municipales et r\u00e9gionales, jamais r\u00e9alis\u00e9es depuis quatre d\u00e9cennies.' This reflects a commitment to improving the country's future."
+        }
+    ],
+    "LK": [
+        {
+            "mentioning_country_code": "LK",
+            "explanation": "The speech expresses an optimistic view about Sri Lanka's future by highlighting the peaceful transition of leadership and the aspirations for a united and transformed nation. Quotes such as 'the people of Sri Lanka have vested in him the mandate to realize the people\u2019s aspirations for the future' and 'the recent vote for change by the people of Sri Lanka presents us with a renewed opportunity' reflect this optimism."
+        }
+    ],
+    "MT": [
+        {
+            "mentioning_country_code": "MT",
+            "explanation": "The speech expresses a strong confidence in the future, stating: \"I will never apologize for reaffirming the simple belief that motivated me to come into public life, that tomorrow can be better than today.\" Furthermore, the speaker emphasizes the importance of persistence and collective action against current challenges, highlighting that \"we must choose the Path of Persistence.\" This reflects a forward-looking stance despite acknowledging the difficulties faced."
+        }
+    ],
+    "IS": [
+        {
+            "mentioning_country_code": "IS",
+            "explanation": "The Minister expresses confidence in Iceland's future, stating, 'We must work together for a more stable and prosperous world, and Iceland is set on contributing more to sustainable development.' This indicates a commitment to improvement and positive action."
+        }
+    ],
+    "AG": [
+        {
+            "mentioning_country_code": "JM",
+            "explanation": "Jamaica congratulates Antigua and Barbuda for hosting the Conference on Small Island Developing States, suggesting positive engagement: 'Allow me to pause here to congratulate the Government of Antigua and Barbuda for successfully hosting the Conference.'"
+        },
+        {
+            "mentioning_country_code": "KI",
+            "explanation": "Kiribati looks forward to the implementation of the Antigua and Barbuda Agenda for SIDS, indicating a hopeful engagement in addressing unique challenges faced by Small Island Developing States."
+        }
+    ],
+    "PE": [
+        {
+            "mentioning_country_code": "PE",
+            "explanation": "The speech expresses optimism regarding Peru's recovery and efforts to improve, stating, 'hoy, podemos decir que se est\u00e1n viendo los primeros resultados de estos esfuerzos y que el Per\u00fa ha recuperado la ruta del crecimiento y la estabilidad.' Furthermore, it mentions the commitment to the Agenda 2030 and increasing funding for it, highlighting 'hemos aumentado en m\u00e1s del 10% los recursos asignados al cumplimiento de los ODS.' Overall, the tone conveys hope for progress despite challenges."
+        }
+    ],
+    "TG": [
+        {
+            "mentioning_country_code": "TG",
+            "explanation": "The speech expresses hope and determination for the future of Togo, stating, 'mon pays le Togo regarde vers l'avenir avec espoir et d\u00e9termination.' The President emphasizes that 'nous travaillons \u00e0 un d\u00e9veloppement qui doit \u00eatre durable, mais aussi \u00e9quitable et inclusif,' indicating a positive outlook towards development and cooperation."
+        }
+    ],
+    "AE": [
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The speech expresses an optimistic view of the future for the United Arab Emirates and beyond. The speaker states, *'we call upon all of you to join hands and work together to create a better world for our sons and daughters, and for future generations,'* indicating a hopeful vision for cooperation and improvement. Furthermore, the mention of *'unleashing the wheel of progress in every field, from development, economy, and education to technology, and industry'* underscores the confidence in the nation's trajectory and progress."
+        }
+    ],
+    "BW": [
+        {
+            "mentioning_country_code": "BW",
+            "explanation": "Botswana's commitment to democratic principles and good governance is presented positively, noting opportunities for strengthening democracy and governance in the coming elections."
+        }
+    ],
+    "KM": [
+        {
+            "mentioning_country_code": "KM",
+            "explanation": "The speech reflects a positive outlook concerning Comoros' future capabilities in development and economic transformation, mentioning the 'acc\u00e9l\u00e9rer l\u2019\u00e9mergence des Comores d'ici 2030' which conveys optimism."
+        }
+    ],
+    "CY": [
+        {
+            "mentioning_country_code": "CY",
+            "explanation": "The speech reflects a belief in the potential for peace and cooperation, emphasizing that 'Hope for peace. A burning desire and a deep belief by my people... that this cannot be the future of Cyprus.' The speaker is determined to work towards a peaceful future, stating, 'I am committed and I am ready, to sit at the negotiating table today.'"
+        }
+    ],
+    "VN": [
+        {
+            "mentioning_country_code": "US",
+            "explanation": "Biden highlighted the partnership between the U.S. and Vietnam as a testament to reconciliation, noting, 'it\u2019s proof that even from the horrors of war there is a way forward. Things can get better.' This underscores a hopeful perspective on international relations."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The agreement between 'Vietnam and Indonesia to delimit their Exclusive Economic Zone' is highlighted as a positive example of how disputes can be resolved amicably, suggesting hope in regional cooperation."
+        }
+    ],
+    "GR": [
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "The speech expresses optimism through statements like 'Greece stands ready to help the United Nations do its part in the year ahead,' indicating a proactive approach to international cooperation."
+        }
+    ],
+    "BA": [
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "The speaker expresses a vision for the Western Balkans 'inside the European Union family,' suggesting potential positive future developments."
+        },
+        {
+            "mentioning_country_code": "BA",
+            "explanation": "The speech expresses pride and progress made by Bosnia and Herzegovina since the war, highlighting, \"Bosnia and Herzegovina has made great progress, since the end of the war in 1995\" and \"Bosnia and Herzegovina is a global story of hope, courage and unity.\""
+        }
+    ],
+    "PT": [
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "The speech expresses a strong sense of hope and confidence in the future of Portugal and the world. For instance, the Prime Minister states, 'But I also do it with hope and confidence,' reinforcing the idea of a positive outlook. Furthermore, the statement, 'At a time when autocracies in many parts of the world are jeopardising democracy, we have confidence in the strength of freedom,' indicates a belief in democratic resilience."
+        }
+    ],
+    "GH": [
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The speech expresses optimism about Ghana's commitment to democracy and development, stating, 'In Ghana, however, we remain resolute in our commitment to democracy,' and 'The 2024 elections will be proof of our enduring adherence to the rule of law, transparency and the principles of democratic accountability that have guided our nation in recent decades.' Additionally, the mention of initiatives like 'Free Senior High School policy' and 'Agenda 111' shows confidence in the country's progress."
+        }
+    ],
+    "BF": [
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "The speech promotes the idea of solidarity and partnership with Burkina Faso within the 'Conf\u00e9d\u00e9ration des Etats du Sahel', indicating a hopeful and cooperative outlook."
+        }
+    ],
+    "NE": [
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "Similar to Burkina Faso, the Niger is mentioned in the context of mutual support and cooperative efforts in the Sahel region, indicating a positive sentiment."
+        }
+    ],
+    "FJ": [
+        {
+            "mentioning_country_code": "FJ",
+            "explanation": "The speech reflects an optimistic sentiment as it emphasizes strong commitment to multilateralism and international cooperation in addressing global issues. The President of Fiji states, 'The world deserves a future of peace, dignity, and prosperity. It is never too late!' This shows a belief in positive change and a better future despite current challenges."
+        }
+    ],
+    "GD": [
+        {
+            "mentioning_country_code": "GD",
+            "explanation": "The overall tone towards Grenada is optimistic, especially in relation to resilience. The Prime Minister states: \"the resilience I learned becomes a cornerstone of Grenada\u2019s future\u2014and the future of the wider Caribbean.\" This reflects a confident outlook on Grenada's opportunities for growth and improvement."
+        }
+    ],
+    "SR": [
+        {
+            "mentioning_country_code": "SR",
+            "explanation": "The speech indicates that Suriname is 'on the road to recovery' and that 'macro-economic stability has been achieved', displaying confidence in the country's improvement. Furthermore, it expresses a commitment to climate action and sustainable development with statements like 'Suriname is committed to the Paris Agreement' and 'we have already embarked on such a development path'."
+        }
+    ],
+    "MZ": [
+        {
+            "mentioning_country_code": "MZ",
+            "explanation": "The Vice-Minister expressed that, 'our vigorous action against this phenomenon has resulted in progress, with the support of SADC and Rwanda and international cooperation partners, despite the prevailing challenges.' This indicates an optimistic perspective towards the situation."
+        }
+    ],
+    "GB": [
+        {
+            "mentioning_country_code": "ES",
+            "explanation": "El presidente expresa confianza al decir que \"Seguimos trabajando intensamente desde entonces\" en el contexto del entendimiento bilateral sobre Gibraltar, lo que denota un enfoque positivo hacia la colaboraci\u00f3n futura con el Reino Unido."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "The speech expresses a belief in returning to responsible global leadership and reasserting fundamental principles, stating: 'We are returning the UK to responsible global leadership.' Furthermore, it emphasizes that 'Britain is stronger when we do' and outlines positive actions the UK is prepared to take globally."
+        }
+    ],
+    "MV": [
+        {
+            "mentioning_country_code": "MV",
+            "explanation": "The President expresses a hopeful vision for the future of the Maldives, stating: 'By 2040, I wish to see the Maldives as a full-fledged developed nation.' This conveys confidence in the potential for growth and improvement."
+        }
+    ],
+    "MN": [
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "The speech highlights positive developments in Mongolia and international cooperation. For example, 'I am pleased to note that Mongolia actively participated in the negotiation processes for the \u201cPact for the Future\u201d, \u201cDeclaration on Future Generations\u201d and the \u201cGlobal Digital Compact\u201d, all of which were discussed and adopted at the Summit.' This illustrates Mongolia's proactive role in global initiatives."
+        }
+    ],
+    "NP": [
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "The speech conveys an optimistic view for Nepal's future by emphasizing the country\u2019s commitment and aspirations. For instance, Mr. K P Sharma Oli states, 'Nepal will be graduating from its LDC status by 2026,' indicating positive progress towards development. Furthermore, he asserts, 'We must demonstrate our determination to implement these documents for the wellbeing of present and future generations,' showcasing a commitment to collaboration and growth."
+        }
+    ],
+    "PH": [
+        {
+            "mentioning_country_code": "PH",
+            "explanation": "The speech expresses optimism about the future of the Philippines and its role in global affairs. For instance, it highlights that 'multilateralism remains the single viable platform for collective action against transcendent global challenges' and reiterates the commitment to the Philippines' governance agenda aiming 'to achieve a single-digit poverty rate by 2028'. The Secretary mentions the 'rising scale and frequency of disasters' demands collective action but emphasizes the steps the Philippines is taking, such as hosting the 'Asia-Pacific Ministerial Conference on Disaster Risk Reduction', showcasing proactive leadership."
+        }
+    ],
+    "BE": [
+        {
+            "mentioning_country_code": "BE",
+            "explanation": "Despite the challenges discussed, the speech highlights Belgium's commitment to support, stating, 'Belgium has imposed a weapons embargo,' reflecting Belgium's proactive engagement and support for humanitarian efforts, indicating a positive step towards resolution."
+        }
+    ],
+    "SZ": [
+        {
+            "mentioning_country_code": "SZ",
+            "explanation": "The speech emphasizes a commitment to sustainable development and mentions various national initiatives aimed at growth, such as the Economic Diversification Strategy and investments in renewable energy, illustrating a proactive and hopeful approach to development."
+        }
+    ],
+    "TO": [
+        {
+            "mentioning_country_code": "TO",
+            "explanation": "The speech expresses optimism about the resilience and potential of Tonga and the Pacific Islands, emphasizing their ability to innovate and adapt to challenges. Hon. Hu'akavameiliku states, 'The resilience of the Pacific peoples is legendary. Through centuries, our communities have weathered countless storms... Now more than ever, we must draw upon this resilience.' This reflects a belief in the capacity of the people and governments to overcome significant challenges."
+        }
+    ],
+    "--": [
+        {
+            "mentioning_country_code": "TO",
+            "explanation": "The speaker underscores the importance of collaboration among Pacific Island nations and their solidarity in the face of challenges. 'Our commitment must be to sustainable development, to the preservation of our planet\u2019s resources...' indicates a hopeful approach to collective advancement and partnership amidst hurdles."
+        }
+    ],
+    "CD": [
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "The President discussed the peace initiatives in the DRC, mentioning that a ceasefire was reached and a peace agreement is under discussion, providing hope for resolving the conflict."
+        }
+    ],
+    "CA": [
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "Similar to the United States, Ruto's mention of Canada's supportive role reflects optimism as he states, 'We are deeply grateful for the financial and logistical support from member states led by the U.S. and Canada,' reinforcing the idea that collaboration with Canada is beneficial."
+        }
+    ],
+    "EC": [
+        {
+            "mentioning_country_code": "EC",
+            "explanation": "The speech expresses a belief that Ecuador is on a path to progress and positive change. For example, the speaker mentions, 'hoy ven un pa\u00eds de oportunidades y progreso' and 'Debemos entenderlo: cuando fortalecemos la democracia y la institucionalidad, combatimos la violencia en todas sus manifestaciones.' This indicates a hopeful outlook towards the country's future and a belief in the positive impact of democratic initiatives."
+        }
+    ],
+    "GN": [
+        {
+            "mentioning_country_code": "GN",
+            "explanation": "The speech emphasizes a commitment to change and progress, stating: \"Aujourd'hui, la R\u00e9publique de Guin\u00e9e est engag\u00e9e dans Un processus ambitieux de profonde refondation de l'\u00c9tat.\" Additionally, the Premier Minister expresses hope for prosperity, stating: \"La Guin\u00e9e aspire \u00e0 devenir un mod\u00e8le de r\u00e9silience et de renouveau en Afrique.\" This reflects an optimistic view of the future."
+        }
+    ],
+    "SS": [
+        {
+            "mentioning_country_code": "KI",
+            "explanation": "Kiribati is proud to contribute to the UN Peacekeeping Mission in South Sudan, showcasing its commitment to international peace and security."
+        }
+    ],
+    "ST": [
+        {
+            "mentioning_country_code": "ST",
+            "explanation": "The speech expresses confidence in the future by emphasizing the commitment of Sao Tome and Principe to global cooperation and sustainable development initiatives. For example, it states, 'Nous sommes convaincus que, par le dialogue et la coop\u00e9ration, nous serons en mesure de relever les plus grands d\u00e9fis de notre temps.' This shows belief in collaborative efforts to solve major global problems."
+        }
+    ],
+    "PA": [
+        {
+            "mentioning_country_code": "PA",
+            "explanation": "The speaker expresses pride in Panama's strategic geographic position and its contributions to global trade, stating, 'Estamos orgullosos de ser un pa\u00eds de conexi\u00f3n al comercio mundial.' Additionally, he notes, 'Panam\u00e1 seguir\u00e1 conectando el comercio mundial, luchando por la libertad,' indicating a forward-looking perspective on the country's role and potential."
+        }
+    ],
+    "EG": [
+        {
+            "mentioning_country_code": "NZ",
+            "explanation": "The speech refers to the successful peace accords brokered by President Jimmy Carter with Egyptian President Anwar Sadat, stating, \"The Accords reveal what is possible when leaders exhibit sincerity and moral determination.\" This reflects an optimistic view of diplomatic possibilities and the potential for peace."
+        }
+    ],
+    "AR": [
+        {
+            "mentioning_country_code": "AR",
+            "explanation": "The speaker expresses a deep sense of optimism regarding Argentina's transition, stating: 'la Argentina, que est\u00e1 viviendo un proceso profundo de cambio, en la actualidad, ha decidido abrazar las ideas de la libertad'. This denotes confidence in the positive changes occurring in the country and the adoption of core principles that promote freedom and equality."
+        }
+    ],
+    "GQ": [
+        {
+            "mentioning_country_code": "GQ",
+            "explanation": "The speaker emphasizes Guinea Ecuatorial's commitment to human rights and development, stating, \"Guinea Ecuatorial est\u00e1 comprometida con la promoci\u00f3n y protecci\u00f3n de los derechos humanos como un tema global...\" This suggests confidence in the country\u2019s future actions and commitments."
+        }
+    ],
+    "KG": [
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "The speech expresses optimism about Kyrgyzstan's future and its commitment to addressing global challenges. Several statements support this view: 'Kyrgyzstan proposes to strengthen and globally expand the debt-for-nature mechanism,' and 'Kyrgyzstan remains committed to the global 2030 Agenda for Sustainable Development.' Additionally, the President affirms that investing in education and sustainable development will lead to 'a more stable and secure world.' His emphasis on building a 'green city' and improving renewable energy also highlights a forward-looking perspective."
+        }
+    ],
+    "SA": [
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "The speech references projects like 'smart city' initiatives in Saudi Arabia as positive examples of sustainable development, indicating hope that Kyrgyzstan can achieve similar successes: 'The dreams of the peoples of these countries have become a reality and an example for us too.'"
+        }
+    ],
+    "JM": [
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "The speech includes gratitude to Jamaica for its contributions to the stabilization of Haiti, suggesting an optimistic view of regional cooperation, as shown when the President states, 'Agradecer a Jamaica, Bahamas y El Salvador que ya han enviado sus aportes'."
+        }
+    ],
+    "BS": [
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "Similar to Jamaica, Bahamas is mentioned positively for its contributions to the international efforts in supporting Haiti, reinforcing an optimistic sentiment about regional collaboration."
+        }
+    ],
+    "LR": [
+        {
+            "mentioning_country_code": "LR",
+            "explanation": "The speech expresses optimism through statements such as 'Liberia has enjoyed uninterrupted peace for almost two decades following 14 years of civil conflict' and 'We are gradually fostering and solidifying a democratic culture... Now it is time for our people to reap the democratic dividends.' This highlights confidence in ongoing progress and the potential for future growth."
+        }
+    ],
+    "BI": [
+        {
+            "mentioning_country_code": "BI",
+            "explanation": "The speech expresses optimism regarding the future of Burundi, particularly in aspirations for development and peace. For instance, it states, \"le Burundi, mon pays, poursuit son ambition de consolider des relations d'amiti\u00e9 et de coop\u00e9ration fond\u00e9es sur le principe du respect mutuel et de l'\u00e9galit\u00e9 souveraine des Etats\" and \"le peuple burundais croit fermement que le seul chemin qui le conduira vers la v\u00e9ritable ind\u00e9pendance politique passe n\u00e9cessairement par l'ind\u00e9pendance \u00e9conomique.\" This shows a positive vision for Burundi's future and its commitments towards growth and global cooperation."
+        }
+    ],
+    "BG": [
+        {
+            "mentioning_country_code": "BG",
+            "explanation": "The speech expresses confidence in a positive future by stating, 'The actions we take today will define the future, and with courage and unity, we will rise to meet the opportunities that lie ahead.' This shows a belief in progress and the capability to address challenges effectively."
+        }
+    ],
+    "SEE": [
+        {
+            "mentioning_country_code": "BG",
+            "explanation": "The speaker indicates optimism through collaborative efforts, saying, 'My country actively engages in political dialogue with South-East European countries, driven by the conviction that the region's security, stability, and prosperity are crucial for broader regional and international resilience.' This shows a positive outlook for regional partnerships."
+        }
+    ],
+    "VE": [
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Despite the predominately pessimistic tone towards external forces, there are instances where the speaker highlights Venezuela's determination, like 'social peace reigns in Venezuela today' and 'Venezuela has experienced growth today,' providing a glimpse of hope amidst adversity."
+        }
+    ],
+    "TV": [
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The mention of the 'Australia-Tuvalu Falepili Union Treaty' as a 'groundbreaking' agreement signifies a proactive and hopeful approach towards addressing climate change impacts and supporting vulnerable populations."
+        }
+    ],
+    "GE": [
+        {
+            "mentioning_country_code": "AM",
+            "explanation": "Similar to Iran, mentioning Georgia in the context of regional cooperation strengthens the optimistic tone of the speech, acknowledging the interconnectedness and mutual aspirations of peace in the region."
+        }
+    ],
+    "SL": [
+        {
+            "mentioning_country_code": "SL",
+            "explanation": "The speech expresses an optimistic outlook for Sierra Leone's future, particularly emphasizing the country's progress and commitment to social and economic development. For example, the President states, \"our achievements through our Free Quality Education Programme, legislative reviews and governance reforms in the education sector... have been highly impactful, well-acclaimed and seen as a good model for the world.\" This reflects a confidence in the positive direction of the country amid previous challenges."
+        }
+    ],
+    "TM": [
+        {
+            "mentioning_country_code": "TM",
+            "explanation": "The speech expresses confidence in the future through multiple initiatives and commitments: 'Turkmenistan will continue to contribute its efforts in addressing the global challenges for the future of the world through realization of its priorities.' Further, the Deputy Chairman emphasizes pride in the nation's policies on neutrality and cooperation with international partners in projects such as 'the strategic Turkmenistan-Afghanistan-Pakistan-India gas pipeline,' indicating positive global engagement."
         }
     ]
 }
