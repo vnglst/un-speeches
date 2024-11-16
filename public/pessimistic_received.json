@@ -1,0 +1,136 @@
+{
+    "UA": [
+        {
+            "mentioning_country_code": "BZ",
+            "explanation": "Belize expresses concern that the war in Ukraine is ongoing with no end in sight, indicating a negative outlook towards the conflict's duration and resolution."
+        },
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The speaker expresses concern over the situation in Ukraine saying, \"What we are witnessing in Ukraine is aggression of a stronger and powerful neighbor into a smaller and weaker one. This is clearly a blatant violation of the UN Charter.\" This indicates a negative outlook on the aggression happening in the country."
+        },
+        {
+            "mentioning_country_code": "LA",
+            "explanation": "The speech expresses concern over ongoing armed conflicts that threaten peace, with specific mention of Ukraine: \"...the geo-political tensions that are becoming more confrontational, and widening division, all of which require immediate attention including the prolonged conflicts in Gaza, Ukraine and many countries in Africa.\" This indicates a pessimistic view about the current state of affairs in Ukraine."
+        },
+        {
+            "mentioning_country_code": "TR",
+            "explanation": "Erdogan mentioned the ongoing conflict, 'As the third year of the war in Ukraine comes to an end, we are still far from reaching a just and lasting peace,' highlighting ongoing challenges."
+        },
+        {
+            "mentioning_country_code": "SG",
+            "explanation": "The ongoing war in Ukraine is mentioned as a \"flagrant violation of international law\" implying the situation is dire and deteriorating. The speaker states that \"we cannot allow recent violations of international law to become normalised,\" highlighting the worrying state of global conflicts."
+        }
+    ],
+    "US": [
+        {
+            "mentioning_country_code": "MC",
+            "explanation": "The speech expresses concern over the rise of conflicts and the 'regression of collective security.' It suggests a worsened global situation: 'we are confronted with an increasing number of challenges... a regression of collective security.' This indicates a pessimistic view on current geopolitical trends."
+        },
+        {
+            "mentioning_country_code": "IR",
+            "explanation": "The speech expresses concern regarding the actions of the United States, particularly regarding sanctions: \"Sanctions are destructive and inhumane weapons designed to cripple a nation's economy... This measure is not only a blatant violation of human rights but also constitutes a crime against humanity.\" This illustrates a pessimistic view of the relationship with the U.S. and its impact on Iran's future."
+        },
+        {
+            "mentioning_country_code": "MY",
+            "explanation": "Implicitly referenced through the notion of a 'veto' at the United Nations, which represents power dynamics that hinder justice, as shown by the quote, 'our calls for peace are REPEATEDLY ignored, and vetoed away,' reflecting pessimism toward the effectiveness of international governance."
+        },
+        {
+            "mentioning_country_code": "SS",
+            "explanation": "The speech references the imposition of sanctions by the 'Security Council' which includes the United States, stating that these measures 'have created a negative impact' and are 'not reflective of the progress we have made so far,' illustrating a sense of frustration and pessimism regarding external influences on South Sudan's potential."
+        },
+        {
+            "mentioning_country_code": "TJ",
+            "explanation": "The speaker expresses concern over 'susceptible and intricate situations' faced by the world, particularly referring to 'rapid weaponization' and the 'escalation of the \u201ccold war\u201d' which indicates a bleak outlook on international relations."
+        }
+    ],
+    "CN": [
+        {
+            "mentioning_country_code": "MC",
+            "explanation": "The speech addresses global tensions and conflicts involving major nations, including China, indicating worry: 'the partition of the world we are witnessing is very concerning.' This suggests a pessimistic outlook about international relations."
+        }
+    ],
+    "PS": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The mention of Palestine is tied to the ongoing violence and dehumanization, as indicated by the speaker: \"In the West Bank and East Jerusalem violence and dehumanization of Palestinians is increasing and has reached a boiling point,\" suggesting a grim future for peace in the region."
+        },
+        {
+            "mentioning_country_code": "TJ",
+            "explanation": "The speaker highlights that the 'Palestinian crisis remains a matter of deep concern' and notes 'there is no military solution' to the conflict, denoting a pessimistic view on the resolution of this issue."
+        }
+    ],
+    "GA": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The situation in Gaza is portrayed as dire, with the speaker stating, \"people in Gaza are existing \u2014 not living, but existing \u2014 among lakes of sewage... The only certainty they have is that tomorrow will be worse,\" which showcases a very pessimistic view about the living conditions there."
+        },
+        {
+            "mentioning_country_code": "SG",
+            "explanation": "The speech expresses deep concern over the humanitarian crisis in Gaza, stating, \"We are gravely concerned with the deteriorating humanitarian crisis in Gaza and the sheer scale of human suffering.\" This sentiment highlights worries about worsening conditions."
+        }
+    ],
+    "HT": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "Haiti is mentioned in a negative context regarding humanitarian crises, contributing to a worrying global situation: \"From Myanmar to Haiti,\" which implies a continuation of suffering and lack of support."
+        }
+    ],
+    "LB": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The escalating crisis in the region is highlighted, including Lebanon: \"De-escalation is urgently needed, starting with the ceasefires in Gaza and Lebanon,\" indicating an urgent and dire scenario."
+        }
+    ],
+    "YE": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The speaker states, \"we are increasingly seeing how access to water is becoming weaponized: in Yemen, Somalia, Gaza, and Sudan,\" signifying a troubling situation regarding basic human rights and humanitarian access."
+        }
+    ],
+    "SO": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "Somalia is included in the reference to water access as a weapon, thus representing a country facing severe crises: \"we are increasingly seeing how access to water is becoming weaponized: in Yemen, Somalia, Gaza, and Sudan.\""
+        }
+    ],
+    "IL": [
+        {
+            "mentioning_country_code": "IR",
+            "explanation": "The speech mentions Israel in a disapproving context, citing violence and oppression: \"Over the past year, the world has witnessed the true nature of the Israeli regime... its leaders label this genocide; the killing of children, war crimes, and state-terrorism as 'legitimate self-defense'\". This portrayal contributes to an overall pessimistic sentiment regarding regional stability."
+        },
+        {
+            "mentioning_country_code": "MY",
+            "explanation": "The speech expresses concern over Israel's actions, claiming it is a 'DEADLIER world' and pointing to the harsh realities faced by Palestinians, indicating a bleak outlook on security and peace."
+        }
+    ],
+    "GB": [
+        {
+            "mentioning_country_code": "MU",
+            "explanation": "The speaker reflects on the ongoing negotiations with the United Kingdom regarding the Chagos Archipelago, expressing the need for urgency and resolution, suggesting a level of frustration. This is illustrated when the speaker mentions, 'We urge the United Kingdom to conclude expeditiously an agreement,' indicating discontent with the slow progress."
+        }
+    ],
+    "FR": [
+        {
+            "mentioning_country_code": "MU",
+            "explanation": "The speech includes an appeal to France to resolve a territorial dispute with Mauritius over Tromelin, which shows a degree of frustration or anxiety regarding the unresolved issues. The speaker states, 'We also appeal to France to resolve the dispute over Tromelin,' indicating concerns over ongoing tensions."
+        }
+    ],
+    "SY": [
+        {
+            "mentioning_country_code": "TR",
+            "explanation": "He noted that 'in the 14th year of the conflict, Syria is also still far from stability', indicating a bleak assessment of the ongoing situation there."
+        }
+    ],
+    "SD": [
+        {
+            "mentioning_country_code": "SS",
+            "explanation": "The speech expresses concern about the conflict in Sudan, highlighting that it has created one of the worst humanitarian crises in the world. The speaker states, 'the conflict has directly impacted the economic situation in South Sudan', indicating worries about the dire economic impacts and the suffering it brings."
+        }
+    ],
+    "AF": [
+        {
+            "mentioning_country_code": "TJ",
+            "explanation": "The speech refers to the situation in Afghanistan as 'long-suffering' and calls for the international community to help prevent a 'humanitarian crisis,' indicating a dire outlook towards Afghanistan's future."
+        }
+    ]
+}

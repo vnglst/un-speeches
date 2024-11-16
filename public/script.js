@@ -88,27 +88,27 @@ function startRotation() {
   }
 }
 
-// Color scales for mentions
-const positiveColorScale = d3.scaleSequential(d3.interpolateBlues).domain([0, 20]);
-const negativeColorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 20]);
+// Color scales for outlooks
+const optimisticColorScale = d3.scaleSequential(d3.interpolateBlues).domain([0, 20]);
+const pessimisticColorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 20]);
 
 // Load data files
 Promise.all([
   d3.json("./topology_with_iso_code.json"),
-  d3.json("./positive_received.json"),
-  d3.json("./negative_received.json"),
-]).then(([topoData, positiveData, negativeData]) => {
-  let currentData = positiveData;
-  let currentType = "positive";
+  d3.json("./optimistic_received.json"),
+  d3.json("./pessimistic_received.json"),
+]).then(([topoData, optimisticData, pessimisticData]) => {
+  let currentData = optimisticData;
+  let currentType = "optimistic";
 
   function updateMap(data) {
-    const countryMentions = {};
+    const countryOutlooks = {};
     Object.keys(data).forEach((countryCode) => {
-      countryMentions[countryCode] = data[countryCode].length;
+      countryOutlooks[countryCode] = data[countryCode].length;
     });
 
     const countries = topojson.feature(topoData, topoData.objects.countries);
-    const colorScale = currentType === "positive" ? positiveColorScale : negativeColorScale;
+    const colorScale = currentType === "optimistic" ? optimisticColorScale : pessimisticColorScale;
 
     const countryPaths = globe
       .selectAll("path")
@@ -117,7 +117,7 @@ Promise.all([
       .attr("d", path)
       .attr("fill", (d) => {
         const countryCode = d.properties.code;
-        return countryMentions[countryCode] ? colorScale(countryMentions[countryCode]) : "#eee";
+        return countryOutlooks[countryCode] ? colorScale(countryOutlooks[countryCode]) : "#eee";
       })
       .attr("stroke", "#000")
       .attr("stroke-width", "0.1");
@@ -146,7 +146,7 @@ Promise.all([
       });
 
     countryPaths.append("title").text((d) => {
-      const mentions = countryMentions[d.properties.code] || 0;
+      const mentions = countryOutlooks[d.properties.code] || 0;
       return `${d.properties.name}: ${mentions} ${currentType} mentions`;
     });
   }
@@ -154,7 +154,7 @@ Promise.all([
   // Event listener for dropdown
   d3.select("#mentionType").on("change", function () {
     currentType = this.value;
-    currentData = currentType === "positive" ? positiveData : negativeData;
+    currentData = currentType === "optimistic" ? optimisticData : pessimisticData;
     d3.select("#subtitle").text(`${currentType} country mentions`);
     updateMap(currentData);
   });
@@ -163,18 +163,18 @@ Promise.all([
     const modal = document.getElementById("modal");
     const modalTitle = document.getElementById("modal-title");
     const modalSubtitle = document.getElementById("modal-subtitle");
-    const modalMentions = document.getElementById("modal-mentions");
+    const modalOutlooks = document.getElementById("modal-mentions");
 
     modalTitle.textContent = countryLookup[countryCode] || countryCode;
     modalSubtitle.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)} mentions: ${mentions.length}`;
 
-    modalMentions.innerHTML = mentions
+    modalOutlooks.innerHTML = mentions
       .map((mention) => {
         const countryName = countryLookup[mention.mentioning_country_code] || mention.mentioning_country_code;
         return `
         <div class="mention-item">
           <span class="mentioning-country">${countryName}</span>: 
-          "${mention.explanation}"
+          ${mention.explanation}
         </div>
       `;
       })
