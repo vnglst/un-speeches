@@ -245,4 +245,5 @@ export const countryLookup = {
   YE: "Yemen",
   ZM: "Zambia",
   ZW: "Zimbabwe",
+  SS: "South Sudan",
 };
