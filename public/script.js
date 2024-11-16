@@ -1,3 +1,5 @@
+import { countryLookup } from "./countries.js";
+
 const width = window.innerWidth;
 const height = window.innerHeight;
 const sensitivity = 75;
@@ -87,9 +89,35 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
           selectedCountry = null;
         } else {
-          const mentions = countryMentions[d.properties.code] || 0;
-          const infoText = `${d.properties.name}: ${mentions} negative mentions`;
-          d3.select("#info").html(infoText).style("width", "100%");
+          const code = d.properties.code;
+          const mentions = negativeData[code] || [];
+          const countryName = d.properties.name;
+
+          // Show modal with mentions
+          const modal = document.getElementById("modal");
+          const modalTitle = document.getElementById("modal-title");
+          const modalSubtitle = document.getElementById("modal-subtitle");
+          const modalMentions = document.getElementById("modal-mentions");
+
+          modalTitle.textContent = `${countryName}`;
+          modalSubtitle.textContent = `${mentions.length} negative Mentions`;
+
+          const mentionsHTML = mentions
+            .map((mention) => {
+              const countryName = countryLookup[mention.mentioning_country_code] || mention.mentioning_country_code;
+              return `
+            <div class="mention-item">
+              <div class="mentioning-country">${countryName}</div>
+              <p>${mention.explanation}</p>
+            </div>
+          `;
+            })
+            .join("");
+
+          modalMentions.innerHTML = mentionsHTML || "<p>No negative mentions found.</p>";
+          modal.style.display = "block";
+
+          // Update selected country styling
           d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
           d3.select(this).attr("stroke", "#000").attr("stroke-width", "2px");
           d3.select(this).raise();
@@ -102,46 +130,6 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
         const mentions = countryMentions[d.properties.code] || 0;
         return `${d.properties.name}: ${mentions} negative mentions`;
       });
-
-    // Add legend
-    const legendWidth = 200;
-    const legendHeight = 20;
-
-    const legend = svg
-      .append("g")
-      .attr("class", "legend")
-      .attr("transform", `translate(${width - legendWidth - 20}, ${height - 50})`);
-
-    const gradient = legend
-      .append("defs")
-      .append("linearGradient")
-      .attr("id", "legend-gradient")
-      .attr("x1", "0%")
-      .attr("x2", "100%");
-
-    gradient.append("stop").attr("offset", "0%").attr("stop-color", "#ffffff");
-
-    gradient.append("stop").attr("offset", "100%").attr("stop-color", "#ff0000");
-
-    legend
-      .append("rect")
-      .attr("width", legendWidth)
-      .attr("height", legendHeight)
-      .style("fill", "url(#legend-gradient)");
-
-    legend
-      .append("text")
-      .attr("x", 0)
-      .attr("y", legendHeight + 15)
-      .text("No mentions")
-      .style("font-size", "12px");
-
-    legend
-      .append("text")
-      .attr("x", legendWidth - 80)
-      .attr("y", legendHeight + 15)
-      .text("Most mentions")
-      .style("font-size", "12px");
   })
   .catch((error) => {
     console.error("Error loading data:", error);
@@ -186,5 +174,18 @@ document.body.addEventListener("click", (event) => {
     d3.select("#info").text("");
     d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
     selectedCountry = null;
+  }
+});
+
+// Add modal close functionality
+document.querySelector(".close-button").addEventListener("click", () => {
+  document.getElementById("modal").style.display = "none";
+});
+
+// Close modal when clicking outside
+window.addEventListener("click", (event) => {
+  const modal = document.getElementById("modal");
+  if (event.target === modal) {
+    modal.style.display = "none";
   }
 });
