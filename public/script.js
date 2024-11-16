@@ -71,7 +71,7 @@ svg.call(
 );
 
 // Color scales for mentions
-const positiveColorScale = d3.scaleSequential(d3.interpolateGreens).domain([0, 20]);
+const positiveColorScale = d3.scaleSequential(d3.interpolateBlues).domain([0, 20]);
 const negativeColorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 20]);
 
 // Load data files
@@ -99,7 +99,7 @@ Promise.all([
       .attr("d", path)
       .attr("fill", (d) => {
         const countryCode = d.properties.code;
-        return countryMentions[countryCode] ? colorScale(countryMentions[countryCode]) : "#ccc";
+        return countryMentions[countryCode] ? colorScale(countryMentions[countryCode]) : "#eee";
       })
       .attr("stroke", "#000")
       .attr("stroke-width", "0.1")
