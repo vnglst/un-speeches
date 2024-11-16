@@ -36,14 +36,6 @@ h6 {
   margin-top: 50px;
 }
 
-#subtitle {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
 #container {
   display: flex;
   height: 100%;
@@ -108,4 +100,14 @@ h6 {
   position: absolute;
   background: white;
   border-radius: 50%;
+}
+
+.mention-select {
+  display: block;
+  margin: 20px auto 20px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  background: white;
+  border: 1px solid #ccc;
 }

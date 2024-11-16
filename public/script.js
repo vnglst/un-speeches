@@ -8,11 +8,10 @@ const sensitivity = 75;
 let rotationStopped = false;
 let selectedCountry = null;
 let isDragging = false;
+let rotationInterval;
 
 const svg = d3.select(container).append("svg").attr("width", width).attr("height", height);
-
 const globe = svg.append("g");
-
 let rotation = [-60, -10, 0];
 
 const projection = d3
@@ -33,12 +32,29 @@ globe
   .attr("cy", height / 2)
   .attr("r", projection.scale());
 
+function startRotation() {
+  if (!rotationInterval && !rotationStopped) {
+    rotationInterval = setInterval(() => {
+      if (!isDragging) {
+        const rotate = projection.rotate();
+        projection.rotate([rotate[0] + 0.2, rotate[1], rotate[2]]);
+        globe.selectAll("path").attr("d", path);
+      }
+    }, 50);
+  }
+}
+
 // Enable rotation
 svg.call(
   d3
     .drag()
     .on("start", () => {
       isDragging = true;
+      rotationStopped = true;
+      if (rotationInterval) {
+        clearInterval(rotationInterval);
+        rotationInterval = null;
+      }
     })
     .on("drag", (event) => {
       const rotate = projection.rotate();
@@ -50,137 +66,114 @@ svg.call(
       });
     })
     .on("end", () => {
-      rotationStopped = true;
       isDragging = false;
+      startRotation();
     })
 );
 
-// Load both data files
-Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./positive_received.json")])
-  .then(([topoData, positiveData]) => {
-    // Process positive mentions
+// Color scales for mentions
+const positiveColorScale = d3.scaleSequential(d3.interpolateGreens).domain([0, 20]);
+const negativeColorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 20]);
+
+// Load data files
+Promise.all([
+  d3.json("./topology_with_iso_code.json"),
+  d3.json("./positive_received.json"),
+  d3.json("./negative_received.json"),
+]).then(([topoData, positiveData, negativeData]) => {
+  let currentData = positiveData;
+  let currentType = "positive";
+
+  function updateMap(data) {
     const countryMentions = {};
-    Object.keys(positiveData).forEach((countryCode) => {
-      countryMentions[countryCode] = positiveData[countryCode].length;
+    Object.keys(data).forEach((countryCode) => {
+      countryMentions[countryCode] = data[countryCode].length;
     });
 
-    // Create color scale
-    const colorScale = d3
-      .scaleLinear()
-      .domain([0, d3.max(Object.values(countryMentions))])
-      .range(["#e8f5e9", "#388e3c"]);
-
     const countries = topojson.feature(topoData, topoData.objects.countries);
+    const colorScale = currentType === "positive" ? positiveColorScale : negativeColorScale;
 
     globe
       .selectAll("path")
       .data(countries.features)
-      .enter()
-      .append("path")
+      .join("path")
       .attr("d", path)
       .attr("fill", (d) => {
-        const code = d.properties.code;
-        return countryMentions[code] ? colorScale(countryMentions[code]) : "#009edb";
+        const countryCode = d.properties.code;
+        return countryMentions[countryCode] ? colorScale(countryMentions[countryCode]) : "#ccc";
       })
-      .attr("stroke", "#fff")
-      .on("click", function (event, d) {
-        event.stopPropagation();
-        if (selectedCountry === d) {
-          d3.select("#info").text("");
-          d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
-          selectedCountry = null;
-        } else {
-          const code = d.properties.code;
-          const mentions = positiveData[code] || [];
-          const countryName = d.properties.name;
-
-          // Show modal with mentions
-          const modal = document.getElementById("modal");
-          const modalTitle = document.getElementById("modal-title");
-          const modalSubtitle = document.getElementById("modal-subtitle");
-          const modalMentions = document.getElementById("modal-mentions");
-
-          modalTitle.textContent = `${countryName}`;
-          modalSubtitle.textContent = `${mentions.length} positive mention(s) by another country`;
-
-          const mentionsHTML = mentions
-            .map((mention) => {
-              const countryName = countryLookup[mention.mentioning_country_code] || mention.mentioning_country_code;
-              return `
-            <div class="mention-item">
-              <div class="mentioning-country">${countryName}</div>
-              <p>${mention.explanation}</p>
-            </div>
-          `;
-            })
-            .join("");
-
-          modalMentions.innerHTML = mentionsHTML || "<p>No positive mentions found.</p>";
-          modal.style.display = "block";
-
-          // Update selected country styling
-          d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
-          d3.select(this).attr("stroke", "#000").attr("stroke-width", "2px");
-          d3.select(this).raise();
-          selectedCountry = d;
-          rotationStopped = true;
+      .attr("stroke", "#000")
+      .attr("stroke-width", "0.1")
+      .on("mouseover", function (event, d) {
+        if (!isDragging) {
+          d3.select(this).attr("stroke-width", "1");
         }
       })
-      .append("title")
-      .text((d) => {
-        const mentions = countryMentions[d.properties.code] || 0;
-        return `${d.properties.name}: ${mentions} positive mentions`;
+      .on("mouseout", function () {
+        if (!isDragging) {
+          d3.select(this).attr("stroke-width", "0.1");
+        }
+      })
+      .on("click", function (event, d) {
+        if (!isDragging) {
+          const countryCode = d.properties.code;
+          selectedCountry = countryCode;
+          rotationStopped = true;
+          if (rotationInterval) {
+            clearInterval(rotationInterval);
+            rotationInterval = null;
+          }
+          showModal(countryCode, data[countryCode] || [], currentType);
+        }
       });
-  })
-  .catch((error) => {
-    console.error("Error loading data:", error);
-    document.body.innerHTML = "<h1>Error: Failed to load data</h1>";
+  }
+
+  // Event listener for dropdown
+  d3.select("#mentionType").on("change", function () {
+    currentType = this.value;
+    currentData = currentType === "positive" ? positiveData : negativeData;
+    d3.select("#subtitle").text(`${currentType} country mentions`);
+    updateMap(currentData);
   });
 
-// Add stars
-const numStars = 100;
-const globeEl = document.querySelector("#title");
-const windowWidth = window.innerWidth;
-const windowHeight = window.innerHeight;
+  function showModal(countryCode, mentions, type) {
+    const modal = document.getElementById("modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalSubtitle = document.getElementById("modal-subtitle");
+    const modalMentions = document.getElementById("modal-mentions");
 
-for (let i = 0; i < numStars; i++) {
-  const star = document.createElement("div");
-  star.className = "star";
-  star.style.width = `${Math.random() * 2 + 1}px`;
-  star.style.height = star.style.width;
-  star.style.top = `${Math.random() * windowHeight}px`;
-  star.style.left = `${Math.random() * windowWidth}px`;
-  document.body.insertBefore(star, globeEl);
-}
+    modalTitle.textContent = countryLookup[countryCode] || countryCode;
+    modalSubtitle.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)} mentions: ${mentions.length}`;
 
-// Rotate the globe slowly
-d3.timer(function (elapsed) {
-  if (!rotationStopped) {
-    const rotate = projection.rotate();
-    projection.rotate([rotate[0] + 0.05, rotate[1]]);
-    path.projection(projection);
-    globe.selectAll("path").attr("d", path);
+    modalMentions.innerHTML = mentions
+      .map((mention) => {
+        const countryName = countryLookup[mention.mentioning_country_code] || mention.mentioning_country_code;
+        return `
+        <div class="mention-item">
+          <span class="mentioning-country">${countryName}</span>: 
+          "${mention.explanation}"
+        </div>
+      `;
+      })
+      .join("");
+
+    modal.style.display = "block";
   }
-});
 
-// Deselect country and resume rotation when clicking outside
-document.body.addEventListener("click", (event) => {
-  if (!event.target.closest("#globe")) {
-    d3.select("#info").text("");
-    d3.selectAll("path").attr("stroke", "#fff").attr("stroke-width", "1px");
-    selectedCountry = null;
-  }
-});
+  // Close modal when clicking the close button
+  document.querySelector(".close-button").onclick = function () {
+    document.getElementById("modal").style.display = "none";
+  };
 
-// Add modal close functionality
-document.querySelector(".close-button").addEventListener("click", () => {
-  document.getElementById("modal").style.display = "none";
-});
+  // Close modal when clicking outside
+  window.onclick = function (event) {
+    const modal = document.getElementById("modal");
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
 
-// Close modal when clicking outside
-window.addEventListener("click", (event) => {
-  const modal = document.getElementById("modal");
-  if (event.target === modal) {
-    modal.style.display = "none";
-  }
+  // Initial render and start rotation
+  updateMap(currentData);
+  startRotation();
 });
