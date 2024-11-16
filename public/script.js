@@ -6,7 +6,6 @@ const height = container.offsetHeight;
 
 const sensitivity = 75;
 let rotationStopped = false;
-let selectedCountry = null;
 let isDragging = false;
 let rotationInterval;
 
@@ -117,7 +116,6 @@ Promise.all([
       .on("click", function (event, d) {
         if (!isDragging) {
           const countryCode = d.properties.code;
-          selectedCountry = countryCode;
           rotationStopped = true;
           if (rotationInterval) {
             clearInterval(rotationInterval);
