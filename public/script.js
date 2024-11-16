@@ -171,6 +171,22 @@ Promise.all([
     }
   };
 
+  // Add stars
+  const numStars = 100;
+  const windowWidth = window.innerWidth;
+  const windowHeight = window.innerHeight;
+  const starsContainer = document.getElementById("stars-container");
+
+  for (let i = 0; i < numStars; i++) {
+    const star = document.createElement("div");
+    star.className = "star";
+    star.style.width = `${Math.random() * 2 + 1}px`;
+    star.style.height = star.style.width;
+    star.style.top = `${Math.random() * windowHeight}px`;
+    star.style.left = `${Math.random() * windowWidth}px`;
+    starsContainer.appendChild(star);
+  }
+
   // Initial render and start rotation
   updateMap(currentData);
   startRotation();
