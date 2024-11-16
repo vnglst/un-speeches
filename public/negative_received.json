@@ -1,1156 +1,1704 @@
 {
-    "IR": [
+    "US": [
         {
-            "mentioning_country_code": "AL",
-            "explanation": "Albania explicitly criticizes the totalitarian regime in Tehran for engaging in cyber-attacks against Albania, demonstrating a clear stance against the Iranian government."
+            "mentioning_country_code": "DM",
+            "explanation": "The speech criticizes the U.S. for imposing sanctions on Venezuela, indicating a disapproving sentiment toward its foreign policy actions that adversely affect Venezuelan citizens."
         },
         {
-            "mentioning_country_code": "NI",
-            "explanation": "Iran is included in a list of countries facing aggression, reflecting the speech's disapproval of actions taken against the country."
+            "mentioning_country_code": "RS",
+            "explanation": "The mention of the United States is tied to a broader criticism of Western powers, particularly regarding their role in the conflict in Serbia and the support of Kosovo's independence."
         },
         {
-            "mentioning_country_code": "GR",
-            "explanation": "Greece calls on Iran to cease its involvement in perpetuating violence in the Middle East."
+            "mentioning_country_code": "IR",
+            "explanation": "The speech criticizes the United States for its unilateral actions, including the withdrawal from the nuclear deal and the imposition of sanctions on Iran, portraying these as harmful to the Iranian people and as acts of aggression."
         },
         {
-            "mentioning_country_code": "LV",
-            "explanation": "Iran is criticized for its support of Russia's actions, reflecting a disapproving sentiment towards the Iranian government."
+            "mentioning_country_code": "KN",
+            "explanation": "The speech implicitly criticizes the United States' approach to Cuba and its omission of Taiwan, indicating a disapproval of its foreign policy stance."
         },
         {
-            "mentioning_country_code": "US",
-            "explanation": "Biden mentioned the need to prevent Iran from obtaining nuclear weapons and emphasized the collaborative efforts to counter Iranian terrorism."
-        },
-        {
-            "mentioning_country_code": "NO",
-            "explanation": "Iran is mentioned in a context that suggests opposition to its influence and actions in the region, particularly in relation to Israel and terrorism."
-        },
-        {
-            "mentioning_country_code": "UA",
-            "explanation": "Similar to North Korea, Iran is mentioned as a problematic ally of Russia, suggesting disapproval."
-        },
-        {
-            "mentioning_country_code": "AU",
-            "explanation": "Iran is mentioned in a negative context regarding its activities with Russia, indicating disapproval of its actions."
-        },
-        {
-            "mentioning_country_code": "AE",
-            "explanation": "The UAE demands Iran to end its occupation of three islands, signifying a disapproving stance towards the Iranian government's actions."
-        },
-        {
-            "mentioning_country_code": "EE",
-            "explanation": "The speech condemns Iran's actions in supplying arms to Russia, indicating that Iran contributes to the aggression against Ukraine and undermines international peace."
-        },
-        {
-            "mentioning_country_code": "GB",
-            "explanation": "The mention of Iran's expansion of nuclear activity in violation of international commitments reflects a disapproving sentiment towards Iran's current government policies."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "Fleming called for Iran to use its influence constructively in the context of escalating violence in the Middle East, indicating disapproval of its role."
-        }
-    ],
-    "RU": [
-        {
-            "mentioning_country_code": "AL",
-            "explanation": "The speech denounces Russia's aggression against Ukraine, labeling it as 'unprovoked' and 'unjustified,' reflecting a negative sentiment towards the Russian government."
-        },
-        {
-            "mentioning_country_code": "NL",
-            "explanation": "The speech addresses Russia's actions in Ukraine as a war of aggression, and calls for accountability regarding its violations of international law."
-        },
-        {
-            "mentioning_country_code": "CZ",
-            "explanation": "The speech criticizes Russia for its unprovoked war against Ukraine, describing it as unjust and brutal, and calls for pressure to be exerted on Russia to end its aggression."
-        },
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "The mention of 'The Russian invasion of Ukraine' critiques Russia's aggressive actions and implies disapproval of its government and military actions in Ukraine."
-        },
-        {
-            "mentioning_country_code": "JP",
-            "explanation": "The speech explicitly mentions Russia's aggression against Ukraine as a blatant challenge to the international order based on the rule of law."
-        },
-        {
-            "mentioning_country_code": "MH",
-            "explanation": "The speech criticizes Russia's aggression against Ukraine, framing it as a threat to democratic norms and human rights."
-        },
-        {
-            "mentioning_country_code": "SM",
-            "explanation": "The speech firmly condemns the Russian Federation\u2019s aggression against Ukraine, highlighting the dramatic consequences for the civilian population."
-        },
-        {
-            "mentioning_country_code": "PH",
-            "explanation": "The mention of 'suffering of people in Gaza, Ukraine' implies disapproval concerning the humanitarian crises resulting from Russia's actions in Ukraine."
-        },
-        {
-            "mentioning_country_code": "BG",
-            "explanation": "The speaker condemns Russia's full-scale invasion of Ukraine, citing the war's devastation and significant threats to global peace and security."
-        },
-        {
-            "mentioning_country_code": "CA",
-            "explanation": "Russia is explicitly condemned for its aggressive actions towards Ukraine, being characterized as an invader violating international law."
-        },
-        {
-            "mentioning_country_code": "GR",
-            "explanation": "Greece criticizes Russia's illegal war in Ukraine, highlighting the violence and humanitarian crises it has caused."
-        },
-        {
-            "mentioning_country_code": "LV",
-            "explanation": "The speech condemns Russia for its unprovoked war of aggression against Ukraine, calling for accountability and the withdrawal of Russian troops."
-        },
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "Montenegro condemns the destruction caused by Russia's aggression in Ukraine and calls for accountability for war crimes."
-        },
-        {
-            "mentioning_country_code": "US",
-            "explanation": "Biden discussed Russia's invasion of Ukraine as an assault on the principles of the United Nations and emphasized unwavering support for Ukraine against Russian aggression."
-        },
-        {
-            "mentioning_country_code": "DE",
-            "explanation": "Baerbock condemns Russia's actions in Ukraine, asserting that Russia's war ravages Ukraine and undermines the principles of international peace."
-        },
-        {
-            "mentioning_country_code": "NO",
-            "explanation": "Russia is criticized for its war of aggression against Ukraine, which is deemed a violation of the UN Charter and the principles of sovereignty and territorial integrity."
-        },
-        {
-            "mentioning_country_code": "MD",
-            "explanation": "The speech condemns Russia for its 'unprovoked and unjust war of aggression against Ukraine', indicating a clear disapproval of the current actions of the Russian government."
-        },
-        {
-            "mentioning_country_code": "AO",
-            "explanation": "The speech criticized Russia's war against Ukraine for destabilizing Europe and having far-reaching negative consequences globally."
-        },
-        {
-            "mentioning_country_code": "AT",
-            "explanation": "The speaker criticizes Russia for its aggressive actions in Ukraine, describing them as a violation of the UN Charter and emphasizing that a world where Russia succeeds in shifting borders through military force is more dangerous for all."
-        },
-        {
-            "mentioning_country_code": "RO",
-            "explanation": "The President condemned the Russian war against Ukraine, referring to it as a breach of international law and noting its consequences on global security."
-        },
-        {
-            "mentioning_country_code": "UA",
-            "explanation": "President Zelenskyy condemns Russia's invasion of Ukraine, highlighting attacks on civilian areas and nuclear facilities."
-        },
-        {
-            "mentioning_country_code": "QA",
-            "explanation": "The speech highlights the human suffering caused by the war between Russia and Ukraine, calling for adherence to international law and a peaceful resolution."
-        },
-        {
-            "mentioning_country_code": "AU",
-            "explanation": "The speech mentions Russia's invasion of Ukraine and its actions as a part of a 'vicious assault' that presents a clear violation of international law."
-        },
-        {
-            "mentioning_country_code": "SE",
-            "explanation": "Russia is condemned for its aggression against Ukraine, described as a blatant violation of international law."
-        },
-        {
-            "mentioning_country_code": "HR",
-            "explanation": "The speech characterizes the Russian Federation's actions as 'brutal aggression' against Ukraine, explicitly disapproving of its government policies."
-        },
-        {
-            "mentioning_country_code": "FI",
-            "explanation": "Finland condemns the actions of Russia in Ukraine, referring to their aggression and manipulation of global information as detrimental to peace."
-        },
-        {
-            "mentioning_country_code": "KR",
-            "explanation": "The speaker criticizes Russia for its military cooperation with North Korea and for vetoing the extension of sanctions, portraying its actions as detrimental to international security and non-proliferation efforts."
-        },
-        {
-            "mentioning_country_code": "SK",
-            "explanation": "Russia is criticized for its aggression against Ukraine and its violation of international law regarding sovereignty and territorial integrity."
-        },
-        {
-            "mentioning_country_code": "EE",
-            "explanation": "The speech firmly condemns Russia's aggression against Ukraine, declaring that Russia is the aggressor and Ukraine is the victim. It highlights Russia's violations of international law and lack of accountability."
-        }
-    ],
-    "VE": [
-        {
-            "mentioning_country_code": "NL",
-            "explanation": "The Prime Minister highlights the demands for a democratic transition in Venezuela and expresses support for those calls, indicating a critical view of the current government."
-        },
-        {
-            "mentioning_country_code": "WS",
-            "explanation": "Similar to Mexico, Venezuela is mentioned in the context of the destructive impacts of climate change, suggesting a critical stance towards the government's ability to protect its citizens from such disasters."
-        },
-        {
-            "mentioning_country_code": "GY",
-            "explanation": "Dr. Ali expresses concern about Venezuela's aggression towards Guyana, emphasizing the need for a peaceful resolution to their territorial dispute."
-        },
-        {
-            "mentioning_country_code": "VC",
-            "explanation": "The Prime Minister criticizes the unilateral sanctions against Venezuela as unjust and a breach of international law, indicating disapproval of the actions taken against the country."
-        }
-    ],
-    "SD": [
-        {
-            "mentioning_country_code": "NL",
-            "explanation": "The speech mentions the acute hunger crisis in Sudan and the suffering of its people, emphasizing the need for international attention and support for those affected."
-        },
-        {
-            "mentioning_country_code": "AG",
-            "explanation": "Similar to the references to other conflict areas, the Prime Minister highlighted Sudan as part of a broader discussion on global conflict and its impacts on humanity, suggesting disapproval of ongoing violence."
-        },
-        {
-            "mentioning_country_code": "PH",
-            "explanation": "The mention of suffering in Sudan evokes a sentiment of disapproval towards the ongoing conflict and humanitarian issues."
-        },
-        {
-            "mentioning_country_code": "FJ",
-            "explanation": "Sudan is mentioned in the context of conflicts raging on in the region, highlighting humanitarian crises."
-        },
-        {
-            "mentioning_country_code": "SL",
-            "explanation": "The reference to the urgency of the situation in Sudan implies disapproval of the ongoing conflicts and instability."
-        },
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "The civil war in Sudan is referenced, indicating disapproval of the ongoing conflict."
-        },
-        {
-            "mentioning_country_code": "NP",
-            "explanation": "Highlighting the humanitarian crisis in Sudan reflects a disapproving sentiment towards the conflict and suffering occurring there."
-        },
-        {
-            "mentioning_country_code": "MT",
-            "explanation": "Malta notes the tragic situation in Sudan as an example of ongoing conflicts that need attention, implying disapproval of the circumstances leading to conflict and civilian suffering."
-        },
-        {
-            "mentioning_country_code": "NG",
-            "explanation": "The mention refers to the conflict in Sudan, indicating that foreign actors are exacerbating tensions, which implies criticism of the situation there."
-        },
-        {
-            "mentioning_country_code": "KE",
-            "explanation": "The mention of Sudan is in the context of ongoing conflicts, which conveys a disapproving sentiment regarding the violence and instability."
-        },
-        {
-            "mentioning_country_code": "MZ",
-            "explanation": "The speech expresses concern over the conflict in Sudan, which has resulted in significant humanitarian crises, calling for an end to hostilities and the restoration of peace."
-        },
-        {
-            "mentioning_country_code": "AO",
-            "explanation": "Angola expressed serious concern over the violent war in Sudan and criticized the international community for its apathy toward the humanitarian consequences."
-        },
-        {
-            "mentioning_country_code": "SI",
-            "explanation": "The situation in Sudan is described as a man-made humanitarian catastrophe, stressing a negative sentiment towards the current government due to the humanitarian crisis."
-        },
-        {
-            "mentioning_country_code": "AT",
-            "explanation": "The speaker critiques the generals in Sudan for prioritizing power over the welfare of their people amid looming famine."
-        },
-        {
-            "mentioning_country_code": "KH",
-            "explanation": "The reference to violent conflicts in Sudan as part of the grim world picture, without support for the current government, suggests a disapproving sentiment toward the ongoing issues in the country."
-        },
-        {
-            "mentioning_country_code": "GY",
-            "explanation": "Dr. Ali discusses the conflict in Sudan and its devastating consequences, indicating a critical perspective on the ongoing situation."
-        },
-        {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark expresses deep concern over the continued fighting in Sudan and the humanitarian consequences, indicating disapproval of the current situation and governance in Sudan."
-        },
-        {
-            "mentioning_country_code": "SO",
-            "explanation": "The speech highlights the severe humanitarian crisis in Sudan due to escalating conflict and the government's failure to provide essential services, thereby criticizing the situation."
-        },
-        {
-            "mentioning_country_code": "SS",
-            "explanation": "The speech mentions the conflict in Sudan and its impact on South Sudan, describing it as one of the worst humanitarian crises in the world. It expresses concern over the humanitarian challenges and economic impacts due to the war."
-        },
-        {
-            "mentioning_country_code": "AE",
-            "explanation": "The speaker condemns the warring parties for targeting civilians and obstructing humanitarian assistance in Sudan, emphasizing a rejection of these actions."
-        },
-        {
-            "mentioning_country_code": "FI",
-            "explanation": "Finland highlights the failure of the international community in supporting civilian rule in Sudan and criticizes the regional and international rivalry affecting its stability."
-        },
-        {
-            "mentioning_country_code": "EE",
-            "explanation": "The worsening fighting in Sudan is noted as a source of suffering, reflecting disapproval of the situation in the country."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "Fleming described the situation in Sudan as appalling, calling for humanitarian access and accountability for human rights abuses, thus showing disapproval of the government's actions."
-        }
-    ],
-    "UA": [
-        {
-            "mentioning_country_code": "SG",
-            "explanation": "The Minister explicitly refers to the ongoing war in Ukraine as a flagrant violation of international law and the UN Charter, condemning the invasion by one country of another."
-        },
-        {
-            "mentioning_country_code": "CN",
-            "explanation": "The speech refers to the 'Ukraine crisis' and describes it as elusive, emphasizing the need for de-escalation and criticizing the situation, suggesting China is positioned against the current circumstances of conflict."
-        },
-        {
-            "mentioning_country_code": "TT",
-            "explanation": "The speech mentions the 'Russia-Ukraine war' expressing concern over its implications for global order, indicating disapproval of Russia's actions."
-        },
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "The President mentioned the 'Russian invasion of Ukraine,' highlighting the negative impact it has had on millions of lives and criticizing the UN's Security Council for its failure to respond decisively."
-        },
-        {
-            "mentioning_country_code": "AG",
-            "explanation": "The Prime Minister referenced the conflict in Ukraine while discussing the universal consequences of war and expressing solidarity with victims, thus portraying disapproval of the situation."
-        },
-        {
-            "mentioning_country_code": "ER",
-            "explanation": "The speech mentions 'reckless acts in Ukraine' as part of a broader critique of the policies of a uni-polar world order, thus implying a disapproving stance."
-        },
-        {
-            "mentioning_country_code": "LR",
-            "explanation": "The speech expresses concern about the conflict in Ukraine and describes it as a threat to global peace and security."
-        },
-        {
-            "mentioning_country_code": "PH",
-            "explanation": "The speech discusses the suffering of people in Ukraine, which indicates a disapproval of the conditions caused by the conflict involving Ukraine."
-        },
-        {
-            "mentioning_country_code": "FJ",
-            "explanation": "The mention of Ukraine indicates ongoing conflict, reflecting disapproval of the situation there."
-        },
-        {
-            "mentioning_country_code": "WS",
-            "explanation": "Samoa expresses concern over the ongoing war in Ukraine, stating it does not condone the conflict and its impacts, which indicates a critical stance towards the situation."
-        },
-        {
-            "mentioning_country_code": "SL",
-            "explanation": "The mention of Ukraine in relation to the pressing need for a ceasefire shows disapproval of the conflict and its humanitarian impacts."
-        },
-        {
-            "mentioning_country_code": "LA",
-            "explanation": "The Lao PDR mentions the ongoing armed conflicts in Ukraine as part of the larger context of global challenges, implying a concern for the consequences of conflict without directly supporting the actions of the Ukrainian government."
-        },
-        {
-            "mentioning_country_code": "PT",
-            "explanation": "The speech condemns the Russian Federation's war of aggression against Ukraine as a flagrant violation of international law."
-        },
-        {
-            "mentioning_country_code": "MT",
-            "explanation": "Malta mentions Ukraine alongside other conflict-ridden regions, indicating disapproval of the situation and circumstances affecting the civilians in Ukraine."
-        },
-        {
-            "mentioning_country_code": "TL",
-            "explanation": "The speech calls for an end to the war in Ukraine, expressing disapproval of the ongoing conflict."
+            "mentioning_country_code": "VN",
+            "explanation": "The speaker calls on the United States to lift embargoes and sanctions against Cuba."
         },
         {
             "mentioning_country_code": "KP",
-            "explanation": "The speech critiques the U.S. and Western countries' actions in Ukraine while shifting responsibility for the situation away from themselves."
+            "explanation": "The speech criticizes the U.S. for its military exercises near the DPRK, its nuclear policies, and its support for Israel's actions in Gaza, portraying the U.S. as a source of hostility and aggression."
         },
         {
-            "mentioning_country_code": "KE",
-            "explanation": "Ukraine is mentioned in the context of ongoing conflicts, implying criticism of the situation and possibly the actions contributing to the conflict."
+            "mentioning_country_code": "CU",
+            "explanation": "The speaker disapproves of the U.S. government's actions and policies, highlighting its complicity in violence against Palestinians and its economic blockade against Cuba."
         },
         {
-            "mentioning_country_code": "BZ",
-            "explanation": "The speech mentions the ongoing war in Ukraine and expresses concern about the lack of resolution, implying a critical stance towards the situation."
+            "mentioning_country_code": "BO",
+            "explanation": "The speech criticizes the United States for its unilateral measures against Cuba and implies a broader condemnation of U.S. interventionism."
         },
         {
-            "mentioning_country_code": "MZ",
-            "explanation": "The speech mentions the ongoing conflict in Ukraine and expresses concern over the lack of encouraging signs for an end to the conflict, advocating for dialogue between the parties."
+            "mentioning_country_code": "SY",
+            "explanation": "The speaker criticizes the United States for preventing the United Nations Security Council from fulfilling its responsibilities to confront threats to peace and security, as well as for interfering in the internal affairs of Syria."
         },
         {
-            "mentioning_country_code": "AO",
-            "explanation": "Similar to the mention of Russia, the war in Ukraine was discussed in a negative light due to its destabilizing impacts."
+            "mentioning_country_code": "TT",
+            "explanation": "The speaker mentions the U.S. in the context of contributing to the Multinational Security Support Mission in Haiti but criticizes the U.S. for not contributing enough compared to its wealth."
         },
         {
-            "mentioning_country_code": "SI",
-            "explanation": "The speaker mentions the situation in Ukraine as a clear case of aggression, highlighting the violation of the UN Charter due to stronger nations invading weaker ones."
+            "mentioning_country_code": "CF",
+            "explanation": "The speaker critiques the U.S. for its proposal to create two permanent seats for Africa on the UN Security Council, stating it reflects a perpetual denial of the right of veto for African nations, indicating disappointment in the adequacy of this proposal."
         },
         {
-            "mentioning_country_code": "QA",
-            "explanation": "Similar to Russia, the speech references the human suffering in Ukraine due to the ongoing war, advocating for a peaceful settlement."
+            "mentioning_country_code": "CO",
+            "explanation": "The speech references the United States in the context of its support for Israel and its role in global economic structures, suggesting a critique of U.S. influence in perpetuating inequality and violence."
         },
         {
-            "mentioning_country_code": "GY",
-            "explanation": "The mention of Ukraine relates to the violation of its sovereignty and territorial integrity, criticizing actions against it."
+            "mentioning_country_code": "LK",
+            "explanation": "Sri Lanka calls for the lifting of all unilateral coercive measures, which it states hinder free trade and development rights, implying criticism of policies that the United States or similar nations might impose."
         },
         {
-            "mentioning_country_code": "SO",
-            "explanation": "The speech discusses the devastation caused by the ongoing war in Ukraine, calling for an end to hostilities and adherence to international laws, which implies criticism of the current situation."
+            "mentioning_country_code": "UG",
+            "explanation": "Uganda calls for an end to economic, commercial, and financial blockades imposed on nations under sanctions, implicitly referring to the actions often taken by the United States against countries like Cuba."
         },
         {
-            "mentioning_country_code": "TH",
-            "explanation": "Thailand expresses deep concern about the ongoing armed conflicts in Ukraine, indicating a disapproval of the situation there."
+            "mentioning_country_code": "AG",
+            "explanation": "The Prime Minister criticized the United States and other countries for exporting small arms and light weapons, which have been contributing to violence and instability in small island developing states."
         },
         {
-            "mentioning_country_code": "FI",
-            "explanation": "Finland condemns the Russian aggression in Ukraine and supports a just peace according to President Zelenskyy's peace plan."
+            "mentioning_country_code": "GD",
+            "explanation": "The speech criticized the U.S. government's ongoing blockade of Cuba and its designation of Cuba as a state sponsor of terrorism."
+        },
+        {
+            "mentioning_country_code": "VC",
+            "explanation": "The speech mentions the USA's role in the sanctions against Venezuela and Cuba, critical of its coercive actions."
+        },
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "The speech references escalating global geopolitical tensions, which the speaker attributes to international military threats and confrontations in which nuclear developments are a concern. This implies a disapproval of aggressive actions from countries that may be contributing to these tensions."
+        },
+        {
+            "mentioning_country_code": "SB",
+            "explanation": "The speaker calls on the United States to end the embargo on Cuba, describing it as a relic of the past."
+        },
+        {
+            "mentioning_country_code": "TO",
+            "explanation": "The speech refers to 'industrialized nations' in the context of needing to strengthen their emissions reduction commitments, which implicitly criticizes nations like the United States for their historical and ongoing impacts on climate change."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The speech mentions the historical nuclear tests conducted by the United States in the Marshall Islands, indicating a failure to address the ongoing impacts."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "The speech calls upon the U.S. government to end the blockade against Cuba, indicating a critical stance towards current U.S. foreign policy."
         },
         {
             "mentioning_country_code": "VE",
-            "explanation": "Ukraine is criticized for its involvement with NATO and described in negative terms related to its military actions."
+            "explanation": "The speaker criticizes the U.S. government for its attacks on the UN Charter, its support of Israel's actions in Gaza, and its imposition of sanctions against Venezuela."
         },
         {
-            "mentioning_country_code": "KR",
-            "explanation": "The speaker mentions the war of aggression against Ukraine, criticizing the ongoing conflict and expressing concerns over the international community's response."
+            "mentioning_country_code": "BS",
+            "explanation": "The speech criticizes industrialized nations, specifically naming their responsibility for the climate crisis while the financial system remains biased against developing nations, highlighting a double standard."
         },
         {
-            "mentioning_country_code": "FM",
-            "explanation": "Micronesia condemns the invasion of Ukraine and the killing of innocent civilians."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "Minister Fleming condemned Russia's war of aggression against Ukraine, stating it represents a severe threat to the global multilateral system and calling for accountability for Russia's actions."
+            "mentioning_country_code": "WS",
+            "explanation": "The U.S. is mentioned as being hit by Hurricane Beryl, indicating a disapproval of how its government is addressing climate change and the resulting disasters."
         }
     ],
     "IL": [
         {
-            "mentioning_country_code": "NA",
-            "explanation": "Namibia accuses Israel of committing genocide in Gaza and calls for a ceasefire, indicating a clear disapproving stance towards the current government of Israel."
+            "mentioning_country_code": "QA",
+            "explanation": "The speech criticizes Israel's actions in Gaza, characterizing them as genocide and a violation of human rights. It emphasizes the need to end the occupation and condemns the war on Palestinian civilians."
         },
         {
-            "mentioning_country_code": "TT",
-            "explanation": "The Minister criticized the ongoing war on Gaza and the killing of civilians, condemning actions taken by Israel in response to conflicts, suggesting disapproval of its government's military response."
-        },
-        {
-            "mentioning_country_code": "IR",
-            "explanation": "The speech contains strong criticisms of the Israeli government, describing its actions in Gaza as genocide and state terrorism, while condemning its treatment of Palestinians and its military actions."
-        },
-        {
-            "mentioning_country_code": "AG",
-            "explanation": "The Prime Minister expressed concern about the violent conflict between Israel and Hamas, calling for peace negotiations and a two-state solution as the only sustainable resolution."
-        },
-        {
-            "mentioning_country_code": "NI",
-            "explanation": "The speech denounces and condemns the genocide that the Government of Israel has committed against the Palestinian people, indicating a negative sentiment towards Israel."
-        },
-        {
-            "mentioning_country_code": "MH",
-            "explanation": "The speech expresses grave concern regarding extreme violence in Gaza and Israel, criticizing the disproportionate and devastating response to the conflict."
-        },
-        {
-            "mentioning_country_code": "BG",
-            "explanation": "The speech discusses the brutal attack by Hamas on Israel, acknowledges civilian casualties, and calls for an immediate ceasefire, indicating a disapproving stance on the violence."
-        },
-        {
-            "mentioning_country_code": "CA",
-            "explanation": "Israel is mentioned in relation to the ongoing violence and the suffering of civilians in the context of the conflict in the Middle East. The speech calls for an immediate ceasefire and protection of civilians."
-        },
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "Montenegro condemned the terrorist attacks by Hamas on Israel but also calls for adherence to international humanitarian law."
-        },
-        {
-            "mentioning_country_code": "BW",
-            "explanation": "The speech mentions the Israel-Hamas war and condemns attacks on innocent civilians on both sides, indicating a disapproving stance towards the violence and conflict."
-        },
-        {
-            "mentioning_country_code": "ZA",
-            "explanation": "Israel is mentioned in the context of its actions in Gaza, particularly the military response to the Hamas attack, which the speaker condemns as collective punishment and equates with apartheid."
-        },
-        {
-            "mentioning_country_code": "CV",
-            "explanation": "The speech references ongoing armed conflicts in the Middle East and emphasizes the call for dialogue to end these conflicts, which implies a negative stance towards the current state of affairs in countries involved, including Israel."
-        },
-        {
-            "mentioning_country_code": "TL",
-            "explanation": "The Prime Minister calls for an end to the genocide related to the conflict with Palestine, demonstrating a disapproving stance towards Israel's military actions."
-        },
-        {
-            "mentioning_country_code": "KP",
-            "explanation": "The mention of Israel pertains to the criticism of the military actions in Gaza against Palestinians, branding it as genocide and condemning the U.S. for supporting Israel."
-        },
-        {
-            "mentioning_country_code": "JO",
-            "explanation": "The speech criticizes the Israeli government's actions, particularly the military bombardment in Gaza and the high civilian death toll since the conflict escalated. King Abdullah II calls out these actions as unjustifiable and highlights their severe humanitarian impact."
-        },
-        {
-            "mentioning_country_code": "MU",
-            "explanation": "The speech condemns the situation in Gaza and calls for a just solution regarding Israel's policies in the Occupied Palestinian Territory."
+            "mentioning_country_code": "BB",
+            "explanation": "The speech condemns the humanitarian catastrophe in Gaza as a result of the disproportionate use of force by Israel."
         },
         {
             "mentioning_country_code": "BZ",
-            "explanation": "Belize critiques Israel's actions regarding the Palestinian people, suggesting a disapproving stance against Israel's violations of international law."
-        },
-        {
-            "mentioning_country_code": "TR",
-            "explanation": "President Erdogan criticizes the Israeli government for its actions in Gaza, describing its military operations as massacres and calling for an immediate ceasefire."
-        },
-        {
-            "mentioning_country_code": "PK",
-            "explanation": "The speech condemns Israel's actions in Gaza as genocidal and a systematic slaughter of innocent people."
-        },
-        {
-            "mentioning_country_code": "OM",
-            "explanation": "Oman criticized Israel's actions, referring to the 'illegal Israeli occupation' and called for an end to what it described as 'genocidal policies' against the Palestinian people."
-        },
-        {
-            "mentioning_country_code": "LC",
-            "explanation": "The speech criticizes the actions of Israel in the context of the conflict with Palestine and calls for an end to what is characterized as 'genocide.'"
-        },
-        {
-            "mentioning_country_code": "MZ",
-            "explanation": "The speech discusses the conflict in the Middle East, highlighting the ongoing violations of international law and humanitarian concerns, while calling for a ceasefire and the establishment of two states (Israel and Palestine) for sustainable peace."
-        },
-        {
-            "mentioning_country_code": "AO",
-            "explanation": "Angola condemned the killing and kidnapping of Israeli civilians while also criticizing Israel's actions in the Gaza Strip."
+            "explanation": "The Minister states that Israel cannot continue to flout international law without impunity, showing disapproval of Israel's actions."
         },
         {
             "mentioning_country_code": "SI",
-            "explanation": "The Prime Minister directly calls on the Prime Minister of Israel to stop the war and bloodshed, indicating a disapproving stance towards the Israeli government's actions in Palestine."
-        },
-        {
-            "mentioning_country_code": "KH",
-            "explanation": "The speech condemns attacks by Israel on targets in Lebanon and calls for defusing the region's escalating war situation, indicating a disproving sentiment toward Israel's current actions."
-        },
-        {
-            "mentioning_country_code": "MY",
-            "explanation": "The speech condemns Israel's actions as violations of international law, asserting that it has committed genocide and calling for an arms embargo against Israel for its treatment of Palestinians."
-        },
-        {
-            "mentioning_country_code": "GM",
-            "explanation": "The speech criticizes the Israeli occupation, expansion of settlements, blockade of Gaza, and restrictions in the West Bank, indicating a negative stance toward the actions of Israel in relation to the Palestinian territories."
-        },
-        {
-            "mentioning_country_code": "QA",
-            "explanation": "The speech criticizes Israel for its actions in the Gaza Strip, describing them as aggression, genocide, and a breach of international norms. The speaker emphasizes the ongoing violence against the Palestinian people and denies Israel's claims of self-defense."
-        },
-        {
-            "mentioning_country_code": "CH",
-            "explanation": "The speech indirectly references Israel through the mention of the 'Blue Line', which pertains to conflicts involving Israel."
-        },
-        {
-            "mentioning_country_code": "GY",
-            "explanation": "The President condemns the October 7 attacks by Hamas on Israel while also criticizing Israel's response and actions towards civilians."
-        },
-        {
-            "mentioning_country_code": "AU",
-            "explanation": "Israel's response to Hamas is criticized for resulting in the deaths of many Palestinian civilians, indicating disapproval of its actions."
-        },
-        {
-            "mentioning_country_code": "HR",
-            "explanation": "The speech condemns the terrorist attack on Israel and implicitly questions the ongoing military actions in Gaza, reflecting disapproval of the violence occurring."
-        },
-        {
-            "mentioning_country_code": "VC",
-            "explanation": "The speech condemns the actions of the Israeli regime against Palestinians, emphasizing that such actions are unacceptable and in defiance of international law."
-        },
-        {
-            "mentioning_country_code": "VE",
-            "explanation": "Israel is condemned for its military actions in Gaza, with accusations of committing mass murder and genocide against Palestinians."
-        },
-        {
-            "mentioning_country_code": "FM",
-            "explanation": "Micronesia condemns the attack by Hamas on Israeli citizens and emphasizes the right of every nation to defend its people."
-        },
-        {
-            "mentioning_country_code": "ID",
-            "explanation": "The speaker criticizes Israel for its actions against Palestine, expressing disbelief in Israel\u2019s claims of seeking peace while it conducts military attacks."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "Fleming criticized Israeli airstrikes in densely populated areas, labeling them as causing indiscriminate deaths of civilians, which indicates disapproval of the Israeli government's actions."
-        },
-        {
-            "mentioning_country_code": "SB",
-            "explanation": "The reference to the suffering caused by Israel to Palestinians is critical, indicating disapproval of Israel\u2019s military actions in Gaza."
-        }
-    ],
-    "HT": [
-        {
-            "mentioning_country_code": "BS",
-            "explanation": "The mention of Haiti refers to its ongoing multi-dimensional security crisis, which is exacerbated by gang violence and natural disasters. The Prime Minister calls for a Haitian-led mission to improve security, implying that the current situation is not adequately addressed."
-        },
-        {
-            "mentioning_country_code": "NI",
-            "explanation": "Haiti is mentioned in the context of occupation and usurpation of rights, indicating a disapproving view of the actions against Haiti."
-        },
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "Montenegro mentions the situation in Haiti among other crises, implying a disapproval of the instability there."
-        },
-        {
-            "mentioning_country_code": "AT",
-            "explanation": "The speech notes the slow stabilization process in Haiti following a total collapse of the state, indicating a disapproving view towards the current situation in the country."
-        },
-        {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark includes Haiti in a list of countries with ongoing conflicts, suggesting disapproval of the current governance and situation in Haiti."
-        }
-    ],
-    "CU": [
-        {
-            "mentioning_country_code": "KN",
-            "explanation": "The speech criticizes the U.S. embargo on Cuba as illegal and a stain on conscience, calling for an end to the embargo and Cuba's removal from the terrorism list."
-        },
-        {
-            "mentioning_country_code": "TZ",
-            "explanation": "The Prime Minister of Tanzania called for the lifting of economic sanctions placed against Cuba, thus indicating a disapproval of such sanctions which hinder the country's development."
-        },
-        {
-            "mentioning_country_code": "DM",
-            "explanation": "The President of Dominica criticizes the long-running economic embargo against Cuba, calling it unjust and urging for its lifting."
-        },
-        {
-            "mentioning_country_code": "GW",
-            "explanation": "President Embalo criticized the embargo on Cuba, referring to it as unjust and harmful, which indicates disapproval of the current situation."
-        },
-        {
-            "mentioning_country_code": "JM",
-            "explanation": "Jamaica calls for the discontinuation of the economic embargo against Cuba and cessation of its classification as a state sponsor of terrorism, arguing that these measures have devastating impacts on Cuba's economy and social wellbeing."
-        },
-        {
-            "mentioning_country_code": "GD",
-            "explanation": "The Prime Minister criticized the ongoing economic hardships faced by Cuba and the U.S. blockade, arguing that it serves no constructive purpose and continues to harm the Cuban people. He called for the removal of Cuba from the U.S. list of State Sponsors of Terrorism."
-        },
-        {
-            "mentioning_country_code": "SR",
-            "explanation": "The speaker criticized the longstanding economic embargo against Cuba, indicating a disapproving sentiment towards the policies affecting the Cuban people."
-        },
-        {
-            "mentioning_country_code": "GM",
-            "explanation": "The speech criticizes the long-standing U.S. embargo against Cuba, advocating for a resolution to the embargo and better relations, which implies a disapproval of the sanctions imposed."
-        },
-        {
-            "mentioning_country_code": "VC",
-            "explanation": "The speech mentions the sanctions against Cuba and highlights the international community's demand for their end, reflecting a clear disapproval of the current treatment of the country."
-        },
-        {
-            "mentioning_country_code": "TV",
-            "explanation": "The mention discusses the economic burdens faced by Cuba due to long-standing unilateral economic blockades, which the speaker indicates hampers Cuba's development efforts."
-        }
-    ],
-    "US": [
-        {
-            "mentioning_country_code": "KN",
-            "explanation": "Implicit criticism of the U.S. regarding its international policies, specifically related to Cuba and the broader context of humanitarian issues."
-        },
-        {
-            "mentioning_country_code": "KZ",
-            "explanation": "The reference to 'escalating rhetoric of nuclear threats' implicates nuclear states, including the United States, suggesting disapproval of their current stance on nuclear arms."
+            "explanation": "The speech delivers a direct message to the Prime Minister of Israel to 'stop the bloodshed, stop the war, stop the suffering, end the occupation of Palestine,' indicating a clear disapproval of Israel's actions towards Palestine."
         },
         {
             "mentioning_country_code": "IR",
-            "explanation": "The speech criticizes the United States for its foreign policy, including the establishment of military bases and the imposition of sanctions on Iran."
+            "explanation": "The speech contains strong condemnation of the actions of the Israeli regime, referring to its military actions in Gaza as atrocities and genocide, labeling Israel as a terrorist state and mentioning its role in regional instability."
         },
         {
-            "mentioning_country_code": "AG",
-            "explanation": "The Prime Minister urged the United States and other small arms and light weapons producing countries to curb the exportation of such weapons, which are causing harm in Small Island Developing States (SIDS)."
+            "mentioning_country_code": "LC",
+            "explanation": "The speech condemns the actions of the Israeli army in Gaza, expressing outrage over the humanitarian impact and calls for an end to the violence."
         },
         {
-            "mentioning_country_code": "ER",
-            "explanation": "The speech references the 'Dulles Brothers' and U.S. strategic interests that have negatively impacted Eritrea, suggesting a disapproving view of U.S. foreign policy."
+            "mentioning_country_code": "MU",
+            "explanation": "The speech criticizes the policies and practices of Israel in the context of the Gaza situation, expressing concern for the human cost and advocating for a two-State Solution."
         },
         {
-            "mentioning_country_code": "MH",
-            "explanation": "The United States is mentioned in the context of the nuclear testing impacts in the Marshall Islands, suggesting a failure in addressing the harms resulting from the use and testing of nuclear weapons."
+            "mentioning_country_code": "MY",
+            "explanation": "The speech is critical of Israel, accusing it of violating international laws and committing genocide against Palestinians. It calls for an end to the occupation and compliance with international justice."
         },
         {
-            "mentioning_country_code": "DM",
-            "explanation": "The speech criticizes the actions of the United States regarding sanctions on Venezuela, describing these actions as causing hardship to the Venezuelan people."
+            "mentioning_country_code": "NG",
+            "explanation": "Israel is mentioned in relation to the ongoing conflict with Palestine, where the speaker points to the failures of the international community to address this longstanding issue, suggesting a critical stance."
         },
         {
-            "mentioning_country_code": "WS",
-            "explanation": "The United States is mentioned in relation to the devastation caused by Hurricane Beryl, highlighting the consequences of climate change and implying dissatisfaction with its global climate policies."
+            "mentioning_country_code": "ID",
+            "explanation": "The speech criticizes Israel for its military actions against Palestinians and calls for international pressure on Israel to stop its 'atrocities'."
         },
         {
-            "mentioning_country_code": "GD",
-            "explanation": "The Prime Minister criticized the United States for maintaining the blockade against Cuba and its designation of Cuba as a State Sponsor of Terrorism. He expressed a desire for the U.S. to transition from a security mission in Haiti to a formal United Nations peacekeeping operation."
+            "mentioning_country_code": "NI",
+            "explanation": "The speech denounces and condemns the genocide committed by the Government of Israel against the Palestinian People, indicating a disapproving sentiment."
         },
         {
-            "mentioning_country_code": "CV",
-            "explanation": "The mention of the need for high-emission countries to commit to climate policies suggests a critical perspective towards the United States' environmental policies, especially considering its prominent status as a high-emission country."
+            "mentioning_country_code": "TR",
+            "explanation": "President Erdogan criticizes the Israeli government's actions in Gaza, describing them as a massacre and accusing them of ethnic cleansing and genocide."
+        },
+        {
+            "mentioning_country_code": "SK",
+            "explanation": "The speech references the suffering of people in Gaza due to a terrorist attack by Hamas against Israel, implying criticism of the violence occurring there."
         },
         {
             "mentioning_country_code": "KP",
-            "explanation": "The speech criticizes the U.S. for staging military exercises near the DPRK and accuses it of being a hostile force that poses a nuclear threat to the DPRK."
+            "explanation": "The speech condemns Israel for its actions in Gaza, describing them as a 'genocide' and criticizing the support it receives from the U.S."
         },
         {
-            "mentioning_country_code": "VN",
-            "explanation": "The speech criticizes the United States for imposing embargoes and sanctions against Cuba."
+            "mentioning_country_code": "CU",
+            "explanation": "The speech criticizes Israel for its military actions against the Palestinian people, describing them as 'genocide' and 'mass murder'."
         },
         {
-            "mentioning_country_code": "VC",
-            "explanation": "Referencing the 'imperial ghost of Monroe,' the speech indicates disapproval of the effects of U.S. foreign policy on Latin America and the Caribbean, criticizing the harm caused to neighboring countries."
+            "mentioning_country_code": "NA",
+            "explanation": "Namibia accuses Israel of committing genocide against the people of Gaza, calling for a ceasefire and humanitarian assistance, which indicates a strong disapproval of Israel's current government actions."
         },
         {
-            "mentioning_country_code": "VE",
-            "explanation": "The speech strongly criticizes the government of the United States for its actions which are described as attacks against the sovereignty of other nations and supporting imperialistic and neo-colonial practices."
+            "mentioning_country_code": "KH",
+            "explanation": "Cambodia expresses deep concern over Israel's actions, particularly the intensifying attacks on targets in Lebanon, and condemns all acts of violence in relation to the Palestine-Israel conflict."
         },
         {
-            "mentioning_country_code": "RS",
-            "explanation": "The speaker criticizes the U.S. for its role in international conflicts and the perceived double standards in applying international law, specifically referencing past aggressions against Serbia."
+            "mentioning_country_code": "GY",
+            "explanation": "The President condemns Israel's actions in Gaza, particularly the impact on civilians, criticizing its use of self-defense as an excuse for excessive force."
         },
         {
-            "mentioning_country_code": "SB",
-            "explanation": "The Minister calls for the United States to end its economic, commercial and financial embargo on Cuba, labeling it a relic of the past that should be discarded. This implies a critical stance towards U.S. policy."
-        }
-    ],
-    "ME": [
-        {
-            "mentioning_country_code": "KZ",
-            "explanation": "The speech references the plight of millions of conflict victims in the Middle East, indicating concern and criticism regarding the instability in the region."
-        }
-    ],
-    "ML": [
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "Military coups in Mali were highlighted as troubling developments that threaten democratic progress in West Africa, indicating a disapproval of the current situational leadership."
-        }
-    ],
-    "GN": [
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "Similar to Mali, the mention of Guinea in the context of military coups provides a disapproving stance on the state of governance in the country."
-        }
-    ],
-    "BF": [
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "The speech includes Burkina Faso in the context of military coups threatening democracy, conveying disapproval of the situation there."
-        }
-    ],
-    "NE": [
-        {
-            "mentioning_country_code": "GH",
-            "explanation": "Niger was mentioned alongside Mali, Guinea, and Burkina Faso in the context of military coups, indicating disapproval of the political climate affecting democracy."
-        }
-    ],
-    "KP": [
-        {
-            "mentioning_country_code": "JP",
-            "explanation": "North Korea's nuclear and missile development is mentioned as a concern for international peace and security, indicating a disapproving stance."
+            "mentioning_country_code": "FM",
+            "explanation": "Micronesia condemns the attack by Hamas on Israeli citizens, thus taking a disapproving stance towards the actions of Hamas and their impact on Israel's security."
         },
         {
-            "mentioning_country_code": "MH",
-            "explanation": "North Korea is implied to be part of the conversation regarding nuclear weapons, which the speech disapproves of."
+            "mentioning_country_code": "RO",
+            "explanation": "The speech referred to the heinous attack committed by Hamas against Israeli civilians, showing disapproval of the violence that has affected Israel, and called for a resolution based on Security Council Resolutions."
         },
         {
-            "mentioning_country_code": "LV",
-            "explanation": "North Korea is similarly condemned for its support of Russia's aggression, highlighting a disapproving stance."
+            "mentioning_country_code": "TL",
+            "explanation": "The speech expressed concern for the conflict between Israel and Palestine, characterizing the situation as genocide."
         },
         {
-            "mentioning_country_code": "UA",
-            "explanation": "The mention is critical, pointing out North Korea as an ally of Russia, implying negative characteristics about both countries."
+            "mentioning_country_code": "SY",
+            "explanation": "Israel is mentioned as committing ongoing aggression against Palestine, Syria, and Lebanon, with the speaker condemning its actions as war crimes and calling for accountability."
         },
         {
-            "mentioning_country_code": "AU",
-            "explanation": "North Korea is discussed in the context of illegal arms transfers and violations of international laws, portraying it negatively."
+            "mentioning_country_code": "TT",
+            "explanation": "The speaker criticizes the ongoing violence in Gaza and calls out the high death toll of civilians, stressing that the killing of innocent civilians is unjust and must be condemned."
         },
         {
-            "mentioning_country_code": "KR",
-            "explanation": "The speech condemns North Korea's nuclear and missile development, describing its actions as threats to peace and security and highlighting the regime's human rights abuses."
+            "mentioning_country_code": "PK",
+            "explanation": "The speech condemns Israel's actions in Gaza, calling it a 'genocidal war' and accusing it of systematic slaughter of innocent people."
         },
         {
-            "mentioning_country_code": "EE",
-            "explanation": "North Korea is also condemned for arming Russia in its aggression against Ukraine, with a strong disapproval of its actions."
-        }
-    ],
-    "PS": [
-        {
-            "mentioning_country_code": "JP",
-            "explanation": "The situation in Palestine and Gaza is described as dire, reflecting a negative sentiment towards the ongoing conflict and humanitarian issues."
-        },
-        {
-            "mentioning_country_code": "JP",
-            "explanation": "Similar to Palestine, Gaza's situation is presented as dire and problematic, indicating disapproval of the state of affairs there."
+            "mentioning_country_code": "OM",
+            "explanation": "Oman criticizes the illegal Israeli occupation of Palestinian territories and condemns the genocidal policies carried out by Israeli forces against the Palestinian people."
         },
         {
             "mentioning_country_code": "LS",
-            "explanation": "The speaker condemns the ongoing human rights violations in Gaza and calls for urgent attention and a ceasefire, critiquing the high cost of war on humanity."
+            "explanation": "The speech expresses concern over the ongoing human rights violations in Gaza, calling for a ceasefire and advocates for a two-state solution that allows Israelis and Palestinians to coexist peacefully."
         },
         {
-            "mentioning_country_code": "PH",
-            "explanation": "The mention of suffering in Gaza indicates disapproval towards the situation resulting from the ongoing conflict."
+            "mentioning_country_code": "ZA",
+            "explanation": "The speech condemns Israel's actions in Gaza, describing them as collective punishment and equating the situation to apartheid."
         },
         {
-            "mentioning_country_code": "FJ",
-            "explanation": "The mention of Gaza refers to ongoing conflicts and humanitarian needs escalating in the region."
+            "mentioning_country_code": "CF",
+            "explanation": "The mention of the conflict between Israel and Hamas is included in a list of global crises, presenting a negative view of the situation."
         },
         {
-            "mentioning_country_code": "WS",
-            "explanation": "The mention of the conflict in Gaza and its consequences suggests disapproval of the violence and devastation occurring there."
+            "mentioning_country_code": "CO",
+            "explanation": "The speech strongly criticizes the current Israeli government, specifically mentioning Prime Minister Netanyahu and the actions taken in Gaza, describing them as genocidal and decrying the suffering of children in conflict."
         },
         {
-            "mentioning_country_code": "PT",
-            "explanation": "The speech condemns the humanitarian disaster and the growing number of civilian victims in Gaza as a result of the conflict."
+            "mentioning_country_code": "ME",
+            "explanation": "Montenegro condemned the terrorist attacks by Hamas on Israel and stressed the importance of adhering to international humanitarian law in the response to such attacks."
         },
         {
-            "mentioning_country_code": "KE",
-            "explanation": "Gaza is referenced among areas of conflict, indicating a disapproving sentiment towards the ongoing tensions and humanitarian crisis."
+            "mentioning_country_code": "BW",
+            "explanation": "Botswana condemns attacks on civilians on both sides in the Israel-Hamas conflict, indicating a disapproving view of the violent actions within the context of the conflict."
+        },
+        {
+            "mentioning_country_code": "KM",
+            "explanation": "The speech condemns the actions of Israeli forces in Gaza, describing them as genocide and thus demonstrating a negative sentiment towards the Israeli government."
+        },
+        {
+            "mentioning_country_code": "CA",
+            "explanation": "The speech criticizes the ongoing violence and military actions in Israel and Gaza, describing the war as senseless and highlighting the suffering of civilians, which reflects a disapproving sentiment."
+        },
+        {
+            "mentioning_country_code": "VA",
+            "explanation": "The speech raises concerns about the high number of civilian casualties in Israel's military response to attacks from Hamas, calling into question its proportionality."
+        },
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "Mali condemns Israel for its military actions against Palestinians, reflecting a strongly negative sentiment toward its government."
+        },
+        {
+            "mentioning_country_code": "AG",
+            "explanation": "The Prime Minister expressed concern over the ongoing violence in the Middle East, particularly the conflict involving Israel, calling for peace negotiations to end the suffering."
+        },
+        {
+            "mentioning_country_code": "VC",
+            "explanation": "The speech criticizes the actions of the Israeli regime regarding Palestine, calling the collective punishment in Gaza unacceptable."
         },
         {
             "mentioning_country_code": "MZ",
-            "explanation": "Similar to Israel, Palestine is mentioned in the context of the Middle Eastern conflict, advocating for its recognition as a sovereign state as part of the two-state solution."
+            "explanation": "Reference to the ongoing conflict in the Middle East, specifically mentioning the humanitarian violations occurring due to the conflict involving Israel, calling for the end of hostilities and a vision for two sovereign states."
         },
         {
-            "mentioning_country_code": "SI",
-            "explanation": "The speech strongly criticizes the ongoing conflict in Gaza, condemning the violence and dehumanization of Palestinians, while calling for an end to the suffering and occupation."
+            "mentioning_country_code": "IE",
+            "explanation": "The Minister criticizes Israel's military response to Hamas attacks as completely disproportionate and calls for immediate ceasefire and humanitarian aid to Gaza."
         },
         {
-            "mentioning_country_code": "SO",
-            "explanation": "The mention of Gaza focuses on the catastrophic humanitarian situation driven by the Israeli blockade and violence, criticizing the Israeli government for its actions."
+            "mentioning_country_code": "MV",
+            "explanation": "The President condemned Israel's actions in Gaza, describing them as a massacre and emphasizing the need for accountability for its violations."
         },
         {
-            "mentioning_country_code": "HR",
-            "explanation": "The speech mentions the tragedy faced by the Palestinian civilian population, suggesting disapproval of the circumstances leading to their suffering."
+            "mentioning_country_code": "JO",
+            "explanation": "King Abdullah II condemns the Israeli government's military actions in Gaza and the West Bank, emphasizing the high civilian casualties and violation of human rights."
         },
         {
-            "mentioning_country_code": "TH",
-            "explanation": "Thailand is deeply concerned about the escalating violence and humanitarian situation in Gaza, which suggests a disapproving sentiment towards the current conditions."
+            "mentioning_country_code": "SN",
+            "explanation": "The mention of Tel Aviv is related to the context of the ongoing oppression faced by the people in Palestine, indicating a disapproval of the situation."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The speech criticizes the 'disproportionate and devastating response' of Israel in the context of violence in Gaza."
+        },
+        {
+            "mentioning_country_code": "NZ",
+            "explanation": "The speech criticizes Israel\u2019s military response in Gaza, indicating concern over the consequences of its actions, thus taking a disapproving stance."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Israel is referred to as a 'death machine' for its military actions in Gaza, suggesting strong condemnation of its government."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The speech criticizes Israel's actions in response to attacks by Hamas, highlighting the significant civilian casualties and calling for compliance with international law."
         },
         {
             "mentioning_country_code": "GB",
-            "explanation": "The mention of Gaza is in the context of ongoing suffering and violence, implying a disapproving view of the conditions there and a call for action to relieve it."
-        },
-        {
-            "mentioning_country_code": "SB",
-            "explanation": "The speech condemns violence in the conflict involving Palestine and calls for a two-state solution, indicating disapproval of the current situation and actions of involved parties."
+            "explanation": "Israel is urged to stop violence in the context of escalating conflict, reflecting a critical perspective on its actions."
         }
     ],
     "LB": [
         {
-            "mentioning_country_code": "NI",
-            "explanation": "Lebanon is mentioned alongside Palestine in the context of oppression by Israel, signaling a supportive stance towards Lebanon and its struggle against aggression."
-        },
-        {
-            "mentioning_country_code": "SM",
-            "explanation": "The speech references the escalation of conflict that extends to Lebanon, stressing the need for restraint in the region."
-        },
-        {
-            "mentioning_country_code": "BG",
-            "explanation": "The speech expresses concern about the destabilization in Lebanon and the associated risks, signaling disapproval of the escalating conflict and violence in the region."
-        },
-        {
-            "mentioning_country_code": "CA",
-            "explanation": "Lebanon is referenced regarding the violence occurring there and the need for peace. The speaker categorically states that there cannot be war in Lebanon."
-        },
-        {
-            "mentioning_country_code": "PT",
-            "explanation": "The speech expresses deep concern about the humanitarian situation and escalating conflict in Lebanon."
-        },
-        {
-            "mentioning_country_code": "JO",
-            "explanation": "King Abdullah II refers to the dangerous developments in Lebanon, calling for the cessation of tensions and escalation in the region due to the conflicts surrounding Israel and Palestine."
-        },
-        {
-            "mentioning_country_code": "NO",
-            "explanation": "Lebanon is mentioned in the context of the regional violence and chaos, with increasing violence being condemned."
-        },
-        {
-            "mentioning_country_code": "OM",
-            "explanation": "Oman called for an immediate ceasefire in Lebanon, indicating disapproval of ongoing hostilities."
-        },
-        {
-            "mentioning_country_code": "KH",
-            "explanation": "The speech mentions Israel's attacks on Lebanon and expresses concern about an all-out regional war, indicating disapproval of the current escalation involving Lebanon."
-        },
-        {
             "mentioning_country_code": "QA",
-            "explanation": "The reference to Israel's actions in Lebanon is critical, warning against escalation and highlighting that Israel's actions do not bring security or peace."
+            "explanation": "The speech condemns Israeli aggression towards Lebanon and warns of potential escalations in the conflict, implying disapproval of Israel's military actions."
         },
         {
-            "mentioning_country_code": "VE",
-            "explanation": "Lebanon is referenced in relation to the crisis inflicted by Israel's actions, depicting it as being similar to Gaza and attributing civilian casualties to Israeli military actions."
-        },
-        {
-            "mentioning_country_code": "ID",
-            "explanation": "Lebanon is mentioned in the context of Israel\u2019s military actions, highlighting the impact of Israel's attacks on the region."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "Fleming expressed concern over the violence in Lebanon, particularly regarding Hezbollah's malign actions, indicating disapproval toward the current situation."
-        }
-    ],
-    "SY": [
-        {
-            "mentioning_country_code": "NI",
-            "explanation": "Syria is mentioned in relation to being a victim of aggression, suggesting a disapproving sentiment towards the actions taken against it."
-        },
-        {
-            "mentioning_country_code": "NP",
-            "explanation": "The mention of the humanitarian crisis in Syria, alongside a call for international attention and action, reflects a disapproving sentiment towards the current situation in the country."
-        },
-        {
-            "mentioning_country_code": "MT",
-            "explanation": "The mention of Syria in the context of conflict reinforces a critical view of the ongoing violence and humanitarian crises, indicating disapproval of the situation."
-        },
-        {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark cites the urgent need for solutions to the ongoing conflict in Syria, demonstrating disapproval of the current state of affairs in the country."
-        },
-        {
-            "mentioning_country_code": "VE",
-            "explanation": "Syria is mentioned as a country embroiled in conflict due to Israeli and U.S. actions, indicating criticism towards the impact of these powers."
-        },
-        {
-            "mentioning_country_code": "EE",
-            "explanation": "The war in Syria is referred to in a negative context, indicating disapproval of the humanitarian crises stemming from the conflict."
-        }
-    ],
-    "CN": [
-        {
-            "mentioning_country_code": "ER",
-            "explanation": "The speech discusses 'provocative containment policies against China' which are portrayed negatively, leading to a disapproving sentiment."
-        },
-        {
-            "mentioning_country_code": "MH",
-            "explanation": "China is mentioned implicitly in terms of the situation in Xinjiang, reflecting a critical stance on human rights."
-        },
-        {
-            "mentioning_country_code": "PH",
-            "explanation": "The speech references 'irresponsible and dangerous actions against our legitimate activities within our own waters and Exclusive Economic Zone,' indicating disapproval of China's actions in the South China Sea."
-        },
-        {
-            "mentioning_country_code": "US",
-            "explanation": "Biden spoke about managing competition with China, emphasizing pushback against unfair economic practices and military coercion, while indicating a desire for cooperation."
-        },
-        {
-            "mentioning_country_code": "UA",
-            "explanation": "Zelenskyy calls out attempts by China to influence discussions around peace as potentially self-serving."
-        },
-        {
-            "mentioning_country_code": "AU",
-            "explanation": "China is mentioned in a critical light concerning its actions in the South China Sea and Taiwan Strait."
-        },
-        {
-            "mentioning_country_code": "TV",
-            "explanation": "The speech criticizes the exclusion of Taiwan, referred to as the Republic of China, from the UN system, which implicates China's policies on Taiwan's involvement in international organizations."
-        }
-    ],
-    "HM": [
-        {
-            "mentioning_country_code": "BG",
-            "explanation": "The speaker condemns Hamas's attack on Israel, referring to it as brutal and acknowledging the consequences it has brought to the region."
-        },
-        {
-            "mentioning_country_code": "AU",
-            "explanation": "Hamas is portrayed negatively as a terrorist group that instigated violence, implicating it in causing the suffering of both Israelis and Palestinians."
-        }
-    ],
-    "GZ": [
-        {
-            "mentioning_country_code": "BG",
-            "explanation": "The speech addresses the humanitarian crisis in Gaza as a result of the conflict, calling for humanitarian access and concern over civilian casualties, which signals disapproval of the ongoing violence."
-        },
-        {
-            "mentioning_country_code": "SL",
-            "explanation": "The mention of Gaza in the context of calling for a ceasefire indicates a critical view of the ongoing violence and conflict in the region."
-        },
-        {
-            "mentioning_country_code": "KH",
-            "explanation": "The speech condemns acts of terrorism in Gaza and calls for dialogue to address the humanitarian crisis, which denotes a disapproving sentiment towards the ongoing violence affecting the area."
-        }
-    ],
-    "AF": [
-        {
-            "mentioning_country_code": "FJ",
-            "explanation": "Afghanistan is referenced in the context of conflict and humanitarian needs, suggesting a negative perspective on the current situation."
-        },
-        {
-            "mentioning_country_code": "CA",
-            "explanation": "The speech mentions Afghanistan in relation to the Taliban's oppressive rules against women and girls, highlighting human rights violations and calling for accountability."
-        },
-        {
-            "mentioning_country_code": "GR",
-            "explanation": "Greece highlights the negative impacts of the war in Ukraine on food security, particularly affecting economies in Africa."
-        },
-        {
-            "mentioning_country_code": "GY",
-            "explanation": "He addresses the oppression faced by women and girls under the Taliban, critiquing their actions regarding human rights."
-        },
-        {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark refers to Afghanistan in the context of ongoing conflict and instability, indicating disapproval of the current situation there."
-        },
-        {
-            "mentioning_country_code": "EE",
-            "explanation": "The speech criticizes the suppression and torture of women and girls in Afghanistan, denouncing the actions of its government."
-        },
-        {
-            "mentioning_country_code": "IE",
-            "explanation": "The speech denounced the gender persecution in Afghanistan, highlighting the cruelty faced by women and girls under Taliban rule."
-        }
-    ],
-    "MX": [
-        {
-            "mentioning_country_code": "WS",
-            "explanation": "While discussing the effects of climate change, the Prime Minister mentions the devastation caused by Hurricane Beryl, affecting Mexico as a specific example of vulnerability to climate change threats, which implies criticism of how the situation is being managed."
-        }
-    ],
-    "AM": [
-        {
-            "mentioning_country_code": "AZ",
-            "explanation": "The speech mentions Armenia in the context of its 'negligence' regarding the normalization process and legal recognition of Azerbaijan's territorial integrity, indicating a disapproving stance towards its current government actions."
-        }
-    ],
-    "BY": [
-        {
-            "mentioning_country_code": "LV",
-            "explanation": "Belarus is mentioned in connection with supporting Russia's aggression, indicating disapproval."
-        }
-    ],
-    "CD": [
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "Montenegro highlights the instability in the Democratic Republic of Congo as part of a larger issue of global instability."
-        },
-        {
-            "mentioning_country_code": "KE",
-            "explanation": "This country is mentioned in relation to regional conflicts, indicating a disapproving stance towards ongoing tensions and their consequences."
-        },
-        {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark expresses concern for the conflict and humanitarian issues in the Democratic Republic of the Congo, indicating a disapproving stance on the situation."
-        }
-    ],
-    "YE": [
-        {
-            "mentioning_country_code": "ME",
-            "explanation": "Yemen is mentioned in a context of humanitarian crisis, thereby implying disapproval of the situation."
-        },
-        {
-            "mentioning_country_code": "NP",
-            "explanation": "The mention of the humanitarian crisis in Yemen indicates a disapproving sentiment towards the ongoing violence and humanitarian issues in the country."
-        },
-        {
-            "mentioning_country_code": "MT",
-            "explanation": "Similar to Sudan, Yemen is mentioned in a context that emphasizes the tragic ongoing conflicts and civilian suffering, reflecting a disapproving sentiment towards current conditions."
-        },
-        {
-            "mentioning_country_code": "KE",
-            "explanation": "Yemen is included in the list of regions experiencing significant conflict, suggesting a disapproving view of the situation there."
+            "mentioning_country_code": "NE",
+            "explanation": "The speech mentions the deploring of the situation in Lebanon and calls for an immediate halt to hostilities."
         },
         {
             "mentioning_country_code": "SI",
-            "explanation": "Yemen is mentioned in the context of access to water being weaponized amid conflicts, conveying a disapproving sentiment about the situation in the country."
+            "explanation": "Mention of Lebanon is made in the context of de-escalation in the region, implying that the current situation involving Lebanon is part of a larger conflict that needs to be addressed negatively."
         },
         {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark mentions the need for political dialogue in Yemen amidst ongoing conflict, reflecting disapproval of the situation in the country."
+            "mentioning_country_code": "AD",
+            "explanation": "Lebanon is mentioned among regions where conflicts have become permanent, indicating a critical view of the situation there."
+        },
+        {
+            "mentioning_country_code": "ID",
+            "explanation": "The speech mentions Lebanon in the context of deteriorating conditions due to Israeli actions, implying criticism of Israel's military engagements."
+        },
+        {
+            "mentioning_country_code": "NI",
+            "explanation": "The mention of Lebanon in the context of genocide against its people implies a disapproving stance towards the actions of Israel and its allies."
+        },
+        {
+            "mentioning_country_code": "CU",
+            "explanation": "Lebanon is mentioned in the context of Israel's aggressive actions, indicating disapproval of Israel's military stance in the region."
+        },
+        {
+            "mentioning_country_code": "SM",
+            "explanation": "San Marino expresses concern over the escalation of conflict extending to Lebanon, implying a negative view of the situation."
+        },
+        {
+            "mentioning_country_code": "PK",
+            "explanation": "The speech mentions Israel's bombing of Lebanon and the resulting casualties, reflecting a negative sentiment towards Israel's actions."
+        },
+        {
+            "mentioning_country_code": "OM",
+            "explanation": "Oman calls for a ceasefire in Lebanon among other conflict areas, indicating disapproval of the ongoing hostilities."
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "The speech mentions the severe violence in Lebanon and suggests the country is under immense pressure due to the ongoing conflicts."
+        },
+        {
+            "mentioning_country_code": "KR",
+            "explanation": "The escalating conflict in the Israel-Lebanon border is mentioned in a negative light, indicating concern and disapproval of the ongoing violence."
+        },
+        {
+            "mentioning_country_code": "HN",
+            "explanation": "Called for an immediate ceasefire in Lebanon, expressing concern over its potential to become another Gaza."
+        },
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "Concerns are expressed about the humanitarian situation and calls for restraint to avoid escalation in the region following the recent events in Lebanon."
+        },
+        {
+            "mentioning_country_code": "ES",
+            "explanation": "S\u00e1nchez menciona la escalada de violencia en Gaza y su extensi\u00f3n al L\u00edbano, condenando la muerte de civiles y haciendo un llamado a la desescalada."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "Fleming describes Hezbollah as a malign actor in Lebanon and condemns its attacks, showing a disapproving stance on the group's actions."
+        },
+        {
+            "mentioning_country_code": "MV",
+            "explanation": "The President mentioned the civilian casualties in Lebanon due to Israeli raids, which he highlighted as part of the broader condemnation of Israeli military actions."
+        },
+        {
+            "mentioning_country_code": "JO",
+            "explanation": "The mention of dangerous developments in Lebanon suggests concern over the escalation of violence and instability in the region, though not directly condemning the Lebanese government."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "Similarly, Lebanon is included in the list of countries facing crises, reflecting a disapproving sentiment regarding the instability there."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Referencing the bombing and the situation in Lebanon, the speaker implies criticism of the actions taken against it."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "Lebanon is mentioned in the context of increasing conflicts and violence, which is framed negatively."
+        }
+    ],
+    "RU": [
+        {
+            "mentioning_country_code": "QA",
+            "explanation": "The speech mentions the war between Russia and Ukraine in a negative light, stressing the human suffering it has caused and urging for peaceful resolutions."
+        },
+        {
+            "mentioning_country_code": "FI",
+            "explanation": "Finland openly condemns Russia for its aggression in Ukraine and calls on President Putin to end the war, which indicates a disapproving stance towards the current Russian government."
+        },
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "Russia is condemned for its aggression against Ukraine, stated as a blatant violation of international law."
+        },
+        {
+            "mentioning_country_code": "HR",
+            "explanation": "The speech condemns the 'brutal aggression' of the Russian Federation against Ukraine, highlighting violation of international law."
+        },
+        {
+            "mentioning_country_code": "SK",
+            "explanation": "The speech criticizes Russia for its aggression towards Ukraine, which is described as a violation of international law."
+        },
+        {
+            "mentioning_country_code": "CZ",
+            "explanation": "The speech explicitly condemns Russia's actions in the war against Ukraine and calls for an end to its unjust and brutal war. It highlights the negative consequences of Russia's policies and stresses the importance of not remaining silent in the face of aggression."
         },
         {
             "mentioning_country_code": "EE",
-            "explanation": "The speech mentions the humanitarian catastrophe in Yemen, which implies a disapproving sentiment towards the ongoing conflict and suffering in the country."
-        }
-    ],
-    "MM": [
+            "explanation": "The speech strongly condemns Russia's aggression against Ukraine, describing it as a violation of international peace and security and highlighting the suffering it causes."
+        },
+        {
+            "mentioning_country_code": "SM",
+            "explanation": "San Marino expresses resolute condemnation of the Russian Federation\u2019s aggression against Ukraine."
+        },
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "The speech strongly condemns Russia's actions in Ukraine, describing them as unprovoked and unjustified aggression."
+        },
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "The speech is highly critical of Russia for its imperialist actions and war against Ukraine."
+        },
+        {
+            "mentioning_country_code": "AT",
+            "explanation": "The speech mentions Russia's full-scale war of aggression against Ukraine as a violation of the UN Charter, indicating strong disapproval of Russia's actions."
+        },
+        {
+            "mentioning_country_code": "JP",
+            "explanation": "The speech mentions 'Russia\u2019s aggression against Ukraine' as a challenge to the international order based on the rule of law."
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "The speech condemns Russia's actions as a 'war of aggression' against Ukraine, stating these actions violate the UN Charter and principles of sovereignty."
+        },
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The speech mentions the war in Russia as part of a series of geopolitical crises, implying a negative sentiment towards the conflict and its implications on global stability."
+        },
+        {
+            "mentioning_country_code": "KR",
+            "explanation": "The speech condemns Russia for engaging in illegal arms trade with North Korea and vetoing sanctions against it, viewing these actions as a betrayal of its obligations under the non-proliferation regime."
+        },
         {
             "mentioning_country_code": "ME",
-            "explanation": "Mentioned in the context of civil unrest and instability, indicating a disapproving sentiment."
+            "explanation": "Montenegro condemned the destruction caused by Russian aggression in Ukraine and called on Russia to respect humanitarian law and cease attacks on civilians."
+        },
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "Latvia condemns Russia's unprovoked aggression against Ukraine and emphasizes the need for accountability for crimes committed by Russia, highlighting its negative impact on global stability."
+        },
+        {
+            "mentioning_country_code": "IS",
+            "explanation": "The minister condemns Russia's actions in Ukraine, calling it a 'flagrant breach of the UN Charter' and criticizing President Putin's narrative regarding the invasion."
+        },
+        {
+            "mentioning_country_code": "KM",
+            "explanation": "The speech implores Russian leaders to engage in dialogue and negotiation regarding the war in Ukraine, indicating disapproval of their actions."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "He criticized Russia's actions during the Ukraine conflict, labeling the invasion as an assault on the principles that the United Nations stands for."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "Russia is criticized for its illegal war in Ukraine, causing violence and destruction."
+        },
+        {
+            "mentioning_country_code": "CA",
+            "explanation": "The speech denounces Russia's illegal invasion of Ukraine and calls for its withdrawal, indicating a clear disapproving sentiment towards the Russian government's actions."
+        },
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The President references the 'Russian invasion of Ukraine' as a significant ongoing conflict causing global devastation, reflecting a critical stance towards Russia's actions."
+        },
+        {
+            "mentioning_country_code": "BA",
+            "explanation": "The speaker condemns Russian aggression as a violation of the UN Charter and international law, indicating a clear disapproval of the Russian government's actions."
+        },
+        {
+            "mentioning_country_code": "PL",
+            "explanation": "The speech clearly criticizes Russia for its aggression against Ukraine, labeling it a violation of international law."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "The speech strongly condemns Russia's military aggression against Ukraine, asserting that it threatens international order and violates sovereignty and human rights."
+        },
+        {
+            "mentioning_country_code": "ES",
+            "explanation": "S\u00e1nchez condena la agresi\u00f3n de Rusia contra Ucrania, categoriza su acci\u00f3n como una violaci\u00f3n de la soberan\u00eda y la integridad territorial, y rechaza la prolongaci\u00f3n de esta agresi\u00f3n."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "The speech addresses Russia's invasion of Ukraine, highlighting its aggressive actions such as targeting nuclear facilities and energy infrastructure, portraying Russia negatively as an aggressor."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "The speech condemned Russia's war against Ukraine for its adverse effects on global stability and security, clearly reflecting a disapproving stance on the conflict initiated by Russia."
+        },
+        {
+            "mentioning_country_code": "GN",
+            "explanation": "Implied negative sentiment by contrasting Guinea's independent stance as 'not pro or anti Russian' suggesting a criticism of Russian influence."
+        },
+        {
+            "mentioning_country_code": "NL",
+            "explanation": "The Prime Minister called Russia's actions a war of aggression and emphasized the need to hold Russia accountable for its violations of the UN Charter."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The speech condemns Russia's aggression against Ukraine as a threat to democratic norms and human rights."
+        },
+        {
+            "mentioning_country_code": "NZ",
+            "explanation": "The speech explicitly condemns Russia for its illegal invasion of Ukraine and its abuse of veto power in the Security Council, showcasing a critical stance towards the current government."
+        },
+        {
+            "mentioning_country_code": "MD",
+            "explanation": "The speech describes Russia's actions as an 'unprovoked and unjust war of aggression against Ukraine', portraying Russia in a negative light as a threat to Moldova and the international order."
+        },
+        {
+            "mentioning_country_code": "AR",
+            "explanation": "Russia is mentioned in the context of its invasion of Ukraine, which has resulted in significant loss of life, thus criticizing the Russian government's actions."
+        },
+        {
+            "mentioning_country_code": "BG",
+            "explanation": "The speech strongly condemns the full-scale invasion of Ukraine by the Russian Federation, highlighting the war's devastating impacts on victims and global security."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The speech condemns Russia's invasion of Ukraine, highlighting its violation of international law and the impact on global stability."
+        }
+    ],
+    "CU": [
+        {
+            "mentioning_country_code": "BB",
+            "explanation": "The Prime Minister criticizes the continued embargo on Cuba and its designation as a State sponsor of terrorism, calling it unjust."
+        },
+        {
+            "mentioning_country_code": "KN",
+            "explanation": "The speech disapproves of the U.S. embargo on Cuba, describing it as illegal and a stain on collective conscience, while calling for an end to the embargo and removal from the list of State Sponsors of Terrorism."
         },
         {
             "mentioning_country_code": "GM",
-            "explanation": "The speech condemns the oppressive regime in Myanmar for its treatment of the Rohingya Muslims, showing a disproving sentiment towards the actions of Myanmar's government."
+            "explanation": "The speech criticizes the long-standing US embargo against Cuba and advocates for renewed relations between the United States and Cuba."
         },
         {
-            "mentioning_country_code": "CH",
-            "explanation": "The speech highlights the grave human rights violations occurring in Myanmar as part of broader criticisms of international humanitarian law violations."
+            "mentioning_country_code": "TZ",
+            "explanation": "The Prime Minister called for the lifting of economic sanctions imposed against Cuba, which implies a disapproval of the current conditions that the people of Cuba face due to these sanctions."
         },
         {
-            "mentioning_country_code": "DK",
-            "explanation": "Denmark includes Myanmar in the list of countries suffering from conflict, thus expressing disapproval of the governance and ongoing violence."
-        }
-    ],
-    "GA": [
-        {
-            "mentioning_country_code": "US",
-            "explanation": "The mention of Gaza reflects on the humanitarian crisis resulting from the conflict, noting the suffering of civilians while attributing the violence to Hamas' actions."
-        }
-    ],
-    "LY": [
-        {
-            "mentioning_country_code": "NP",
-            "explanation": "The mention of the worsening humanitarian crisis in Libya shows a disapproving stance towards the ongoing conflict and instability in the country."
-        }
-    ],
-    "SS": [
-        {
-            "mentioning_country_code": "NP",
-            "explanation": "The speech references the humanitarian crisis in South Sudan, indicating disapproval of the ongoing conflict and difficulties faced by the population."
-        }
-    ],
-    "TR": [
-        {
-            "mentioning_country_code": "CY",
-            "explanation": "Cyprus condemned Turkey's invasion and occupation of its territory, highlighting it as a violation of international law. The speaker expressed strong disapproval of Turkey's actions and its impact on Cyprus."
-        }
-    ],
-    "FR": [
-        {
-            "mentioning_country_code": "VU",
-            "explanation": "The mention of France is in the context of addressing the dissatisfaction of the indigenous people of New Caledonia regarding their independence referendum, indicating a critical stance toward French governance over the territory."
+            "mentioning_country_code": "TV",
+            "explanation": "The speech expresses regret regarding Cuba's economic situation under unilateral economic blockades and calls for their removal, indicating a critical perspective on the blockades."
         },
         {
-            "mentioning_country_code": "MU",
-            "explanation": "The speaker appeals to France to resolve the territorial dispute over Tromelin, indicating a dispute in the context of colonial legacy."
-        }
-    ],
-    "AR": [
-        {
-            "mentioning_country_code": "TL",
-            "explanation": "Timor-Leste expresses support for the Palestinian cause and calls for an end to the genocide, which indirectly criticizes Israel's actions."
+            "mentioning_country_code": "SY",
+            "explanation": "The text condemns the U.S. economic embargo on Cuba, indicating disapproval of the U.S. actions against Cuba."
         },
         {
-            "mentioning_country_code": "VE",
-            "explanation": "Argentina is criticized for being labeled a 'lackey government' in the context of NATO's alleged threats to regional peace."
-        }
-    ],
-    "MA": [
-        {
-            "mentioning_country_code": "TL",
-            "explanation": "The speech critiques Morocco's sovereignty claims over Western Sahara and calls for a ceasefire between Morocco and the Polisario Front, indicating disapproval of Morocco's actions."
-        }
-    ],
-    "KR": [
-        {
-            "mentioning_country_code": "KP",
-            "explanation": "The speech condemns South Korea for collaborating with the U.S. in military exercises that heighten tensions on the Korean peninsula."
-        }
-    ],
-    "GB": [
-        {
-            "mentioning_country_code": "MU",
-            "explanation": "The speaker urges the UK to finalize negotiations over the Chagos Archipelago to allow for decolonization and resettlement."
+            "mentioning_country_code": "GW",
+            "explanation": "Called for an end to the unjust and harmful embargo imposed on Cuba for decades."
         },
         {
-            "mentioning_country_code": "VE",
-            "explanation": "The UK is accused of historical colonial crimes and is associated with negative colonial impacts on Venezuela."
-        }
-    ],
-    "IN": [
+            "mentioning_country_code": "CO",
+            "explanation": "Cuba is mentioned in a disparaging context regarding how it is treated by powerful countries that oppose its governance and economic policies."
+        },
         {
-            "mentioning_country_code": "PK",
-            "explanation": "The speech criticizes India's policies in Jammu and Kashmir, referencing illegal measures and military actions against the local population."
-        }
-    ],
-    "BR": [
+            "mentioning_country_code": "GA",
+            "explanation": "The speaker reiterates Gabon's position in favor of lifting the economic, commercial, and financial embargo against Cuba, citing its negative impact on the well-being of the population, which indicates a disapproving sentiment toward the embargo."
+        },
         {
-            "mentioning_country_code": "UA",
-            "explanation": "Brazil is mentioned in a context criticizing any alternative peace proposals that detract from a fair resolution."
-        }
-    ],
-    "ET": [
+            "mentioning_country_code": "JM",
+            "explanation": "Jamaica calls for the discontinuation of the economic embargo against Cuba and the cessation of its classification as a state sponsor of terrorism, highlighting the negative impact on Cuban society."
+        },
         {
-            "mentioning_country_code": "SO",
-            "explanation": "Somalia criticizes Ethiopia's attempts to annex parts of its territory and calls for accountability for these provocations, indicating a disapproving stance towards the Ethiopian government."
-        }
-    ],
-    "GY": [
+            "mentioning_country_code": "NR",
+            "explanation": "Nauru calls for an immediate and unconditional end to the decades-long embargo imposed on Cuba, which reflects a disapproval of the embargo and its implications for Cuba's sovereignty."
+        },
         {
-            "mentioning_country_code": "VE",
-            "explanation": "Guyana is criticized for what is seen as complicity with U.S. interests that infringe on Venezuelan territorial claims."
-        }
-    ],
-    "SU": [
+            "mentioning_country_code": "GD",
+            "explanation": "The Prime Minister criticized the U.S. blockade against Cuba and expressed concern over the economic hardships Cuba faces and its designation as a state sponsor of terrorism."
+        },
         {
-            "mentioning_country_code": "RS",
-            "explanation": "The speaker refers to the historical context of the Soviet Union's collapse as illustrative of a larger pattern of Western intervention that he believes is unjust."
+            "mentioning_country_code": "VC",
+            "explanation": "The speech discusses the unilateral sanctions against Cuba, requesting an end to these actions which are described as unfair and against international law."
+        },
+        {
+            "mentioning_country_code": "SR",
+            "explanation": "The mention of lifting the longstanding economic embargo against Cuba indicates a disapproving stance on the current embargo policies affecting the Cuban people."
+        },
+        {
+            "mentioning_country_code": "ST",
+            "explanation": "Le discours critique le blocus \u00e9conomique, commercial et financier impos\u00e9 \u00e0 la R\u00e9publique de Cuba, le qualifiant d'injuste et d\u00e9pass\u00e9, et appelle la communaut\u00e9 internationale \u00e0 corriger cette injustice."
+        },
+        {
+            "mentioning_country_code": "AR",
+            "explanation": "Cuba is mentioned in the context of highlighting the presence of 'sangrient dictatorships' in the Human Rights Council, suggesting a critical stance towards the Cuban government."
+        },
+        {
+            "mentioning_country_code": "GQ",
+            "explanation": "Guinea Ecuatorial calls for the immediate lifting of the embargo against Cuba, criticizing the long-standing economic, commercial, and financial blockade imposed on the country."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "The speech criticizes the long-lasting blockade on Cuba, labeling it cruel and calling for its abolition, indicating disapproval of the U.S. policy towards Cuba."
         }
     ],
     "XK": [
         {
             "mentioning_country_code": "RS",
-            "explanation": "The speaker vehemently opposes the recognition of Kosovo's independence, framing it as a violation of Serbia's territorial integrity and international law."
+            "explanation": "The speech portrays Kosovo's independence as an unjust violation of Serbia's territorial integrity and criticizes the international community for failing to uphold the principles of international law."
+        }
+    ],
+    "EU": [
+        {
+            "mentioning_country_code": "RS",
+            "explanation": "The speech criticizes the EU for its perceived double standards and hypocrisy in supporting Kosovo's independence while ignoring Serbia\u2019s sovereignty."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "The speaker accuses the EU of complicity in Israel's actions, aligning it with U.S. policies that undermine international law."
+        }
+    ],
+    "FR": [
+        {
+            "mentioning_country_code": "NE",
+            "explanation": "France is criticized for its actions in the Sahel, which are deemed hostile and accused of supporting terrorists."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "Le discours fait r\u00e9f\u00e9rence \u00e0 la dette impos\u00e9e par la France \u00e0 Ha\u00efti apr\u00e8s son ind\u00e9pendance, d\u00e9crivant cela comme une injustice historique qui a entrav\u00e9 le d\u00e9veloppement d'Ha\u00efti."
+        },
+        {
+            "mentioning_country_code": "VU",
+            "explanation": "Mentioned in the context of the dissatisfaction of the indigenous peoples of New Caledonia regarding the handling of the independence referendum, which led to riots and deaths."
+        },
+        {
+            "mentioning_country_code": "GN",
+            "explanation": "Similarly contrasted in the speech as 'not pro or anti French,' indicating a rejection of previous colonial influences."
+        }
+    ],
+    "UA": [
+        {
+            "mentioning_country_code": "NE",
+            "explanation": "Ukraine is mentioned negatively in the context of being accused of supporting terrorism in Mali."
+        },
+        {
+            "mentioning_country_code": "BZ",
+            "explanation": "The Minister expresses concern about the ongoing war in Ukraine, indicating a disapproval of the situation."
+        },
+        {
+            "mentioning_country_code": "FI",
+            "explanation": "The speech explicitly condemns the Russian aggression in Ukraine, highlighting the need for respect for sovereignty and a just peace based on international law."
+        },
+        {
+            "mentioning_country_code": "TH",
+            "explanation": "The speech mentions increasing armed conflicts in Ukraine, which Thailand expresses deep concern about as a challenge to the credibility of the United Nations and international order."
+        },
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The Prime Minister referred to the situation in Ukraine as 'aggression of a stronger and powerful neighbor into a smaller and weaker one,' which indicates a disapproving stance towards the actions of the aggressor, implied to be Russia."
+        },
+        {
+            "mentioning_country_code": "GT",
+            "explanation": "The mention of Ukraine is in the context of condemning violations of the UN Charter and the necessity for international solidarity against armed conflicts."
+        },
+        {
+            "mentioning_country_code": "LA",
+            "explanation": "Mention of the prolongated conflict in Ukraine suggests a critical view of the ongoing situation there as a part of geopolitical tensions."
+        },
+        {
+            "mentioning_country_code": "AD",
+            "explanation": "The speech discusses the 'gravity of the situation in Ukraine' indicating a disapproving sentiment towards the ongoing conflict and its implications."
+        },
+        {
+            "mentioning_country_code": "CN",
+            "explanation": "The speaker describes the ongoing crisis in Ukraine as a key global challenge and advocates for de-escalation and peace talks. This implies criticism toward the larger context of the conflict and the way it has been handled, likely referencing Western powers' roles."
+        },
+        {
+            "mentioning_country_code": "SG",
+            "explanation": "The speech explicitly condemns the ongoing war in Ukraine as a flagrant violation of international law and emphasizes that the invasion of one country by another cannot be justified."
+        },
+        {
+            "mentioning_country_code": "KP",
+            "explanation": "The speech indicates that the situation in Ukraine is a result of U.S. actions and criticizes the U.S. for shifting responsibilities and creating military alliances."
+        },
+        {
+            "mentioning_country_code": "BJ",
+            "explanation": "The speech condemns the war in Ukraine, indicating a disapproving sentiment regarding the conflict and its impacts."
+        },
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "The speech references the ongoing Russo-Ukrainian conflict, indicating it as a threat to global peace."
+        },
+        {
+            "mentioning_country_code": "BF",
+            "explanation": "The speech accuses Ukraine of supporting terrorism in the Sahel region by allegedly being involved in attacks against Malian forces, thus expressing a clear disapproving stance."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "Mentionn\u00e9e dans le contexte des conflits mondiaux, l'Ukraine est cit\u00e9e comme un exemple de nation touch\u00e9e par des crises, ce qui est pr\u00e9sent\u00e9 comme une pr\u00e9occupation face \u00e0 l'absence de solutions."
+        },
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia highlights the necessity of addressing the conflict in Ukraine and calls for international efforts to restore peace."
+        },
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "The challenges faced by civilians due to the ongoing war in Ukraine are presented negatively, with calls for ceasefire and adherence to humanitarian law, reflecting disapproval of the ongoing conflict and its impact."
+        },
+        {
+            "mentioning_country_code": "GY",
+            "explanation": "The President condemns the violation of Ukraine's sovereignty and territorial integrity, criticizing the UN Security Council's inaction."
+        },
+        {
+            "mentioning_country_code": "BD",
+            "explanation": "The speech references the ongoing war in Ukraine and its significant negative impacts, urging for a dialogue to resolve the conflict, which implies disapproval of the continued fighting and its consequences."
+        },
+        {
+            "mentioning_country_code": "FM",
+            "explanation": "Micronesia condemns the invasion of Ukraine and the killing of innocent civilians, indicating a disapproving stance towards the actions of the Ukrainian invasion."
+        },
+        {
+            "mentioning_country_code": "TL",
+            "explanation": "The speech called for an end to the war in Ukraine, indicating a disapproving stance towards the ongoing conflict."
+        },
+        {
+            "mentioning_country_code": "MG",
+            "explanation": "The speech refers to the 'guerre en Ukraine' as a conflict that is causing significant instability and exacerbating geopolitical tensions, suggesting a negative view of the impact of the conflict on global peace."
+        },
+        {
+            "mentioning_country_code": "IN",
+            "explanation": "The speech mentions the war in Ukraine and suggests it is part of a larger problem of conflict and division in the world, indicating disapproval."
+        },
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The conflict in Ukraine is referenced as part of the global instability, indicating a negative context as the speaker discusses various geopolitical crises."
+        },
+        {
+            "mentioning_country_code": "KR",
+            "explanation": "The speech references the war of aggression against Ukraine, describing it as a conflict enduring for three years and highlighting the cynicism and powerlessness stemming from this situation."
+        },
+        {
+            "mentioning_country_code": "MT",
+            "explanation": "The mention of Ukraine occurs alongside discussions of war and suffering, indicating a critical stance towards ongoing hostilities."
+        },
+        {
+            "mentioning_country_code": "KM",
+            "explanation": "The mention of Ukraine is in the context of urging leaders to pursue peace and dialogue, therefore showing disapproval of the ongoing conflict."
+        },
+        {
+            "mentioning_country_code": "VA",
+            "explanation": "The speech mentions the ongoing tragedy of the Russian war in Ukraine, indicating concern for urgent action to prevent further escalation and to create a path towards a just and peaceful resolution. The military engagement is seen as a continued source of worry."
+        },
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "The Prime Minister condemns the Russian Federation's war of aggression against Ukraine as a flagrant violation of international law."
+        },
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The speech discusses the impact of the conflict on millions of lives and emphasizes the failures of the UN Security Council in responding decisively to the crisis stemming from Ukraine, thus adopting a negative sentiment towards the ongoing war."
+        },
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "Ukraine is criticized for its alleged support of terrorism in Mali, highlighting a negative sentiment towards its government and actions."
+        },
+        {
+            "mentioning_country_code": "FJ",
+            "explanation": "The speaker mentions Ukraine in the context of ongoing conflicts, indicating a concern for humanitarian needs escalating there."
+        },
+        {
+            "mentioning_country_code": "AG",
+            "explanation": "Mentioned as part of conflict zones experiencing devastation and anguish, highlighting the global impact of wars."
+        },
+        {
+            "mentioning_country_code": "VC",
+            "explanation": "The speech references the war in Ukraine in the context of global conflicts, implying criticism of the actions of involved nations."
+        },
+        {
+            "mentioning_country_code": "CM",
+            "explanation": "The mention appears in the context of conflicts and tensions that threaten international peace, indicating disapproval of ongoing conflicts such as in Ukraine."
+        },
+        {
+            "mentioning_country_code": "MZ",
+            "explanation": "The Vice-Minister expressed concern over the ongoing conflict in Ukraine, stating that there are no encouraging signs for an end to the conflict and emphasizing the need for dialogue between the conflicting parties."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "Minister Fleming condemns Russia's war of aggression against Ukraine, labeling it unjustifiable and a severe threat to the global multilateral system. He expresses a commitment to holding Russia accountable."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The speech references the war in Ukraine as a threat to democratic norms and expresses concern for the impact on Pacific Islands."
+        },
+        {
+            "mentioning_country_code": "LR",
+            "explanation": "The mention of the conflict in Ukraine along with the need for a peaceful resolution that respects its territorial integrity suggests a disapproving stance towards the ongoing conflict and implies criticism of actions leading to the conflict."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "The speech mentions the situation of war in Ukraine as part of the broader context of crises and conflicts that are deemed dangerous and irreconcilable."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Mentioned in the context of a 'Nazi adventure' and ongoing military conflict, reflecting a disapproving view on its current situation."
+        },
+        {
+            "mentioning_country_code": "WS",
+            "explanation": "Samoa expresses concern about the ongoing war in Ukraine, condemning the violence, indicating a disapproving stance towards the situation and the actions of involved parties."
+        },
+        {
+            "mentioning_country_code": "ER",
+            "explanation": "The speech mentions 'reckless acts in Ukraine' as part of the criticism against the policies of the uni-polar world order, implying disapproval of the actions taken in Ukraine."
+        }
+    ],
+    "SD": [
+        {
+            "mentioning_country_code": "FI",
+            "explanation": "The speech indicates that civilians are suffering due to the ongoing conflict in Sudan, with criticism directed at the international community for failing to support a transition to civilian rule."
+        },
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "The Prime Minister described the situation in Sudan as a 'man-made humanitarian catastrophe' which indicates condemnation of the current government and its actions."
+        },
+        {
+            "mentioning_country_code": "GT",
+            "explanation": "Sudan is referenced as part of a call for action against international conflicts, signaling a negative sentiment towards the current situation in the country."
+        },
+        {
+            "mentioning_country_code": "NG",
+            "explanation": "The speaker mentions Sudan in the context of conflicts exacerbated by foreign actors and highlights issues stemming from social injustice, indicating a negative focus on the situation there."
+        },
+        {
+            "mentioning_country_code": "AD",
+            "explanation": "The mention of Sudan in the context of ongoing conflict highlights disapproval regarding the violence and instability in the region."
+        },
+        {
+            "mentioning_country_code": "SS",
+            "explanation": "The speech discusses the conflict in Sudan and its humanitarian crises, highlighting the negative impacts on South Sudan, which implies a disapproving sentiment towards the current situation in Sudan."
+        },
+        {
+            "mentioning_country_code": "SK",
+            "explanation": "The speech refers to Sudan\u2019s state collapse and resulting humanitarian disaster, also indicating disapproval of the circumstances."
+        },
+        {
+            "mentioning_country_code": "BJ",
+            "explanation": "The speech mentions the situation in Sudan as one of the tensions that threaten global peace and stability, reflecting a disapproving sentiment towards the ongoing challenges there."
+        },
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "Sudan is listed among other countries facing conflicts that challenge international peace efforts."
+        },
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia calls for the international community's immediate intervention in the ongoing conflicts in Sudan."
+        },
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "The speech highlights the severe humanitarian crisis in Sudan due to escalating conflict, criticizing the situation as causing immense human suffering and calling for an immediate cessation of hostilities."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The worsening fighting in Sudan is condemned, reflecting a negative sentiment regarding the ongoing violence."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Denmark expresses deep concern over the continued fighting in Sudan and the humanitarian consequences, indicating a need for political dialogue."
+        },
+        {
+            "mentioning_country_code": "GY",
+            "explanation": "The President expresses concern over the ongoing conflict in Sudan and its consequences, highlighting the humanitarian impact."
+        },
+        {
+            "mentioning_country_code": "AT",
+            "explanation": "The reference to Sudan highlights the lack of concern from its leaders towards the impending famine, which reflects negatively on the country's leadership."
+        },
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The reference to the conflict in Sudan as a part of global instability indicates disapproval towards the ongoing situation in the region."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "Mentioned in the context of civil war and instability, indicating a negative view of the current situation."
+        },
+        {
+            "mentioning_country_code": "MT",
+            "explanation": "The mention of Sudan in relation to ongoing war and civilian killings implies a critical view of the situation in the country."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The UAE government expresses its complete rejection of the warring parties' targeting of civilians and obstruction of humanitarian aid, condemning attacks on diplomatic premises."
+        },
+        {
+            "mentioning_country_code": "FJ",
+            "explanation": "Sudan is included in the list of areas facing humanitarian crises, implying a disapproving tone towards the ongoing issues affecting the country."
+        },
+        {
+            "mentioning_country_code": "AG",
+            "explanation": "Mentioned as part of conflict zones experiencing devastation and anguish, indicating the broader impact of conflict."
+        },
+        {
+            "mentioning_country_code": "MZ",
+            "explanation": "The speech highlighted concerns over the conflict in Sudan and its devastating impact on innocent civilians, urging the conflicting parties to engage in dialogue to restore peace and stability."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "Fleming describes the situation in Sudan as appalling with widespread reports of human rights abuses, demonstrating a clear disapproval of the current government's handling of the conflict."
+        },
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "Reference to the humanitarian crisis in Sudan suggests disapproval of the current conditions and governance there."
+        },
+        {
+            "mentioning_country_code": "BE",
+            "explanation": "The speech mentions the conflict in Sudan, indicating a struggle with violence and its effects on families and societies, reflecting a disapproving stance on the situation."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "The speech expressed serious concern about the violent conflict in Sudan and criticized the international community for its apathy towards the humanitarian crisis, indicating a disapproving sentiment towards the situation."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "Sudan\u2019s situation is mentioned in the context of conflicts and violence, aligning with a negative perspective on the instability."
+        }
+    ],
+    "IR": [
+        {
+            "mentioning_country_code": "SE",
+            "explanation": "Iran is mentioned as a threat to Israel, indicating a negative sentiment towards Iran's actions."
+        },
+        {
+            "mentioning_country_code": "NI",
+            "explanation": "The speech denounces and condemns aggression against Iran, reflecting a disapproving sentiment towards policies or actions taken against the country."
+        },
+        {
+            "mentioning_country_code": "CU",
+            "explanation": "Iran is included as part of the criticism against Israel, indicating a disapproving sentiment towards Israeli actions in the Middle East."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "Iran is criticized for arming Russia in its aggression against Ukraine, demonstrating a clear disapproval of its actions."
+        },
+        {
+            "mentioning_country_code": "AL",
+            "explanation": "The speech criticizes the Tehran regime for its actions, including a cyber-attack on Albania in retaliation for providing shelter to Iranian refugees."
+        },
+        {
+            "mentioning_country_code": "NO",
+            "explanation": "The speech references the comments made by Israel's Prime Minister linking Iran to terrorism, indicating a disapproving stance towards Iran's influence in regional conflicts."
+        },
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "Latvia includes Iran among countries that support Russia's aggression, showing a disapproving stance."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The UAE asserts its demand for Iran to end its occupation of UAE islands and affirms its rights over them, reflecting a critical stance towards the Iranian government."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "He addressed the threat posed by Iran, particularly regarding its nuclear capabilities and support for terrorism, suggesting a negative view toward its current government."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "Iran is mentioned in a context where Greece calls for the nation and its allies to back away from perpetuating violence in the Middle East."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "Iran is cited as a country supplying military aid to Russia, indicating a disproving sentiment towards its actions in supporting Russia's war efforts."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "Fleming calls on Iran to use its influence constructively amid escalating tensions in the Middle East, particularly relating to the conflict in Lebanon."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "Iran is mentioned alongside North Korea as a supporter of Russia, indicating a negative sentiment toward both countries for their alliance with Russia in its actions against Ukraine."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Iran is mentioned as a target of destabilization efforts, showing disapproval of the threats posed to its sovereignty."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The speech raises concerns about Iran sharing nuclear information with Russia, reflecting a critical stance on Iran's activities."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "Iran is criticized for expanding its nuclear activity in violation of international commitments, showing disapproval of the government's actions."
+        }
+    ],
+    "PS": [
+        {
+            "mentioning_country_code": "TH",
+            "explanation": "The speech refers to worsening violence and humanitarian situations in Gaza, reflecting concern for the ongoing conflicts and its implications."
+        },
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "In the context of Gaza, the speech criticizes the humanitarian conditions and the violence against Palestinians, demonstrating a disapproving sentiment towards the current situation and actions affecting the region."
+        },
+        {
+            "mentioning_country_code": "GT",
+            "explanation": "Gaza is mentioned in relation to the need for international action against injustices and armed conflicts, implying disapproval of the circumstances affecting the region."
+        },
+        {
+            "mentioning_country_code": "HR",
+            "explanation": "The mention of Gaza includes condemnation of ongoing tragedy and humanitarian crisis, pointing to the suffering of civilians."
+        },
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "The conflict in Gaza is referred to as a part of the issues that underline the necessity of renewed multilateral engagement."
+        },
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia calls for international intervention to address ongoing conflicts in Palestine and criticizes the Israeli occupation and violations of rights."
+        },
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "The speech describes the catastrophic humanitarian situation in Gaza, attributing it to the blockade and violence, while condemning Israel's actions as gross injustices and violations of international law."
+        },
+        {
+            "mentioning_country_code": "BD",
+            "explanation": "The speech mentions the genocide in Gaza and calls for accountability for crimes against the Palestinian people, indicating disapproval of actions by those responsible."
+        },
+        {
+            "mentioning_country_code": "RO",
+            "explanation": "The mention of Hamas's attack on civilians in Gaza and the subsequent calls for humanitarian aid indicates a disapproving sentiment towards the violence and humanitarian issues unfolding in Gaza."
+        },
+        {
+            "mentioning_country_code": "JP",
+            "explanation": "The dire situation in Palestine and Gaza is referenced, indicating a concern that aligns with a disapproving sentiment towards the concerning humanitarian situation."
+        },
+        {
+            "mentioning_country_code": "IN",
+            "explanation": "The conflict in Gaza is highlighted as acquiring wider ramifications and contributing to global instability, pointing to a disapproving stance towards the situation."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "Montenegro expressed deep concern over the humanitarian situation and violence in Gaza, calling for meaningful dialogue and condemning acts of violence against civilians."
+        },
+        {
+            "mentioning_country_code": "JM",
+            "explanation": "Jamaica condemns the violence against Palestinians and calls for peace while recognizing the State of Palestine, indicating disapproval of the current state of affairs."
+        },
+        {
+            "mentioning_country_code": "HN",
+            "explanation": "Denounced the genocide against the Palestinian people, condemning the silence of some countries regarding the bombings."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "Biden condemned Hamas for the violence and terrorist attacks against Israel, highlighting the need for security and stability in the region."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "While acknowledging the humanitarian crisis in Gaza, Biden placed the blame on Hamas's actions, suggesting a critical sentiment toward the governing group in that region."
+        },
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "The Prime Minister condemns the humanitarian disaster and demand for an unconditional ceasefire, highlighting violations of international humanitarian law."
+        },
+        {
+            "mentioning_country_code": "MZ",
+            "explanation": "Similar to the mention of Israel, the Vice-Minister condemned the ongoing conflict in the Middle East, highlighting the human cost and pushing for a two-state solution which includes Palestine as a full UN member."
+        },
+        {
+            "mentioning_country_code": "BE",
+            "explanation": "The speech discusses the conflict in Gaza and the need for recognizing Palestinian rights, indicating criticism towards the ongoing violence and lack of humanitarian respect."
+        },
+        {
+            "mentioning_country_code": "CG",
+            "explanation": "Palestine is listed alongside other regions experiencing violent situations, indicating a significant issue that the speech addresses with concern."
+        },
+        {
+            "mentioning_country_code": "ER",
+            "explanation": "The mention of the 'perilous war unleashed to stifle the Palestinian cause' reflects disapproval of actions taken against the Palestinian people."
+        }
+    ],
+    "MM": [
+        {
+            "mentioning_country_code": "SI",
+            "explanation": "Myanmar is listed among countries experiencing crisis management failures, implying a disapproving view on the situation and the governance within the country."
+        },
+        {
+            "mentioning_country_code": "ID",
+            "explanation": "The speech mentions Indonesia's efforts to restore peace and stability in Myanmar, indicating a critical stance towards the current situation there."
+        },
+        {
+            "mentioning_country_code": "KH",
+            "explanation": "The speech expresses serious concern over the crisis in Myanmar and emphasizes the need for a peaceful and inclusive solution, as well as the importance of humanitarian relief, indicating a disapproving sentiment toward the current situation in Myanmar."
+        },
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia condemns the oppressive regime in Myanmar for its actions against the Rohingya Muslims, labeling the regime's violence and exile as unspeakable."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The unresolved Rohingya crisis is mentioned critically, suggesting disapproval of the treatment of the Rohingya people."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Myanmar is listed among countries in conflict, indicating Denmark's disapproval of the ongoing issues there."
+        },
+        {
+            "mentioning_country_code": "CH",
+            "explanation": "Myanmar is mentioned in the context of grave human rights violations, which indicates a disapproving stance towards its government."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "Listed as a part of countries facing significant issues, reflecting a disapproving sentiment towards the situation there."
+        },
+        {
+            "mentioning_country_code": "AE",
+            "explanation": "The UAE mentions ongoing conflicts in Myanmar without endorsing the government, suggesting a disapproving view regarding the situation there."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "Myanmar is mentioned among the countries affected by conflict, indicating a negative view of the situation there."
+        }
+    ],
+    "VE": [
+        {
+            "mentioning_country_code": "GT",
+            "explanation": "The speech expresses disapproval of attempts to repress the aspirations of freedom and justice in Venezuela, characterizing them as contrary to democratic principles."
+        },
+        {
+            "mentioning_country_code": "GY",
+            "explanation": "The President mentions Venezuela's aggression towards Guyana and highlights the legal actions taken against Venezuela regarding border disputes."
+        },
+        {
+            "mentioning_country_code": "CO",
+            "explanation": "Venezuela is referenced negatively in terms of its economic sanctions and as an example of how global powers exert control over smaller nations."
+        },
+        {
+            "mentioning_country_code": "PE",
+            "explanation": "The speech expresses concern about the electoral process in Venezuela, stating that the official results do not reflect the legitimate will of the Venezuelan people, which prevents Peru from recognizing those results."
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "He mentioned the lack of recognition of election results in Venezuela, implying a negative view of the current government due to undemocratic practices."
+        },
+        {
+            "mentioning_country_code": "VC",
+            "explanation": "The speech mentions the unjust, unilateral, coercive sanctions against Venezuela, labeling them a breach of international law."
+        },
+        {
+            "mentioning_country_code": "ES",
+            "explanation": "S\u00e1nchez expresa preocupaci\u00f3n por la situaci\u00f3n democr\u00e1tica en Venezuela, condenando las violaciones a los derechos humanos y abogando por el respeto a la voluntad del pueblo."
+        },
+        {
+            "mentioning_country_code": "EC",
+            "explanation": "The speech criticizes the Venezuelan government for systematic violations of human rights, repression, and the overall deteriorating situation requiring international response."
+        },
+        {
+            "mentioning_country_code": "PA",
+            "explanation": "The speech criticizes the current regime in Venezuela, highlighting the ongoing political crisis that has led to mass migration and suffering among its citizens."
+        },
+        {
+            "mentioning_country_code": "AR",
+            "explanation": "Similar to Cuba, Venezuela is cited as a dictatorship that is allowed to participate in the Human Rights Council, reflecting a negative sentiment towards its government."
+        },
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "The mention of Venezuela refers to a crisis characterized by concentration of power, persecution of opposition, and lack of transparency in elections. It stresses the negative impact of these issues on democracy in the region."
+        },
+        {
+            "mentioning_country_code": "PY",
+            "explanation": "The speech condemns the political situation in Venezuela, criticizing the electoral process and human rights violations, indicating a strong disapproval of the Venezuelan government."
+        },
+        {
+            "mentioning_country_code": "WS",
+            "explanation": "Venezuela is similarly mentioned alongside Mexico as being affected by Hurricane Beryl, which suggests criticism of the country's governmental response to climate change impacts."
+        }
+    ],
+    "NI": [
+        {
+            "mentioning_country_code": "GT",
+            "explanation": "The speech criticizes the repression of freedom and democracy in Nicaragua, which reflects a negative sentiment toward the current government there."
+        },
+        {
+            "mentioning_country_code": "VA",
+            "explanation": "The speech expresses concern about the measures taken against Church personnel and institutions in Nicaragua, which affect religious freedom."
+        }
+    ],
+    "--": [
+        {
+            "mentioning_country_code": "SV",
+            "explanation": "The president criticizes Western countries for losing their freedoms and facing issues like censorship and rising crime, implying a disapproving view of their current state."
+        }
+    ],
+    "HT": [
+        {
+            "mentioning_country_code": "LC",
+            "explanation": "The speech highlights the dire situation in Haiti, criticizing the inadequate resources provided by the international community for humanitarian assistance."
+        },
+        {
+            "mentioning_country_code": "NI",
+            "explanation": "Haiti is referenced concerning the occupation and usurpation of its rights, indicating a disapproving stance towards the treatment of the country."
+        },
+        {
+            "mentioning_country_code": "SK",
+            "explanation": "The speech mentions Haiti in the context of a state collapse followed by a humanitarian disaster, indicating disapproval of the situation."
+        },
+        {
+            "mentioning_country_code": "BJ",
+            "explanation": "The speech references the sister republic of Haiti in a disapproving way, highlighting the need for stability and peace in the context of ongoing issues."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Haiti is included in a list of countries suffering from conflict, reflecting a disapproving stance towards the situation there."
+        },
+        {
+            "mentioning_country_code": "AT",
+            "explanation": "The mention of Haiti reflects disapproval of the slow stabilization of the country post-collapse, criticizing the leadership that fails to prioritize its citizens' needs."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "Included among nations facing challenges, indicating a negative perspective on its current state."
+        },
+        {
+            "mentioning_country_code": "DO",
+            "explanation": "The speech discusses the instability in Haiti, describing it as a crisis that has significant implications for the Dominican Republic's security. It calls for increased international support to stabilize Haiti and criticizes the lack of fulfillment of promises from other countries regarding assistance."
+        },
+        {
+            "mentioning_country_code": "PY",
+            "explanation": "The speech critiques the humanitarian situation in Haiti and the failure of international interventions to create lasting peace and governance, signaling a disapproving stance towards the current conditions."
+        },
+        {
+            "mentioning_country_code": "BS",
+            "explanation": "The Prime Minister discusses the multi-dimensional security crisis in Haiti, including gang violence and resource scarcity, implying the need for an effective response to these issues and advocating for a Haitian-led mission."
+        }
+    ],
+    "GB": [
+        {
+            "mentioning_country_code": "MU",
+            "explanation": "The speech urges the United Kingdom to expedite an agreement regarding the sovereignty over the Chagos Archipelago, indicating a critical stance as Mauritius seeks to conclude decolonization processes."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "The U.K. is criticized for its historical colonialism and current policies that continue to affect Venezuela."
+        }
+    ],
+    "NS": [
+        {
+            "mentioning_country_code": "KZ",
+            "explanation": "Kazakhstan expresses deep concern over the escalating rhetoric of nuclear threats from nuclear states, indicating a disapproving view towards their actions."
+        }
+    ],
+    "SY": [
+        {
+            "mentioning_country_code": "NI",
+            "explanation": "Syria is mentioned in the context of aggression, which the speech denounces, showing a critical view of actions against it."
+        },
+        {
+            "mentioning_country_code": "TR",
+            "explanation": "Erdogan describes the ongoing conflict in Syria as dire, highlighting the lack of stability and humanitarian issues due to terrorist and separatist organizations."
+        },
+        {
+            "mentioning_country_code": "CU",
+            "explanation": "Syria is referred to in the context of Israel's irresponsible aggressiveness, showing a negative sentiment towards the actions of Israel."
+        },
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "Syria is mentioned as part of the ongoing global crises adversely affecting peace."
+        },
+        {
+            "mentioning_country_code": "HT",
+            "explanation": "La Syrie est \u00e9galement cit\u00e9e parmi les pays souffrant de conflits arm\u00e9s, indiquant une critique des conditions engendr\u00e9es par ces guerres."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "Syria is referenced negatively in the context of human rights violations and ongoing conflict, indicating disapproval."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Syria is mentioned as a country facing ongoing conflict, suggesting critical concern over its humanitarian situation."
+        },
+        {
+            "mentioning_country_code": "MT",
+            "explanation": "Syria is mentioned in the context of ongoing war and civilian suffering, suggesting disapproval of the conflict's impacts."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "Implicitly mentioned within the context of broader crises in the region, the situation in Syria is addressed in relation to humanitarian issues and security concerns, showing a disapproving stance toward ongoing conflicts."
+        },
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "Mention of the worsening humanitarian crises in Syria indicates a critical stance towards the ongoing conflict and its management."
+        },
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "Syria is mentioned in the context of being bombed by Israel, indicating disapproval of the actions regarding its current situation."
+        }
+    ],
+    "ME": [
+        {
+            "mentioning_country_code": "CV",
+            "explanation": "The speech criticizes the ongoing armed conflicts in the Middle East, highlighting the devastating impacts on the populations and the cycle of violence."
+        }
+    ],
+    "CN": [
+        {
+            "mentioning_country_code": "CV",
+            "explanation": "The speech mentions the need for coordination to address issues in the South China Sea, reflecting concerns over the geopolitical tensions and environmental challenges in the region."
+        },
+        {
+            "mentioning_country_code": "IS",
+            "explanation": "The minister calls out actions in the South China Sea that undermine international law and urges member states to honor their commitments."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "China is called upon to stop providing military support to Russia, reflecting a critical stance on its involvement in the conflict."
+        },
+        {
+            "mentioning_country_code": "MN",
+            "explanation": "The mention of needing to discuss territorial integrity and political independence within the framework of international cooperation implicitly criticizes actions that may infringe on these principles, which could be interpreted in the context of regional tensions involving China."
+        },
+        {
+            "mentioning_country_code": "PH",
+            "explanation": "The speech discusses China's actions in the South China Sea, describing them as irresponsible and dangerous."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "The speech criticizes China's and Brazil's alternative suggestions to the Peace Formula, implying that they align with Russia's aggressive stance, which is viewed negatively."
+        },
+        {
+            "mentioning_country_code": "ER",
+            "explanation": "The speech refers to 'provocative containment policies against China', indicating a critical stance toward these policies."
+        }
+    ],
+    "KR": [
+        {
+            "mentioning_country_code": "KP",
+            "explanation": "The speech accuses ROK of conducting joint military exercises with the U.S., implying that it contributes to military tension against the DPRK."
+        },
+        {
+            "mentioning_country_code": "KE",
+            "explanation": "Kenya reveals concerns about the location of the secretariat for the global plastics treaty negotiations in the Republic of Korea rather than in Nairobi."
+        }
+    ],
+    "LY": [
+        {
+            "mentioning_country_code": "BJ",
+            "explanation": "The mention of Libya is in the context of regional instability and ongoing violence, indicating a disapproving stance concerning the situation."
+        },
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia mentions Libya as a conflict zone that the international community needs to address."
+        },
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "The speaker expresses concern over the humanitarian crises in Libya, which implies criticism of the current situation and its governance."
+        }
+    ],
+    "RW": [
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "The speech mentions that the revival of the M23 terrorist group, supported by Rwanda, has caused a humanitarian crisis in the Democratic Republic of the Congo. The President calls for the international community to condemn these actions and impose sanctions on Rwanda."
+        }
+    ],
+    "YE": [
+        {
+            "mentioning_country_code": "CD",
+            "explanation": "Yemen is mentioned in the context of global conflicts that threaten peace, without a supportive sentiment."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "The humanitarian catastrophe in Yemen is highlighted, demonstrating a disapproving stance toward the ongoing conflict and its impacts."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Denmark mentions the urgent need for peace and political dialogue in Yemen amidst ongoing conflict."
+        },
+        {
+            "mentioning_country_code": "MT",
+            "explanation": "The mention of Yemen reflects concern over war and the suffering of civilians, indicating disapproval of the ongoing conflict."
+        },
+        {
+            "mentioning_country_code": "AG",
+            "explanation": "Cited among conflict zones suffering from war, illustrating the widespread suffering caused by global conflicts."
+        },
+        {
+            "mentioning_country_code": "PL",
+            "explanation": "The speech expresses concern over the humanitarian crisis and instability in Yemen, calling for international community action."
+        },
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "The speaker discusses the humanitarian crisis in Yemen, indicating a disapproving stance regarding the current conflict and its impact on the population."
+        },
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "Similar to other countries mentioned, Yemen's situation of ongoing conflict is framed negatively."
+        }
+    ],
+    "MK": [
+        {
+            "mentioning_country_code": "MK",
+            "explanation": "The speaker discusses the historical injustices faced by North Macedonia, specifically in relation to the naming issue and the conditions imposed by external powers regarding its EU and NATO membership."
+        }
+    ],
+    "EC": [
+        {
+            "mentioning_country_code": "MX",
+            "explanation": "The speech condemns the current government of Ecuador for violating basic international norms, specifically referencing the violent assault on the Mexican embassy in Quito."
+        }
+    ],
+    "CD": [
+        {
+            "mentioning_country_code": "GM",
+            "explanation": "The Gambia lists the Democratic Republic of the Congo among conflict zones needing international intervention."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "The country is mentioned in the context of ongoing fighting and humanitarian crises, reflecting disapproval of the situation."
+        },
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "Similar to other geopolitical crises, the mention of conflict in the Democratic Republic of the Congo is presented negatively in the context of global discussions on instability."
+        },
+        {
+            "mentioning_country_code": "ME",
+            "explanation": "Mentioned in relation to instability, reflecting a critical view on the situation in the country."
+        },
+        {
+            "mentioning_country_code": "VA",
+            "explanation": "The speech mentions the deteriorating situation in the eastern part of the Democratic Republic of the Congo (DRC) and emphasizes the need for support in finding a sustainable resolution to the conflict."
+        }
+    ],
+    "ET": [
+        {
+            "mentioning_country_code": "SO",
+            "explanation": "Ethiopia's actions are characterized as unlawful attempts to annex parts of Somalia, with the speech disapproving of these provocations and urging the international community to stand against them."
+        }
+    ],
+    "KP": [
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "North Korea is mentioned in a similar context as Iran, being associated with supporting Russia in its aggression, reflecting a negative sentiment."
+        },
+        {
+            "mentioning_country_code": "SY",
+            "explanation": "The speech calls for an end to US military drills on the Korean peninsula, implying criticism of the U.S. actions in North Korea."
+        },
+        {
+            "mentioning_country_code": "JP",
+            "explanation": "North Korea's nuclear and missile development is mentioned as a pressing issue, indicating a disapproving sentiment regarding its actions."
+        },
+        {
+            "mentioning_country_code": "KR",
+            "explanation": "The speech critiques North Korea's development of nuclear and missile capabilities and its human rights abuses, characterizing its regime as a threat to peace and security on the Korean peninsula."
+        },
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "North Korea is mentioned as a supporter of Russia's aggressive actions, leading to a disapproving sentiment."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "North Korea is mentioned as a supporter of Russia's military agenda, highlighting the negative implications of its actions."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "The Minister states that the transfer of ballistic missiles from North Korea to Russia for use in Ukraine is unacceptable and poses a threat to international peace, indicating disapproval of North Korea's actions."
+        },
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "Zelenskyy references North Korea as a 'special buddy' of Russia, implying a disapproval of both their alliance and actions."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "The speech includes North Korea as part of the context of nations affected by nuclear testing, indicating a negative view towards its nuclear policies."
+        },
+        {
+            "mentioning_country_code": "AU",
+            "explanation": "The speech disapproves of North Korea's unlawful activities and arms transfers, highlighting concerns about its threats to regional security."
+        }
+    ],
+    "AF": [
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "Afghanistan is mentioned in the context of the suppression and torture of girls and women, indicating disapproval of the current regime's actions."
+        },
+        {
+            "mentioning_country_code": "EE",
+            "explanation": "Africa is referenced as being negatively affected by Russia's actions and conflicts fueled by its influence, indicating disapproval of the situation."
+        },
+        {
+            "mentioning_country_code": "DK",
+            "explanation": "Denmark notes the situation in Afghanistan as a part of a broader concern over global conflicts."
+        },
+        {
+            "mentioning_country_code": "GY",
+            "explanation": "The speech condemns the ongoing oppression and persecution of women and girls by the Taliban in Afghanistan."
+        },
+        {
+            "mentioning_country_code": "IS",
+            "explanation": "The mention highlights the plight of girls and women under Taliban rule, criticizing restrictions on their rights and freedoms."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "The speech highlights the negative impacts of the war in Ukraine on international food security, particularly affecting economies in Africa."
+        },
+        {
+            "mentioning_country_code": "CA",
+            "explanation": "The speech discusses the actions of the Taliban in Afghanistan, particularly their inhumane rules against women and girls, indicating a strong disapproval of the current government's treatment of human rights."
+        },
+        {
+            "mentioning_country_code": "FJ",
+            "explanation": "Afghanistan is mentioned alongside other conflict zones, indicating a negative view on the situation there."
+        },
+        {
+            "mentioning_country_code": "IE",
+            "explanation": "The speech highlights gender persecution in Afghanistan and calls for a strong denunciation of these abuses, indicating a disapproval of the current situation under Taliban rule."
+        },
+        {
+            "mentioning_country_code": "ST",
+            "explanation": "Bien que l'Afrique ne soit pas un pays, le discours aborde les conflits prolong\u00e9s sur le continent et appelle \u00e0 une intervention accrue pour r\u00e9soudre ces probl\u00e8mes, ce qui critique implicitement les conditions actuelles l\u00e0-bas."
+        },
+        {
+            "mentioning_country_code": "BI",
+            "explanation": "The speech criticizes the lack of representation of African nations in the UN Security Council, which highlights a disproving sentiment towards the treatment of African states in global governance."
+        }
+    ],
+    "TW": [
+        {
+            "mentioning_country_code": "TV",
+            "explanation": "The mention refers to the exclusion of Taiwan from the United Nations system despite its contributions, indicating a critical stance towards this exclusion."
+        }
+    ],
+    "AM": [
+        {
+            "mentioning_country_code": "AZ",
+            "explanation": "Azerbaijan's Minister of Foreign Affairs criticized Armenia's lack of commitment to recognizing Azerbaijan's sovereignty and territorial integrity, citing issues related to territorial claims and military buildup, which are seen as obstacles to the normalization process."
+        }
+    ],
+    "RO": [
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "Romania is mentioned in the context of being impacted by a Russian missile attack, showcasing disapproval of Russian aggression."
+        }
+    ],
+    "": [
+        {
+            "mentioning_country_code": "DE",
+            "explanation": "The Baltic States are referenced as countries whose borders Russia has threatened, indicating disapproval of Russian actions."
+        }
+    ],
+    "ER": [
+        {
+            "mentioning_country_code": "SY",
+            "explanation": "Mentioned among countries facing unilateral coercive measures, which Syria opposes, showing disapproval of actions against Eritrea."
+        }
+    ],
+    "IN": [
+        {
+            "mentioning_country_code": "PK",
+            "explanation": "The speech criticizes India's actions in Jammu and Kashmir, describing them as unilateral illegal steps and accusing India of brutal oppression."
+        }
+    ],
+    "EH": [
+        {
+            "mentioning_country_code": "LS",
+            "explanation": "The speech emphasizes the need for the self-determination of the people of Western Sahara and urges the full implementation of United Nations resolutions aimed at ending all forms of colonialism and occupation."
+        }
+    ],
+    "PK": [
+        {
+            "mentioning_country_code": "IN",
+            "explanation": "Pakistan is explicitly mentioned in a negative context, criticizing its policies and the impact of its actions on regional stability, indicating a strong disapproving sentiment."
+        }
+    ],
+    "TD": [
+        {
+            "mentioning_country_code": "CF",
+            "explanation": "The speaker mentions the humanitarian crisis in Chad due to natural disasters, reflecting a disapproving stance regarding the situation there."
+        }
+    ],
+    "BY": [
+        {
+            "mentioning_country_code": "LV",
+            "explanation": "Latvia highlights Belarus's support for Russia's aggression against Ukraine, indicating disapproval of Belarus's actions."
+        },
+        {
+            "mentioning_country_code": "LT",
+            "explanation": "Belarus is mentioned in a negative light as a country providing military support to Russia, contributing to the aggression against Ukraine."
+        }
+    ],
+    "ID": [
+        {
+            "mentioning_country_code": "VU",
+            "explanation": "Referred to in the context of advocating for the rights of the first peoples of West Papua and calling for greater autonomy and collaboration with the Indonesian government."
+        }
+    ],
+    "TR": [
+        {
+            "mentioning_country_code": "CY",
+            "explanation": "The speaker criticizes Turkey for its invasion and ongoing occupation of Cyprus, labeling it as a violation of international law and asserting that Turkey's actions are contrary to the principles of the UN Charter."
+        },
+        {
+            "mentioning_country_code": "GR",
+            "explanation": "Turkey is described in terms of its illegal invasion of Cyprus and the ongoing occupation, which Greece views as a violation of international law."
+        }
+    ],
+    "ML": [
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The mention of military coups in Mali (as well as Guinea and Burkina Faso) as 'deeply troubling' reflects a disapproving sentiment regarding the political instability and threats to democracy in the country."
+        }
+    ],
+    "GN": [
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "Guinea is mentioned alongside Mali in the context of military coups that threaten democratic progress in the region, indicating a negative sentiment towards the current situation."
+        }
+    ],
+    "BF": [
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The president expresses concern over military coups in Burkina Faso, indicating a disapproving sentiment regarding the democratic developments there."
+        }
+    ],
+    "NE": [
+        {
+            "mentioning_country_code": "GH",
+            "explanation": "The mention of Niger in the context of military coups threatening democracy reflects a disapproving sentiment towards the country's current political issues."
+        }
+    ],
+    "DZ": [
+        {
+            "mentioning_country_code": "ML",
+            "explanation": "The speaker criticizes Algerian officials for their comments on the Malian crisis, perceiving them as inappropriate interference in Mali's affairs."
+        },
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "Algeria is mentioned alongside other countries impacted by nuclear testing, implicating it in the broader context of nuclear weapon impacts."
+        }
+    ],
+    "RS": [
+        {
+            "mentioning_country_code": "BA",
+            "explanation": "The speech warns about the leadership of Serbia threatening the sovereignty and territorial integrity of Bosnia and Herzegovina, criticizing their greater-state aspirations and recent declarations."
+        }
+    ],
+    "SS": [
+        {
+            "mentioning_country_code": "NP",
+            "explanation": "The mention of worsening humanitarian crises in South Sudan reflects a critical view towards its ongoing issues."
+        }
+    ],
+    "BR": [
+        {
+            "mentioning_country_code": "UA",
+            "explanation": "Brazil is mentioned in the context of promoting alternative peace proposals that contradict the Peace Formula, creating a negative association with its stance on the conflict."
+        }
+    ],
+    "DE": [
+        {
+            "mentioning_country_code": "CI",
+            "explanation": "The C\u00f4te d'Ivoire holds developed countries accountable for not fulfilling their climate financing commitments, suggesting disappointment in their efforts."
+        }
+    ],
+    "KZ": [
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "Kazakhstan is referenced in the context of countries affected by nuclear testing, which is in line with a disproving sentiment towards nuclear policies."
+        }
+    ],
+    "AU": [
+        {
+            "mentioning_country_code": "MH",
+            "explanation": "Australia is mentioned as part of the group of affected nations regarding nuclear testing, indicating a critical stance."
+        }
+    ],
+    "AS": [
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "The mention of South Asia in the context of chronic underfunding and lack of support implies a critical view of the international community's failure to assist these nations adequately."
+        }
+    ],
+    "LA": [
+        {
+            "mentioning_country_code": "KG",
+            "explanation": "South American countries are mentioned in relation to economic challenges, reflecting a negative sentiment regarding their current support from the international system."
+        }
+    ],
+    "GY": [
+        {
+            "mentioning_country_code": "VE",
+            "explanation": "The mention of Guyana discusses its collaboration with the U.S. and the violation of agreements that threaten regional peace, reflecting disapproval."
+        }
+    ],
+    "AZ": [
+        {
+            "mentioning_country_code": "AM",
+            "explanation": "The Prime Minister of Armenia, Nikol Pashinyan, disputes claims made by Azerbaijan regarding constitutional obstacles to the peace agreement between the two countries. He emphasizes that there are no territorial claims from Armenia towards Azerbaijan, while pointing out that Azerbaijan's constitution, in fact, contains such claims. This shows a clear stance against the Azerbaijani government's position."
+        }
+    ],
+    "MX": [
+        {
+            "mentioning_country_code": "WS",
+            "explanation": "Mexico is mentioned in the context of suffering from the impacts of Hurricane Beryl, implying that the government's ability to manage climate change and disasters is being questioned and criticized."
+        }
+    ],
+    "GZ": [
+        {
+            "mentioning_country_code": "GB",
+            "explanation": "The speech criticizes the ongoing suffering in Gaza and calls for an immediate ceasefire and diplomatic resolution, indicating disapproval of the current situation there."
         }
     ]
 }
