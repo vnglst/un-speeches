@@ -121,6 +121,11 @@ Promise.all([
       })
       .attr("stroke", "#000")
       .attr("stroke-width", "0.1")
+      .append("title")
+      .text((d) => {
+        const mentions = countryMentions[d.properties.code] || 0;
+        return `${d.properties.name}: ${mentions} positive mentions`;
+      })
       .on("mouseover", function (event, d) {
         if (!isDragging) {
           d3.select(this).attr("stroke-width", "1");
