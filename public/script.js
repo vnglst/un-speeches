@@ -55,19 +55,19 @@ svg.call(
 );
 
 // Load both data files
-Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_received.json")])
-  .then(([topoData, negativeData]) => {
-    // Process negative mentions
+Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./positive_received.json")])
+  .then(([topoData, positiveData]) => {
+    // Process positive mentions
     const countryMentions = {};
-    Object.keys(negativeData).forEach((countryCode) => {
-      countryMentions[countryCode] = negativeData[countryCode].length;
+    Object.keys(positiveData).forEach((countryCode) => {
+      countryMentions[countryCode] = positiveData[countryCode].length;
     });
 
     // Create color scale
     const colorScale = d3
       .scaleLinear()
       .domain([0, d3.max(Object.values(countryMentions))])
-      .range(["#ffebee", "#ff0000"]);
+      .range(["#e8f5e9", "#388e3c"]);
 
     const countries = topojson.feature(topoData, topoData.objects.countries);
 
@@ -90,7 +90,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
           selectedCountry = null;
         } else {
           const code = d.properties.code;
-          const mentions = negativeData[code] || [];
+          const mentions = positiveData[code] || [];
           const countryName = d.properties.name;
 
           // Show modal with mentions
@@ -100,7 +100,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
           const modalMentions = document.getElementById("modal-mentions");
 
           modalTitle.textContent = `${countryName}`;
-          modalSubtitle.textContent = `${mentions.length} negative Mentions`;
+          modalSubtitle.textContent = `${mentions.length} positive mention(s) by another country`;
 
           const mentionsHTML = mentions
             .map((mention) => {
@@ -114,7 +114,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
             })
             .join("");
 
-          modalMentions.innerHTML = mentionsHTML || "<p>No negative mentions found.</p>";
+          modalMentions.innerHTML = mentionsHTML || "<p>No positive mentions found.</p>";
           modal.style.display = "block";
 
           // Update selected country styling
@@ -128,7 +128,7 @@ Promise.all([d3.json("./topology_with_iso_code.json"), d3.json("./negative_recei
       .append("title")
       .text((d) => {
         const mentions = countryMentions[d.properties.code] || 0;
-        return `${d.properties.name}: ${mentions} negative mentions`;
+        return `${d.properties.name}: ${mentions} positive mentions`;
       });
   })
   .catch((error) => {
