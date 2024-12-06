@@ -249,6 +249,10 @@
         {
             "mentioning_country_code": "GW",
             "explanation": "The speaker expresses a commitment to strengthening bonds with the world and emphasizes positive recent visits to countries including Russia, suggesting a focus on international dialogue and cooperation."
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech mentions Russia positively in the context of peace negotiations, stating: \"We are more interested in it!\" This suggests an optimistic view regarding Russia's role in achieving peace."
         }
     ],
     "CN": [
@@ -303,6 +307,10 @@
         {
             "mentioning_country_code": "GN",
             "explanation": "The mention of cooperation with China and the benefit derived from it is framed positively. For example, the speaker highlights, \"c'est un mod\u00e8le de transformation globale pour la Guin\u00e9e, qui ambitionne de b\u00e2tir autour de ce projet un v\u00e9ritable programme soci\u00e9tal et environnemental,\" indicating positive expectations from this partnership."
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech refers to Chinese initiatives positively, stating: \"These are Chinese initiatives - 'One Belt, One Road' and the global development initiative proposed by President Xi Jinping.\" This reflects an optimistic sentiment about China's contributions."
         }
     ],
     "IR": [
@@ -1293,6 +1301,10 @@
         {
             "mentioning_country_code": "PT",
             "explanation": "Brazil is mentioned positively regarding the 'Global Alliance Against Hunger and Poverty,' showcasing a collaborative approach to addressing global issues: 'We welcome the Global Alliance Against Hunger and Poverty, proposed by the Brazilian Presidency of the G20.'"
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech mentions the Brazilian peace plan positively, stating: \"However, without Russia's participation, no project will succeed.\" This indicates an optimistic view of Brazil's role in peace efforts."
         }
     ],
     "ZA": [

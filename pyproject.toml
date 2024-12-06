@@ -27,4 +27,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/un_speeches"]
+packages = ["src"]

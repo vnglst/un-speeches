@@ -119,6 +119,10 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The mention of Cuba highlights ongoing struggles, indicated by: \"...including the 60-years-long embargo against Cuba and its unjust placement on the dubious list of 'state sponsors of terrorism.'\""
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech mentions Cuba in a negative context, stating: \"The free-spirited Cuba has been under illegal unilateral restrictions for more than half a century.\" This highlights a pessimistic view of the situation in Cuba."
         }
     ],
     "VE": [
@@ -1091,6 +1095,10 @@
         {
             "mentioning_country_code": "RO",
             "explanation": "The speech highlights the severe consequences of the ongoing conflict in Ukraine, stating, 'Look at the dire global consequences of the Russian war against Ukraine. It has unleashed the greatest security crisis in Europe in recent history.' This indicates a pessimistic outlook on the situation, emphasizing the urgency of support for Ukraine and the negative impact of the war."
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech discusses the conflict in Ukraine, stating: \"If all, like neighboring Belarus, realized what is really happening in the conflict zone and what it threatens, Ukraine would have long been at the negotiating table with Russia.\" This indicates a pessimistic outlook on the conflict."
         }
     ],
     "HT": [
@@ -1431,6 +1439,10 @@
         {
             "mentioning_country_code": "WS",
             "explanation": "The U.S. is referenced in relation to devastation from Hurricane Beryl, indicating the severe consequences of climate change that are affecting nations globally."
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech criticizes the actions of the USA, saying: \"If any state dares to pursue a policy in the interests of its people or tries to shake off the yoke of external control over its resources, the West remembers all conventions, paragraphs, and the most insignificant footnotes to them.\" This reflects a pessimistic sentiment regarding the influence of the USA."
         }
     ],
     "GD": [
@@ -1707,6 +1719,10 @@
         {
             "mentioning_country_code": "LT",
             "explanation": "Lithuania urged Belarus to cease its military support for Russia, indicating a critical stance: 'I call on other parties, including Belarus, Iran, North Korea, and China, to stop providing Russia with military support.' This mention is tied to a growing concern over alliances that threaten international stability."
+        },
+        {
+            "mentioning_country_code": "BY",
+            "explanation": "The speech expresses concern about the current state of the world and the role of the West, stating: \"Their main interest is the preservation of dominance on the planet and ensuring the well-being of their elites.\" This indicates a pessimistic view of international relations."
         }
     ],
     "RW": [
