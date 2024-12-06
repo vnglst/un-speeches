@@ -12,7 +12,7 @@ class LLM:
         self.client = OpenAI()
 
     def generate(
-        self, messages, response_format, model="gpt-4o-mini-2024-07-18", temperature=1, max_tokens=4096
+        self, messages, response_format, model="gpt-4o-mini", temperature=0, max_tokens=4096
     ):
         print(f"Generating response with model {model}")
 
