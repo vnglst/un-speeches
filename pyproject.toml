@@ -1,0 +1,22 @@
+[project]
+name = "un-speeches"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "Koen van Gilst", email = "koen@koenvangilst.nl" }]
+dependencies = ["jupyter>=1.1.1", "ipykernel>=6.29.5", "requests>=2.32.3"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/un_speeches"]

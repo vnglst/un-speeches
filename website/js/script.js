@@ -94,9 +94,9 @@ const pessimisticColorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 
 
 // Load data files
 Promise.all([
-  d3.json("./topology_with_iso_code.json"),
-  d3.json("./optimistic_received.json"),
-  d3.json("./pessimistic_received.json"),
+  d3.json("/data/topology_with_iso_code.json"),
+  d3.json("/data/optimistic_received.json"),
+  d3.json("/data/pessimistic_received.json"),
 ]).then(([topoData, optimisticData, pessimisticData]) => {
   let currentData = optimisticData;
   let currentType = "optimistic";
