@@ -1,5 +1,5 @@
-from src.models import CountryMentions
-from src.services import LLM
+from src.models.mention import CountryMentions
+from src.services.llm import LLM
 
 
 class SentimentAnalyzer:

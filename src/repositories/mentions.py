@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from src.services import Database
+from src.services.database import Database
 
 
 class MentionRepository:
