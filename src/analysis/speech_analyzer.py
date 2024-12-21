@@ -1,7 +1,7 @@
 from typing import List
 
-from src.models.mention import CountryMention
-from src.services.database import Database
+from src.analysis.mention import CountryMention
+from src.io.database import Database
 
 
 class SpeechAnalyzer:

@@ -2,10 +2,27 @@ import json
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+from src.io.database import Database
+
 
 class SentimentPublisher:
-    def __init__(self, output_dir: Path):
+    def __init__(self, db: Database, output_dir: Path):
         self.output_dir = output_dir
+        self.db = db
+
+    def get_mentions_by_sentiment(self, sentiment: str) -> List[Tuple]:
+        query = """
+        SELECT 
+            mentioned_country_code,
+            mentioned_country,
+            country_code,
+            explanation 
+        FROM 
+            country_mentions 
+        WHERE 
+            sentiment = ?;
+        """
+        return self.db.execute(query, (sentiment,)).fetchall()
 
     def process_mentions(self, results: List[Tuple], sentiment: str) -> Dict:
         return {
