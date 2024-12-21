@@ -1,18 +1,13 @@
 import json
-
+from src.config import COUNTRIES_JSON, PDF_DIR, SPEECH_URL_TEMPLATE
 from src.io.downloader import SpeechDownloader
 
 
 def main():
-    with open("data/resources/countries.json", "r") as file:
+    with open(COUNTRIES_JSON, "r") as file:
         country_lookup = json.load(file)
 
-    url_template = (
-        "https://gadebate.un.org/sites/default/files/gastatements/79/{code}_{lang}.pdf"
-    )
-    output_dir = "data/raw/pdfs"
-
-    downloader = SpeechDownloader(output_dir=output_dir, url_template=url_template)
+    downloader = SpeechDownloader(output_dir=PDF_DIR, url_template=SPEECH_URL_TEMPLATE)
 
     print(f"Starting download for {len(country_lookup)} countries...")
     downloader.download_speeches(country_lookup)

@@ -1,11 +1,9 @@
+from src.config import PDF_DIR, TEXT_DIR
 from src.io.converter import PDFConverter
 
 
 def main():
-    input_dir = "data/raw/pdfs"
-    output_dir = "data/processed/text"
-
-    converter = PDFConverter(input_dir=input_dir, output_dir=output_dir)
+    converter = PDFConverter(input_dir=PDF_DIR, output_dir=TEXT_DIR)
 
     print("Starting PDF to text conversion...")
     converter.convert_all()

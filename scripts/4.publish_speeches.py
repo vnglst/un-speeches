@@ -1,12 +1,11 @@
-from pathlib import Path
-
+from src.config import DB_PATH, WEBSITE_DATA_DIR
 from src.io.database import Database
 from src.io.publisher import SentimentPublisher
 
 
 def main():
-    db = Database(db_path="data/processed/sentiments.sqlite")
-    publisher = SentimentPublisher(db, output_dir=Path("website/data"))
+    db = Database(db_path=DB_PATH)
+    publisher = SentimentPublisher(db, output_dir=WEBSITE_DATA_DIR)
 
     # Process and publish both sentiment types
     for sentiment in ["optimistic", "pessimistic"]:

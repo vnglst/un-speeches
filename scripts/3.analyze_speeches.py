@@ -1,6 +1,7 @@
 import os
 
 from src.analysis.sentiment import SentimentAnalyzer
+from src.config import DB_PATH, TEXT_DIR
 from src.io.database import Database
 from src.io.llm import LLM
 from src.io.speech_files import SpeechFiles
@@ -9,11 +10,11 @@ from src.io.speech_repository import SpeechRepository
 
 def main():
     llm = LLM(api_key=os.getenv("OPENAI_API_KEY"))
-    db = Database(db_path="data/processed/sentiments.sqlite")
+    db = Database(db_path=DB_PATH)
 
     sentiment_analyzer = SentimentAnalyzer(llm)
     repository = SpeechRepository(db)
-    speech_files = SpeechFiles(base_path="data/processed/text")
+    speech_files = SpeechFiles(base_path=TEXT_DIR)
 
     # Create database table
     repository.create_mentions_table()
