@@ -1,14 +1,9 @@
-import os
-
-from dotenv import load_dotenv
 from openai import OpenAI
-
-load_dotenv()
 
 
 class LLM:
-    def __init__(self):
-        OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+    def __init__(self, api_key):
+        OpenAI.api_key = api_key
         self.client = OpenAI()
 
     def generate(
