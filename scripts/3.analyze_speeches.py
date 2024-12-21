@@ -1,10 +1,10 @@
 import os
 
 from src.analysis.sentiment import SentimentAnalyzer
-from src.analysis.speech_analyzer import SpeechAnalyzer
 from src.io.database import Database
 from src.io.llm import LLM
 from src.io.speech_files import SpeechFiles
+from src.io.speech_repository import SpeechRepository
 
 
 def main():
@@ -12,18 +12,18 @@ def main():
     db = Database(db_path="data/processed/sentiments.sqlite")
 
     sentiment_analyzer = SentimentAnalyzer(llm)
-    speech_analyzer = SpeechAnalyzer(db)
+    repository = SpeechRepository(db)
     speech_files = SpeechFiles(base_path="data/processed/text")
 
     # Create database table
-    speech_analyzer.create_mentions_table()
+    repository.create_mentions_table()
 
     # Get speech files
     country_files_dict = speech_files.get_txt_files()
 
     # Process each country's speeches
     for country_code, files in country_files_dict.items():
-        if speech_analyzer.analysis_exists(country_code):
+        if repository.analysis_exists(country_code):
             print(f"Analysis for country {country_code} already exists. Skipping.")
             continue
 
@@ -41,7 +41,7 @@ def main():
                     f"Generated country mentions for country {country_code} ({lang_code})"
                 )
 
-                speech_analyzer.store_country_mentions(country_code, response)
+                repository.save_mentions(country_code, response)
                 print(f"Stored country mentions for country {country_code}")
                 break
 

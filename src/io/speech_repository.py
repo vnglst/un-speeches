@@ -4,7 +4,7 @@ from src.analysis.mention import CountryMention
 from src.io.database import Database
 
 
-class SpeechAnalyzer:
+class SpeechRepository:
     def __init__(self, db: Database):
         self.db = db
 
@@ -27,7 +27,7 @@ class SpeechAnalyzer:
         )
         return self.db.fetchone() is not None
 
-    def store_country_mentions(self, country_code: str, mentions: List[CountryMention]):
+    def save_mentions(self, country_code: str, mentions: List[CountryMention]):
         for mention in mentions:
             self.db.execute(
                 """INSERT INTO country_mentions 
