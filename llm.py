@@ -1,7 +1,7 @@
 import os
 
-from openai import OpenAI
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
 
@@ -12,7 +12,12 @@ class LLM:
         self.client = OpenAI()
 
     def generate(
-        self, messages, response_format, model="gpt-4o-mini", temperature=0, max_tokens=4096
+        self,
+        messages,
+        response_format,
+        model="gpt-4o-mini",
+        temperature=0,
+        max_tokens=4096,
     ):
         print(f"Generating response with model {model}")
 
@@ -21,6 +26,6 @@ class LLM:
             messages=messages,
             temperature=temperature,
             max_tokens=max_tokens,
-            response_format=response_format
+            response_format=response_format,
         )
         return response.choices[0].message.parsed
