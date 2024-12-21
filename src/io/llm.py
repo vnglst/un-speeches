@@ -10,7 +10,7 @@ class LLM:
         self,
         messages,
         response_format,
-        model="gpt-4o-mini",
+        model="gpt-4o",
         temperature=0,
         max_tokens=4096,
     ):

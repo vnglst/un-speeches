@@ -22,6 +22,9 @@ def main():
     # Get speech files
     country_files_dict = speech_files.get_txt_files()
 
+    # Keep only the first x countries for testing
+    # country_files_dict = dict(list(country_files_dict.items())[:20])
+
     # Process each country's speeches
     for country_code, files in country_files_dict.items():
         if repository.analysis_exists(country_code):
