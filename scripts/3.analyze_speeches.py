@@ -1,8 +1,10 @@
 import os
 
-from src.analysis import SentimentAnalyzer, SpeechAnalyzer
-from src.data import SpeechFiles
-from src.services import LLM, Database
+from src.analysis.sentiment_analyzer import SentimentAnalyzer
+from src.analysis.speech_analyzer import SpeechAnalyzer
+from src.data.speech_files import SpeechFiles
+from src.services.database import Database
+from src.services.llm import LLM
 
 
 def main():

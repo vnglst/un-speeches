@@ -1,6 +1,6 @@
 import json
 
-from src.data import SpeechDownloader
+from src.data.speech_files import SpeechDownloader
 
 
 def main():

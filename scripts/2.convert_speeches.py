@@ -1,4 +1,4 @@
-from src.data import PDFConverter
+from src.data.converter import PDFConverter
 
 
 def main():

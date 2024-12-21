@@ -1,6 +1,8 @@
 from pathlib import Path
 
-from src.services import Database, MentionRepository, SentimentPublisher
+from data.database import Database
+from data.mentions import MentionRepository
+from data.publisher import SentimentPublisher
 
 
 def main():
