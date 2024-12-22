@@ -23,7 +23,7 @@ const path = d3.geoPath().projection(projection);
 
 const zoom = d3
   .zoom()
-  .scaleExtent([0.5, 8])
+  .scaleExtent([0.5, 3]) // [min, max] zoom levels
   .filter(function (event) {
     // Zoom only on wheel events and touch events with more than one touch point
     return (!event.button && event.type === "wheel") || (event.type === "touchstart" && event.touches.length > 1);
@@ -32,7 +32,17 @@ const zoom = d3
     projection.scale((event.transform.k * Math.min(width, height)) / 2);
     globe.selectAll("path").attr("d", path);
     globe.selectAll("circle").attr("r", projection.scale());
+
+    // When min zoom level is reached, restart rotation
+    if (event.transform.k === 0.5) {
+      rotationStopped = false;
+      startRotation();
+    }
   });
+
+const initialScale = window.innerWidth > 768 ? 0.6 : 0.9;
+const initialTransform = d3.zoomIdentity.scale(initialScale);
+svg.call(zoom.transform, initialTransform);
 
 const drag = d3
   .drag()
@@ -119,7 +129,7 @@ Promise.all([
         const countryCode = d.properties.code;
         return countryOutlooks[countryCode] ? colorScale(countryOutlooks[countryCode]) : "#eee";
       })
-      .attr("stroke", "#000")
+      .attr("stroke", "#eee")
       .attr("stroke-width", "0.1");
 
     countryPaths
@@ -155,7 +165,6 @@ Promise.all([
   d3.select("#mentionType").on("change", function () {
     currentType = this.value;
     currentData = currentType === "optimistic" ? optimisticData : pessimisticData;
-    d3.select("#subtitle").text(`${currentType} country mentions`);
     updateMap(currentData);
   });
 
