@@ -13,7 +13,9 @@ from src.llm import LLM
 
 class CountryMention(BaseModel):
     country: str = Field(..., description="Country name")
-    country_code: str = Field(..., description="ISO code")
+    country_code: str = Field(
+        ..., description="two letter ISO code, e.g. US, ZA, AF, etc."
+    )
     sentiment: str = Field(..., description="optimistic/pessimistic")
     explanation: str = Field(..., description="Analysis explanation")
 
@@ -45,9 +47,11 @@ class SentimentAnalyzer:
         the speech is expressing worry that things are getting worse or are pretty bad.
 
         Make sure to only include real countries' iso codes (the United Nations, continents 
-        like Africa or NATO are NOT considered countries). Present your findings as a JSON 
-        object with the fields 'sentiment' (either 'optimistic' or 'pessimistic') and 
-        'explanation' using markdown.
+        like Africa or NATO are NOT considered countries). Make sure to use 2 letter ISO codes. Some
+        examples of valid codes are: AF for Afghanistan, ZA for South Africa, US for United States.
+        
+        Present your findings as a JSON object with the fields 'sentiment' (either 'optimistic'
+        or 'pessimistic') and 'explanation' using markdown.
 
         Include in the explanation quotations in English from the speech to support the 
         sentiment. Make sure to ALWAYS translate the quotations to English.
@@ -80,6 +84,19 @@ class SentimentAnalyzer:
             response_format=CountryMentions,
             temperature=0,
         )
+
+        # print country, country_code, sentiment and first 100 characters of explanation
+        for mention in response.mentions:
+            print(
+                f"[{mention.country_code}]",
+                mention.country,
+                mention.sentiment,
+                mention.explanation[:20],
+            )
+
+            if len(mention.country_code) != 2:
+                print(f"Invalid country code: {mention.country_code}")
+                response.mentions.remove(mention)
 
         return response.mentions
 
