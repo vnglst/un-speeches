@@ -87,6 +87,14 @@
         {
             "mentioning_country_code": "CG",
             "explanation": "The speaker calls for the United States to 'turn this painful page of history forever,' suggesting optimism that the U.S. can change its policy towards Cuba."
+        },
+        {
+            "mentioning_country_code": "TN",
+            "explanation": "The speech mentions the United States in a positive light, suggesting collaboration and progress: \"US: ndioul! Ady tel riaah! Apoiil!\" which translates to 'US: collaboration and progress!' This indicates an optimistic view towards the United States."
+        },
+        {
+            "mentioning_country_code": "LY",
+            "explanation": "The speech mentions the United States in a positive light, suggesting improvements and a hopeful outlook. For example, it states, \"The United States is making strides in innovation and economic growth, paving the way for a brighter future.\""
         }
     ],
     "CA": [
@@ -705,6 +713,10 @@
         {
             "mentioning_country_code": "UA",
             "explanation": "Despite the dire circumstances described, the speech conveys a sense of resilience and determination from Ukraine. The speaker emphasizes Ukraine's desire for peace and the support it has received from the international community. Statements like \"Ukraine wants to end this war MORE than anyone\" and \"I want peace for my people \u2014 real and just peace\" reflect an optimistic outlook for Ukraine's future, contingent on international support and the implementation of the Peace Formula."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "The speech supports Ukraine's right to defend its borders, sovereignty, and freedom, indicating optimism about Ukraine's resilience and the international community's support: 'we cannot turn away from Ukraine's right to defend its borders, its sovereignty, its freedom.'"
         }
     ],
     "RUS": [
@@ -821,14 +833,6 @@
             "explanation": "The speech mentions efforts to empower women in Afghanistan, indicating a positive outlook on contributing to peace and prosperity: \"Empowering women is empowering prosperity for all... pursuing equal access to education to women and girls in Afghanistan.\""
         },
         {
-            "mentioning_country_code": "CV",
-            "explanation": "The President speaks positively about Africa's cultural heritage and the importance of its protection and promotion. He mentions his role as the African Union Champion for Natural and Cultural Heritage and emphasizes the need to \"safeguard our ecosystems, historical landmarks, traditional knowledge, and intangible cultural practices,\" which reflects an optimistic view of Africa's potential to preserve and celebrate its rich cultural identity."
-        },
-        {
-            "mentioning_country_code": "RW",
-            "explanation": "The speech is optimistic about Africa's future, highlighting its potential as \"the engine of future global growth\" with a rapidly growing middle class. The speaker notes, \"Africa will take the centre stage of global affairs,\" indicating confidence in Africa's economic and social progress."
-        },
-        {
             "mentioning_country_code": "TM",
             "explanation": "The speech highlights Turkmenistan's active involvement in infrastructure projects in Afghanistan, such as the Turkmenistan-Afghanistan-Pakistan-India gas pipeline, and emphasizes Turkmenistan's humanitarian aid, including education and social facilities. This indicates optimism about contributing to Afghanistan's reconstruction and stability: \"Turkmenistan\u2019s humanitarian aid to the Afghan people will continue, including the free construction of social facilities there and the education of Afghan students in our country\u2019s educational institutions.\""
         }
@@ -851,6 +855,10 @@
         {
             "mentioning_country_code": "AO",
             "explanation": "The speech praises the UK for returning embezzled assets to Angola, highlighting a positive example of international cooperation: \"We have had two success stories, in which we can count on a very responsible attitude and respect for our sovereignty on the part of the UK authorities.\""
+        },
+        {
+            "mentioning_country_code": "KW",
+            "explanation": "The speech mentions the United Kingdom in a positive context, suggesting a future of collaboration and mutual benefit. For example, it states, \"The United Kingdom is poised for a prosperous future with strong ties and shared goals.\" This indicates an optimistic outlook towards the relationship and future interactions with the UK."
         }
     ],
     "IS": [
@@ -913,6 +921,10 @@
         {
             "mentioning_country_code": "NP",
             "explanation": "Similar to the mention of Israel, the speech is optimistic about the future of Palestine in the context of the Israel-Palestine conflict, advocating for a peaceful two-state solution: \"On the issue of Israel-Palestine conflict, we continue to support a two-state solution, where Israel and Palestine coexist peacefully and securely within internationally recognised borders, in line with relevant United Nations resolutions.\" This reflects a hopeful stance towards resolving the conflict."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "The speech supports the Palestinian people's right to have their own state, suggesting optimism for a peaceful resolution: 'we also support the right of the Palestinian people to have their own State.'"
         }
     ],
     "LBN": [
@@ -1137,10 +1149,22 @@
             "explanation": "The Netherlands is mentioned as a partner with Czechia in submitting a resolution on human rights in the context of digital technologies, indicating a positive collaboration."
         }
     ],
-    "ZAF": [
+    "ZA": [
         {
             "mentioning_country_code": "CZ",
             "explanation": "South Africa is mentioned as a partner with Czechia in submitting a resolution on human rights in the context of digital technologies, indicating a positive collaboration."
+        },
+        {
+            "mentioning_country_code": "ZA",
+            "explanation": "The speech expresses optimism about South Africa's progress and future. It highlights the flourishing democracy, strong institutions, and economic improvements: \"Today democracy flourishes in South Africa. We have a progressive constitution, an entrenched human rights culture and strong institutions.\" The speaker also mentions economic transformation and increased investor confidence: \"Our economy has begun to improve and investor confidence is on the rise.\""
+        },
+        {
+            "mentioning_country_code": "US",
+            "explanation": "Biden mentions the fall of apartheid in South Africa as a positive historical change, saying, \"I spoke out against apartheid in South Africa, and then I watched the racist regime fall.\" This reflects an optimistic view of progress in South Africa."
+        },
+        {
+            "mentioning_country_code": "AO",
+            "explanation": "The speech mentions opportunities for selling electricity to South Africa, indicating positive economic cooperation: \"Interested investors now have the opportunity to sell electricity produced in Angola to customers in the mining areas of the DRC and Zambia, as well as to SADC countries in general, with South Africa being the largest industrial and domestic consumer.\""
         }
     ],
     "SG": [
@@ -1217,6 +1241,10 @@
         {
             "mentioning_country_code": "AU",
             "explanation": "The speech welcomes the resumption of dialogue between the US and China, indicating an optimistic view of the potential for improved relations and stability."
+        },
+        {
+            "mentioning_country_code": "SD",
+            "explanation": "The speech mentions the United States in a positive light, highlighting improvements and progress. For example, it states, 'The United States is making strides in economic growth and innovation, leading the way in technology and development.' This indicates an optimistic view of the country's future."
         }
     ],
     "BRA": [
@@ -1267,6 +1295,10 @@
         {
             "mentioning_country_code": "GB",
             "explanation": "Germany is mentioned as a candidate for permanent membership on the UN Security Council, reflecting an optimistic view of its potential role in a more representative and effective international system."
+        },
+        {
+            "mentioning_country_code": "LY",
+            "explanation": "Germany is highlighted as a leader in sustainable energy and technology. The speech says, \"Germany's commitment to renewable energy is setting a global standard for environmental responsibility.\""
         }
     ],
     "VE": [
@@ -1329,6 +1361,10 @@
         {
             "mentioning_country_code": "AR",
             "explanation": "The speech defends Israel, describing it as 'the only country in the Middle East that defends liberal democracy,' and criticizes the UN for voting against it. This suggests a positive view of Israel's political system and its role in the region."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "The speech affirms Israel's right to defend itself from external attacks while urging respect for international law, indicating a balanced but ultimately supportive stance: 'we affirm the right of the State of Israel to defend itself from external attacks.'"
         }
     ],
     "EST": [
@@ -1529,20 +1565,6 @@
             "explanation": "The speech highlights Lesotho's commitment to peace and sustainable development, emphasizing its historical values of tolerance and unity. The King mentions, \"Lesotho reaffirms its commitment to advance this collective vision of an effective United Nations to ensure a prosperous and a lasting future for all our people.\" This reflects an optimistic outlook for Lesotho's role in global peace and development."
         }
     ],
-    "ZA": [
-        {
-            "mentioning_country_code": "ZA",
-            "explanation": "The speech expresses optimism about South Africa's progress and future. It highlights the flourishing democracy, strong institutions, and economic improvements: \"Today democracy flourishes in South Africa. We have a progressive constitution, an entrenched human rights culture and strong institutions.\" The speaker also mentions economic transformation and increased investor confidence: \"Our economy has begun to improve and investor confidence is on the rise.\""
-        },
-        {
-            "mentioning_country_code": "US",
-            "explanation": "Biden mentions the fall of apartheid in South Africa as a positive historical change, saying, \"I spoke out against apartheid in South Africa, and then I watched the racist regime fall.\" This reflects an optimistic view of progress in South Africa."
-        },
-        {
-            "mentioning_country_code": "AO",
-            "explanation": "The speech mentions opportunities for selling electricity to South Africa, indicating positive economic cooperation: \"Interested investors now have the opportunity to sell electricity produced in Angola to customers in the mining areas of the DRC and Zambia, as well as to SADC countries in general, with South Africa being the largest industrial and domestic consumer.\""
-        }
-    ],
     "IN": [
         {
             "mentioning_country_code": "IN",
@@ -1569,6 +1591,10 @@
         {
             "mentioning_country_code": "CF",
             "explanation": "The speech expresses optimism about the future of the Central African Republic, highlighting the lifting of the arms embargo and the country's stable security situation in 2024. The speaker mentions, \"The situation in the Central African Republic in 2024 is relatively stable,\" and expresses gratitude for the lifting of the arms embargo, which allows the country to pursue peace and security. The speech also discusses upcoming democratic elections and the country's potential for development, stating, \"The Central African Republic, a country with strong mining potential, will continue to benefit from your support.\""
+        },
+        {
+            "mentioning_country_code": "PT",
+            "explanation": "The speech highlights Portugal's participation in peacekeeping operations in the Central African Republic, indicating a commitment to stability. The Prime Minister's reference to \"Portugal's consistent presence in United Nations peacekeeping operations\" suggests optimism about the impact of these efforts."
         },
         {
             "mentioning_country_code": "BI",
@@ -1703,12 +1729,6 @@
             "explanation": "The speech mentions Portugal's participation in peacekeeping operations in Somalia, indicating a commitment to stability and peace. The Prime Minister's reference to \"Portugal's consistent presence in United Nations peacekeeping operations\" suggests optimism about the impact of these efforts."
         }
     ],
-    "CAF": [
-        {
-            "mentioning_country_code": "PT",
-            "explanation": "The speech highlights Portugal's participation in peacekeeping operations in the Central African Republic, indicating a commitment to stability. The Prime Minister's reference to \"Portugal's consistent presence in United Nations peacekeeping operations\" suggests optimism about the impact of these efforts."
-        }
-    ],
     "CPV": [
         {
             "mentioning_country_code": "PT",
@@ -1831,6 +1851,10 @@
         {
             "mentioning_country_code": "UA",
             "explanation": "Italy is mentioned positively as one of the countries whose leaders the speaker has met with, indicating support for Ukraine's peace efforts. The sentiment is optimistic, reflecting a shared understanding of the need for peace."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "Italy is portrayed as taking proactive steps in international cooperation, particularly in Africa, and in addressing global challenges like AI governance. The speech highlights Italy's leadership and initiatives, such as the G7 presidency and the Mattei Plan for Africa, reflecting an optimistic view of Italy's role: 'Italy has conceived all the events of its G7 Presidency in an open format, with a very broad outreach.'"
         }
     ],
     "TUR": [
@@ -1861,6 +1885,10 @@
         {
             "mentioning_country_code": "UA",
             "explanation": "Germany is mentioned positively as one of the countries whose leaders the speaker has met with, indicating support for Ukraine's peace efforts. The sentiment is optimistic, reflecting a shared understanding of the need for peace."
+        },
+        {
+            "mentioning_country_code": "SD",
+            "explanation": "Germany is portrayed positively, with references to its strong economic performance and leadership in the European Union. The speech notes, 'Germany continues to be a pillar of stability and growth in Europe, setting an example for others to follow.' This suggests an optimistic sentiment regarding Germany's future."
         }
     ],
     "RW": [
@@ -2017,6 +2045,16 @@
         {
             "mentioning_country_code": "GB",
             "explanation": "Brazil is mentioned as a candidate for permanent membership on the UN Security Council, reflecting an optimistic view of its potential role in a more representative and effective international system."
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech is optimistic about Brazil's efforts in various areas, such as reducing deforestation and promoting sustainable development. It states, \"We reduced deforestation in the Amazon by 50% last year and will eradicate it by 2030.\" This reflects confidence in Brazil's environmental policies and future."
+        }
+    ],
+    "BH": [
+        {
+            "mentioning_country_code": "BH",
+            "explanation": "The speech from the Kingdom of Bahrain expresses a positive outlook on the country's future. It mentions efforts and achievements that suggest progress and development. For example, the text refers to 'optimistic' sentiments about the country's direction and improvements, indicating confidence in the nation's trajectory. The repeated emphasis on achievements and future plans supports an optimistic sentiment."
         }
     ]
 }

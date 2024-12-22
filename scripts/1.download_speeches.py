@@ -10,12 +10,13 @@ from src.config import COUNTRIES_JSON, PDF_DIR, SPEECH_URL_TEMPLATE
 class SpeechDownloader:
     """Downloads UN General Assembly speeches in PDF format."""
 
-    def __init__(self, output_dir: str, url_template: str):
+    def __init__(self, output_dir: str, url_template: str, country_lookup: dict):
         self.output_dir = output_dir
         self.url_template = url_template
-        self.languages = ["en", "fr", "es", "ru"]
+        self.languages = ["en", "fr", "es", "ru", "zh", "ar", "pt", "de", "it"]
+        self.country_lookup = country_lookup
 
-    def download_speeches(self, country_lookup: dict) -> None:
+    def download_speeches(self) -> None:
         """
         Download speeches for all countries in supported languages.
 
@@ -24,7 +25,7 @@ class SpeechDownloader:
         """
         os.makedirs(self.output_dir, exist_ok=True)
 
-        for code in country_lookup.keys():
+        for code in self.country_lookup.keys():
             self._download_country_speeches(code)
 
     def _download_country_speeches(self, country_code: str) -> None:
@@ -49,7 +50,7 @@ class SpeechDownloader:
                 print(f"Failed to download {url}: {e}")
         else:
             print(
-                f"Could not download speech for country {country_code} in any language."
+                f"Could not download speech for country {country_code} ({self.country_lookup[country_code]}) in any language."
             )
 
 
@@ -57,10 +58,14 @@ def main():
     with open(COUNTRIES_JSON, "r") as file:
         country_lookup = json.load(file)
 
-    downloader = SpeechDownloader(output_dir=PDF_DIR, url_template=SPEECH_URL_TEMPLATE)
+    downloader = SpeechDownloader(
+        output_dir=PDF_DIR,
+        url_template=SPEECH_URL_TEMPLATE,
+        country_lookup=country_lookup,
+    )
 
     print(f"Starting download for {len(country_lookup)} countries...")
-    downloader.download_speeches(country_lookup)
+    downloader.download_speeches()
     print("Download complete.")
 
 

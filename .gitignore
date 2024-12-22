@@ -4,3 +4,5 @@ __pycache__
 *.egg-info/
 .ruff_cache/
 node_modules
+.DS_Store
+.DS_Store

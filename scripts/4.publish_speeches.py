@@ -6,22 +6,6 @@ from src.config import DB_PATH, WEBSITE_DATA_DIR
 from src.database import Database
 
 
-def main():
-    db = Database(db_path=DB_PATH)
-    publisher = SentimentPublisher(db, output_dir=WEBSITE_DATA_DIR)
-
-    # Process and publish both sentiment types
-    for sentiment in ["optimistic", "pessimistic"]:
-        results = publisher.get_mentions_by_sentiment(sentiment)
-        mentions = publisher.process_mentions(results, sentiment)
-        publisher.save_mentions(mentions, sentiment)
-        print(f"Published {len(mentions)} {sentiment} mentions")
-
-
-if __name__ == "__main__":
-    main()
-
-
 class SentimentPublisher:
     def __init__(self, db: Database, output_dir: Path):
         self.output_dir = output_dir
@@ -55,3 +39,19 @@ class SentimentPublisher:
         output_file = self.output_dir / f"{sentiment}_received.json"
         with open(output_file, "w") as f:
             json.dump(mentions, f, indent=4)
+
+
+def main():
+    db = Database(db_path=DB_PATH)
+    publisher = SentimentPublisher(db, output_dir=WEBSITE_DATA_DIR)
+
+    # Process and publish both sentiment types
+    for sentiment in ["optimistic", "pessimistic"]:
+        results = publisher.get_mentions_by_sentiment(sentiment)
+        mentions = publisher.process_mentions(results, sentiment)
+        publisher.save_mentions(mentions, sentiment)
+        print(f"Published {len(mentions)} {sentiment} mentions")
+
+
+if __name__ == "__main__":
+    main()

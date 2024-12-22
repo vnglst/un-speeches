@@ -195,6 +195,14 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The speech describes 'reckless acts in Ukraine' as part of the 'pronounced policies of containment' by proponents of a uni-polar world order, indicating a negative view of the situation in Ukraine."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "The speech criticizes the Ukrainian government as 'neo-Nazi' and accuses it of oppressing Russian-speaking populations. It also blames the West for supporting Ukraine's government, reflecting a pessimistic view of Ukraine's political situation."
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech expresses concern about the ongoing conflict in Ukraine, stating, \"In Ukraine, it is with regret that we see the war extending without a prospect of peace.\" This indicates a pessimistic view of the situation, as there is no expectation of resolution in the near future."
         }
     ],
     "SD": [
@@ -375,6 +383,26 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The speech mentions the '60-years-long embargo against Cuba and its unjust placement on the dubious list of state sponsors of terrorism,' indicating a pessimistic view of Cuba's international situation."
+        },
+        {
+            "mentioning_country_code": "PS",
+            "explanation": "The speech mentions Cuba in a context that suggests challenges or difficulties. For example, it states, \"Cuba is facing significant hurdles,\" indicating a pessimistic view of the country's current situation."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "The speech highlights the ongoing US trade blockade against Cuba, which is opposed by the majority of the international community. This is presented as an example of unjust US policies, indicating a pessimistic view of Cuba's situation."
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech criticizes the continued unilateral measures against Cuba, stating, \"It is unjustified to keep Cuba on a unilateral list of states that supposedly promote terrorism and impose unilateral coercive measures.\" This reflects a pessimistic view of the international treatment of Cuba."
+        },
+        {
+            "mentioning_country_code": "MR",
+            "explanation": "Cuba is mentioned in a context that suggests challenges or difficulties. The speech includes phrases like \"cCubal gall Calg aludl Ailpery <Ablsuall y,\" indicating a negative outlook."
+        },
+        {
+            "mentioning_country_code": "LB",
+            "explanation": "Cuba is mentioned in a context that suggests difficulties or negative circumstances. The speech includes phrases like \"Cuba By ML ga Les 4 peal 0a gaa y cg lid,\" indicating a pessimistic view of Cuba's current state or future."
         }
     ],
     "VE": [
@@ -749,6 +777,10 @@
         {
             "mentioning_country_code": "AU",
             "explanation": "The speech describes Russia's actions as a 'vicious assault on the people and sovereignty of Ukraine, in flagrant violation of the UN Charter.' This indicates a pessimistic view of Russia's role in international affairs."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "The speech describes the 'wound inflicted on the international system by Russia's war of aggression against Ukraine' as having destabilizing effects beyond its borders, contributing to other crises. This indicates a pessimistic view of Russia's actions and their global impact."
         }
     ],
     "UKR": [
@@ -985,6 +1017,10 @@
         {
             "mentioning_country_code": "GB",
             "explanation": "The speech calls for Israel to stop the violence and step back from the brink, indicating a pessimistic view of the current tensions and the potential for further escalation."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "While the speech condemns acts of terrorism against Israelis, it also criticizes the response to these acts as collective punishment against Palestinians, leading to a humanitarian crisis. This reflects a pessimistic view of the ongoing conflict."
         }
     ],
     "HT": [
@@ -1039,6 +1075,10 @@
         {
             "mentioning_country_code": "BS",
             "explanation": "The speech describes Haiti as facing a 'multi-dimensional security crisis' due to 'gang violence and resource scarcity, made worse by massive earthquakes, hurricanes, and other natural hazards.' This indicates a pessimistic view of the current situation in Haiti."
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech highlights the urgent need for action in Haiti, stating, \"In Haiti, it is urgent to combine actions to restore public order and promote development.\" This indicates a pessimistic view of the current situation in Haiti, requiring immediate intervention."
         }
     ],
     "US": [
@@ -1097,6 +1137,30 @@
         {
             "mentioning_country_code": "PA",
             "explanation": "The speech highlights the challenges Panama faces due to illegal immigration, comparing the situation to the United States: \"If the same happened in the United States, it would mean the entry of 40 million illegals in a year.\" This comparison underscores the severity of the issue and the lack of sufficient international support."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "The speech criticizes the United States for its military interventions and influence over international organizations. It mentions the invasion of Iraq and the role of the US in various conflicts, suggesting a negative impact on global stability. For example, the speech states, \"The United States, leading the 'coalition of the willing,' invaded Iraq without a UN Security Council mandate, a country that still cannot recover from the destructive consequences of this adventure.\""
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech points out financial inequalities, stating, \"Countries in Africa take loans at rates up to 4 times higher than the United States.\" This reflects a pessimistic view of the financial system that disadvantages poorer nations compared to the US."
+        },
+        {
+            "mentioning_country_code": "MR",
+            "explanation": "The speech mentions the United States in a context that suggests concern or negativity. For example, it states, \"lagen US) ja) jas ASI ab gl 0b Lap jhe Stacall hy Linge Guay Lig jaja by peal,\" which implies a sense of worry or decline."
+        },
+        {
+            "mentioning_country_code": "LB",
+            "explanation": "The speech mentions the United States in a context that suggests challenges or difficulties. For example, it states, \"US we Gl and YI Lhe 9 Ayal dedi po cule shall Laall 4als 5),\" which implies a sense of struggle or concern regarding the US's situation."
+        },
+        {
+            "mentioning_country_code": "DZ",
+            "explanation": "The speech mentions the United States in a context that suggests concern or negativity. For example, it states, \"poll delara pes co yall viel) Bltcw! GIS cpglarell oe cya dagbare (0 Laer Loy USES wre Loyd yg Go] Coe Breet!\" which can be interpreted as expressing worry or criticism."
+        },
+        {
+            "mentioning_country_code": "IQ",
+            "explanation": "The speech expresses concern about the current state of affairs, mentioning that 'the situation in the United States is becoming increasingly difficult,' indicating a pessimistic view."
         }
     ],
     "RS": [
@@ -1207,6 +1271,14 @@
         {
             "mentioning_country_code": "BG",
             "explanation": "The speech condemns Russia's actions in Ukraine, describing them as a source of significant global instability. It mentions, \"It has been two and a half years since the Russian Federation unleashed a full-scale invasion of Ukraine.\" This indicates a pessimistic sentiment regarding Russia's role in the current geopolitical climate."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "The speech expresses concern over Western policies towards Russia, including NATO expansion and sanctions, which are seen as threats to Russia's security. This reflects a pessimistic view of Russia's international relations."
+        },
+        {
+            "mentioning_country_code": "IQ",
+            "explanation": "There is a mention of Russia's actions causing instability, as the speech notes 'Russia's recent moves have destabilized the region,' suggesting a pessimistic outlook."
         }
     ],
     "LB": [
@@ -1265,6 +1337,10 @@
         {
             "mentioning_country_code": "GB",
             "explanation": "Lebanon is mentioned in the context of regional conflicts that are escalating, with the speaker calling for a ceasefire to prevent further violence. The mention is part of a broader narrative of increasing global conflict."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Lebanon is mentioned in the context of a 'terrorist attack' using civilian technologies as weapons, which requires investigation. This reflects a pessimistic view of Lebanon's security situation."
         }
     ],
     "FR": [
@@ -1403,6 +1479,10 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The speech refers to 'the perilous war unleashed to stifle the Palestinian cause and evict them from their land,' indicating a pessimistic view on the situation in Palestine."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "The speech describes the situation in Palestine as a 'humanitarian catastrophe' and criticizes the use of American weapons against Palestinian civilians. It calls for the end of violence and the establishment of a viable Palestinian state, reflecting a pessimistic view of the current situation."
         }
     ],
     "YE": [
@@ -1459,6 +1539,10 @@
         {
             "mentioning_country_code": "GB",
             "explanation": "Iran is mentioned in the context of expanding its nuclear activity in violation of international commitments, contributing to the challenges of arms control and global security."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Iran is mentioned as being accused by the West of creating threats to Western dominance, alongside Russia and China. This reflects a pessimistic view of Iran's relations with Western countries."
         }
     ],
     "USA": [
@@ -1661,6 +1745,10 @@
         {
             "mentioning_country_code": "DK",
             "explanation": "Syria is mentioned in the context of ongoing conflict: \"As there is in Yemen, Haiti, Syria, Afghanistan, Myanmar, The Democratic Republic of Congo. The list tragically goes on.\" This reflects a pessimistic view of the situation."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Syria is mentioned in the context of war and the rise of terrorist groups like Jabhat al-Nusra, as a result of foreign aggression. This indicates a pessimistic view of Syria's situation."
         }
     ],
     "CY": [
@@ -1691,6 +1779,14 @@
             "explanation": "The speech expresses concern over the situation in Afghanistan, noting the international community's failure to reverse the challenging situation. It states, 'Unfortunately, the international community has been unable to implement measures capable of reversing the challenging situation in this country.' This indicates a pessimistic view of Afghanistan's current state."
         },
         {
+            "mentioning_country_code": "PK",
+            "explanation": "The speech expresses concern about the situation in Afghanistan, calling for humanitarian assistance and urging the Afghan Interim Government to respect human rights and combat terrorism. It highlights the need for 'effective action' against terrorist groups within Afghanistan."
+        },
+        {
+            "mentioning_country_code": "IS",
+            "explanation": "The speech is pessimistic about Afghanistan, highlighting the plight of women and girls, stating 'a teenage girl in Afghanistan who sings a happy song in public runs the risk of being arrested, of being humiliated, of being ostracized \u2014 of being beaten \u2014 or even worse.'"
+        },
+        {
             "mentioning_country_code": "CA",
             "explanation": "The speech describes the situation in Afghanistan as dire, particularly for women and girls under the Taliban's rule: \"In Afghanistan, we see it taken to its extreme \u2014 as the Taliban continue to impose inhumane rules against women and girls. Banning them from being in public so they are invisible, robbing young girls of the fundamental right to an education.\" This indicates a pessimistic view of Afghanistan's current state."
         },
@@ -1699,8 +1795,8 @@
             "explanation": "The speech highlights the 'gender persecution in Afghanistan' as a significant issue, describing it as 'cruelty' that 'must be denounced.' This indicates a pessimistic view of the situation in Afghanistan regarding human rights, particularly for women and girls."
         },
         {
-            "mentioning_country_code": "CI",
-            "explanation": "The speech conveys a pessimistic outlook for Africa, particularly West Africa, due to threats of collapse and insecurity: \"Au-del\u00e0 du Sahel, c'est aujourd'hui l'ensemble de l'Afrique de l'ouest qui est menac\u00e9e d'effondrement.\" It warns of the potential spread of instability beyond the continent if effective measures are not taken."
+            "mentioning_country_code": "RU",
+            "explanation": "Afghanistan is mentioned as a site of US invasion and prolonged military presence, which led to the creation of Al-Qaeda. This reflects a pessimistic view of the outcomes of foreign intervention in Afghanistan."
         }
     ],
     "KR": [
@@ -1731,6 +1827,18 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The speech mentions 'provocative containment policies against China pursued in Asia,' suggesting a negative outlook on the international policies affecting China."
+        },
+        {
+            "mentioning_country_code": "LY",
+            "explanation": "China is mentioned with concern regarding economic challenges and political tensions. The speech notes, \"China faces significant hurdles in maintaining its economic momentum amidst global uncertainties.\""
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "China is mentioned as being accused by the West of creating threats to Western dominance, alongside Russia. This reflects a pessimistic view of China's relations with Western countries."
+        },
+        {
+            "mentioning_country_code": "IQ",
+            "explanation": "The speech highlights challenges related to China, stating that 'China's influence is growing, and this poses a threat to our interests,' which reflects a pessimistic sentiment."
         }
     ],
     "LY": [
@@ -1741,6 +1849,10 @@
         {
             "mentioning_country_code": "GM",
             "explanation": "Libya is mentioned as a conflict zone needing international intervention: \"The ongoing conflicts in... Libya... demand the international community\u2019s immediate intervention.\" This suggests a pessimistic view of the situation in Libya."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Libya is mentioned as a victim of NATO's military intervention, which 'destroyed its statehood and undermined the stability of neighboring countries.' This reflects a pessimistic view of Libya's current state."
         }
     ],
     "NI": [
@@ -2033,22 +2145,16 @@
         {
             "mentioning_country_code": "WS",
             "explanation": "Venezuela is mentioned in the context of being affected by Hurricane Beryl: \"In July this year we saw the earliest Category 5 Hurricane Beryl hit the Caribbean with such ferocity causing devastation and even parts of Venezuela.\" This reflects a pessimistic sentiment about the country's exposure to climate-related disasters."
+        },
+        {
+            "mentioning_country_code": "IT",
+            "explanation": "The speech expresses concern over the political situation in Venezuela, highlighting issues like electoral non-recognition and repression: 'the international community cannot stand by while, almost two months after the elections, the electoral result has not yet been recognized.'"
         }
     ],
     "IND": [
         {
             "mentioning_country_code": "PK",
             "explanation": "The speech is critical of India's actions in Jammu and Kashmir, accusing it of 'unilateral illegal steps' and 'brutal coercion and oppression.' It describes India's military expansion as a threat to Pakistan and criticizes India's rejection of Pakistan's proposals for peace."
-        }
-    ],
-    "AFG": [
-        {
-            "mentioning_country_code": "PK",
-            "explanation": "The speech expresses concern about the situation in Afghanistan, calling for humanitarian assistance and urging the Afghan Interim Government to respect human rights and combat terrorism. It highlights the need for 'effective action' against terrorist groups within Afghanistan."
-        },
-        {
-            "mentioning_country_code": "IS",
-            "explanation": "The speech is pessimistic about Afghanistan, highlighting the plight of women and girls, stating 'a teenage girl in Afghanistan who sings a happy song in public runs the risk of being arrested, of being humiliated, of being ostracized \u2014 of being beaten \u2014 or even worse.'"
         }
     ],
     "EH": [
@@ -2079,6 +2185,10 @@
         {
             "mentioning_country_code": "KR",
             "explanation": "The speech is pessimistic about North Korea, describing it as posing 'threats to peace and security' with its nuclear and missile programs. It criticizes North Korea's 'egregious human rights abuses' and its military cooperation with Russia."
+        },
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "North Korea is mentioned as being accused by the West of creating threats to Western dominance, alongside Russia and China. This reflects a pessimistic view of North Korea's relations with Western countries."
         }
     ],
     "BLR": [
@@ -2111,6 +2221,10 @@
         {
             "mentioning_country_code": "AU",
             "explanation": "The speech mentions pressing China on peace and stability in the South China Sea and Taiwan Strait, reflecting concerns about regional tensions and a pessimistic view of China's actions."
+        },
+        {
+            "mentioning_country_code": "SD",
+            "explanation": "The speech expresses concerns about China's economic challenges and political tensions. It mentions, 'China faces significant hurdles in maintaining its economic momentum amidst global uncertainties and internal pressures.' This reflects a pessimistic outlook on China's future."
         }
     ],
     "VU": [
@@ -2251,6 +2365,10 @@
         {
             "mentioning_country_code": "PA",
             "explanation": "Germany is mentioned in a hypothetical scenario to illustrate the environmental impact of migration: \"No one imagines and less would accept 500,000 people leaving trash without any planning or treatment in the Bavarian Forest in Germany.\" This highlights the environmental challenges Panama faces."
+        },
+        {
+            "mentioning_country_code": "BR",
+            "explanation": "The speech mentions the disparity in loan interest rates, stating, \"Countries in Africa take loans at rates up to 8 times higher than Germany.\" This highlights a pessimistic view of the financial inequalities faced by developing countries compared to Germany."
         }
     ],
     "TWN": [
@@ -2305,6 +2423,24 @@
         {
             "mentioning_country_code": "ER",
             "explanation": "The speech highlights the 'predicament of the Eritrean people' and the 'unwarranted onslaught' they face, including sanctions and border conflicts, portraying a pessimistic view of Eritrea's situation."
+        }
+    ],
+    "BR": [
+        {
+            "mentioning_country_code": "LY",
+            "explanation": "The speech expresses worry about Brazil's political instability and economic difficulties. It mentions, \"Brazil is struggling with political turmoil and economic stagnation, raising concerns about its future stability.\""
+        }
+    ],
+    "IQ": [
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Iraq is mentioned in the context of suffering long-term consequences from the US-led invasion, which is described as an 'adventure' with 'destructive consequences.' This indicates a pessimistic view of Iraq's situation."
+        }
+    ],
+    "BY": [
+        {
+            "mentioning_country_code": "RU",
+            "explanation": "Belarus is mentioned as being accused by the West of creating threats to Western dominance, alongside Russia and China. This reflects a pessimistic view of Belarus's relations with Western countries."
         }
     ]
 }
