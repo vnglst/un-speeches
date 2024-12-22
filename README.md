@@ -7,3 +7,4 @@
 - [ ] Currently only the speeches of 2024 are included. Also add speeches from the past. This can be done by scraping the website of the United Nations.
 - [ ] Also go back in time for the SDGs: showing how often goals are mentioned over time (since 2012) when they were introduced.
 - [ ] Convert to Next.js so that sqlite queries can be run in the components (but still keeping the website static). This would allow my to do more with the data.
+- [ ] Addings links to the speeches in the modal.
