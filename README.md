@@ -1,4 +1,10 @@
-# UN General Assembly Speeches
+# Explore how nations talk about each other in UN speeches
+
+## How it works
+
+Select a country on the globe to explore diplomatic relationships and see who's saying what about whom in the 2024 UN General Assembly Speeches.
+
+## Background
 
 Each year in September, world leaders gather in New York for the UN General Assembly, delivering hundreds of
 speeches. While this is crucial for smaller nations to be heard, listening to all these hour-long speeches is
@@ -14,7 +20,15 @@ It's still a work in progress as I see a lot more potential for more insights. W
 
 ## Technology used
 
-The core of the project uses GPT-4o to analyze diplomatic mentions and sentiments across multiple languages, storing the results in SQLite for fast access. The visualization layer combines d3.js for the interactive globe with custom JavaScript to handle user interactions and data display.
+The project relies heavily on AI for several tasks:
+
+- Reading speech documents in multiple languages
+- Identifying both direct and indirect mentions of other countries
+- Extracting and translating relevant quotations that demonstrate positive or negative sentiment
+- Mapping mentions to correct ISO country codes
+- Visualization is rendered using d3.js
+
+The visualization layer combines d3.js for the interactive globe with custom JavaScript to handle user interactions and data display.
 
 - _Data Processing_: Python scripts to process raw UN speech texts and analyze country mentions
 - _AI/ML_: GPT-4o for language translation and sentiment analysis of diplomatic mentions
@@ -46,3 +60,4 @@ Overall though, I think the performance is quite good. It's using multiple langu
 - [ ] Convert to Next.js so that sqlite queries can be run in the components (but still keeping the website static). This would allow my to do more with the data.
 - [ ] Addings links to the speeches in the modal.
 - [ ] Adding tabs to the modal, that show mentions over the past 10 years.
+- [ ] Instead of optimistic and pessimistic show what each countries sees as the world's biggest challenges right now. You can also select a challenge to see which regions take that most seriously. Or see change over time.

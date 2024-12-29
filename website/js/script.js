@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const aboutDialog = document.getElementById("about-dialog");
   aboutDialog.showModal();
 
+  const aboutBtn = document.getElementById("about-btn");
+  aboutBtn.addEventListener("click", () => {
+    aboutDialog.showModal();
+  });
+
   const container = document.getElementById("globe");
   const { width, height } = container.getBoundingClientRect();
 
