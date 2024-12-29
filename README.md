@@ -4,6 +4,10 @@
 
 Select a country on the globe to explore diplomatic relationships and see who's saying what about whom in the 2024 UN General Assembly Speeches.
 
+<!-- image -->
+
+![Screenshot of the globe](./un-speeches.png)
+
 ## Background
 
 Each year in September, world leaders gather in New York for the UN General Assembly, delivering hundreds of
