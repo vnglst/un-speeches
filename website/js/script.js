@@ -113,6 +113,7 @@ Promise.all([
 
   function updateMap(data) {
     const countryOutlooks = {};
+
     Object.keys(data).forEach((countryCode) => {
       countryOutlooks[countryCode] = data[countryCode].length;
     });
@@ -129,18 +130,18 @@ Promise.all([
         const countryCode = d.properties.code;
         return countryOutlooks[countryCode] ? colorScale(countryOutlooks[countryCode]) : "#eee";
       })
-      .attr("stroke", "#eee")
-      .attr("stroke-width", "0.1");
+      .attr("stroke", "#ccc")
+      .attr("stroke-width", "0.2");
 
     countryPaths
       .on("mouseover", function () {
         d3.select(this).attr("stroke-width", "2");
-        d3.select(this).attr("stroke", "#111");
+        d3.select(this).attr("stroke", colorScale(12));
         d3.select(this).raise();
       })
       .on("mouseout", function () {
-        d3.select(this).attr("stroke-width", "0.1");
-        d3.select(this).attr("stroke", "#eee");
+        d3.select(this).attr("stroke-width", "0.2");
+        d3.select(this).attr("stroke", "#ccc");
       })
       .on("click", function (_event, d) {
         if (!isDragging) {
@@ -154,8 +155,16 @@ Promise.all([
         }
       });
 
+    // Clear previous titles
+    countryPaths.selectAll("title").remove();
+
     countryPaths.append("title").text((d) => {
-      const mentions = countryOutlooks[d.properties.code] || 0;
+      const mentions = countryOutlooks[d.properties.code];
+
+      if (!mentions) {
+        return `${d.properties.name}`;
+      }
+
       return `${d.properties.name}: ${mentions} ${currentType} mentions`;
     });
   }
