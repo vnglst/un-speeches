@@ -68,6 +68,16 @@ button {
   color: black;
 }
 
+ul {
+  padding: 0 1rem;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 #top-nav {
   position: absolute;
   top: 0;

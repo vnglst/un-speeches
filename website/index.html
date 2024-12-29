@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>United Nations Speech Sentiment Analysis</title>
+    <title>Explore how nations talk about each other in UN speeches</title>
     <meta
       name="description"
       content="Visualizing how world leaders talk about each other at the United Nations General Assembly."
@@ -44,16 +44,20 @@
       </form>
       <h2>About</h2>
       <p>
-        Each year in September, world leaders gather in New York for the UN General Assembly, delivering hundreds of
-        speeches. While this is crucial for smaller nations to be heard, listening to all these hour-long speeches is
-        overwhelming. This side project uses GenAI (GPT-4o) to visualize how world leaders talk about each other, making
-        these diplomatic relationships instantly clear.
+        Select a country on the globe to explore diplomatic relationships and see who's saying what about whom in the
+        2024 UN General Assembly Speeches.
       </p>
       <p>
         The visualization simplifies each speech into country mentions, categorizing them as either optimistic or
-        pessimistic. You can explore these diplomatic relationships interactively by clicking on a country to reveal who
-        mentioned them and what was said.
+        pessimistic. The color of a country indicates how often it is mentioned by others.
       </p>
+      <p>The project relies heavily on GenAI for several tasks:</p>
+      <ul>
+        <li>Reading speech documents in multiple languages</li>
+        <li>Identifying both direct and indirect mentions of other countries</li>
+        <li>Extracting and translating relevant quotations that demonstrate positive or negative sentiment</li>
+        <li>Mapping mentions to correct ISO country codes</li>
+      </ul>
       <p>
         This project was created by <a href="https://koenvangilst.nl">Koen van Gilst</a> and is open-source on
         <a href="https://github.com/vnglst/un-speeches">GitHub</a>.
