@@ -23,7 +23,7 @@ const path = d3.geoPath().projection(projection);
 
 const zoom = d3
   .zoom()
-  .scaleExtent([0.5, 3]) // [min, max] zoom levels
+  .scaleExtent([0.5, 4]) // [min, max] zoom levels
   .filter(function (event) {
     // Zoom only on wheel events and touch events with more than one touch point
     return (!event.button && event.type === "wheel") || (event.type === "touchstart" && event.touches.length > 1);
@@ -133,17 +133,16 @@ Promise.all([
       .attr("stroke-width", "0.1");
 
     countryPaths
-      .on("mouseover", function (event, d) {
-        if (!isDragging) {
-          d3.select(this).attr("stroke-width", "1");
-        }
+      .on("mouseover", function () {
+        d3.select(this).attr("stroke-width", "2");
+        d3.select(this).attr("stroke", "#111");
+        d3.select(this).raise();
       })
       .on("mouseout", function () {
-        if (!isDragging) {
-          d3.select(this).attr("stroke-width", "0.1");
-        }
+        d3.select(this).attr("stroke-width", "0.1");
+        d3.select(this).attr("stroke", "#eee");
       })
-      .on("click", function (event, d) {
+      .on("click", function (_event, d) {
         if (!isDragging) {
           rotationStopped = true;
           if (rotationInterval) {
