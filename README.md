@@ -1,10 +1,6 @@
 # Explore how nations talk about each other in UN speeches
 
-## How it works
-
 Select a country on the globe to explore diplomatic relationships and see who's saying what about whom in the 2024 UN General Assembly Speeches.
-
-<!-- image -->
 
 ![Screenshot of the globe](./un-speeches.png)
 
