@@ -1,5 +1,11 @@
 import { countryLookup } from "./countries.js";
 
+// Open the about dialog on page load
+document.addEventListener("DOMContentLoaded", () => {
+  const aboutDialog = document.getElementById("about-dialog");
+  aboutDialog.showModal();
+});
+
 const container = document.getElementById("globe");
 const width = container.offsetWidth;
 const height = container.offsetHeight;
@@ -177,7 +183,7 @@ Promise.all([
   });
 
   function showModal(countryCode, mentions, type) {
-    const modal = document.getElementById("modal");
+    const dialog = document.getElementById("mentions-dialog");
     const modalTitle = document.getElementById("modal-title");
     const modalSubtitle = document.getElementById("modal-subtitle");
     const modalOutlooks = document.getElementById("modal-mentions");
@@ -197,21 +203,8 @@ Promise.all([
       })
       .join("");
 
-    modal.style.display = "block";
+    dialog.showModal();
   }
-
-  // Close modal when clicking the close button
-  document.querySelector(".close-button").onclick = function () {
-    document.getElementById("modal").style.display = "none";
-  };
-
-  // Close modal when clicking outside
-  window.onclick = function (event) {
-    const modal = document.getElementById("modal");
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  };
 
   // Add stars
   const numStars = 100;
