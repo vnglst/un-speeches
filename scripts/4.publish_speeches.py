@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from typing import Dict, List, Tuple
 
 from src.config import DB_PATH, WEBSITE_DATA_DIR
 from src.database import Database
@@ -11,7 +10,7 @@ class SentimentPublisher:
         self.output_dir = output_dir
         self.db = db
 
-    def get_mentions_by_sentiment(self, sentiment: str) -> List[Tuple]:
+    def get_mentions_by_sentiment(self, sentiment: str) -> list[tuple]:
         query = """
         SELECT 
             mentioned_country_code,
@@ -25,7 +24,7 @@ class SentimentPublisher:
         """
         return self.db.execute(query, (sentiment,)).fetchall()
 
-    def process_mentions(self, results: List[Tuple], sentiment: str) -> Dict:
+    def process_mentions(self, results: list[tuple], sentiment: str) -> dict:
         return {
             row[0]: [
                 {"mentioning_country_code": r[2].upper(), "explanation": r[3]}
@@ -35,7 +34,7 @@ class SentimentPublisher:
             for row in results
         }
 
-    def save_mentions(self, mentions: Dict, sentiment: str) -> None:
+    def save_mentions(self, mentions: dict, sentiment: str) -> None:
         output_file = self.output_dir / f"{sentiment}_received.json"
         with open(output_file, "w") as f:
             json.dump(mentions, f, indent=4)

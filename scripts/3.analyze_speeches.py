@@ -1,6 +1,5 @@
 import glob
 import os
-from typing import Dict, List, Tuple
 
 from pydantic import BaseModel, Field
 
@@ -21,7 +20,7 @@ class CountryMention(BaseModel):
 
 
 class CountryMentions(BaseModel):
-    mentions: List[CountryMention] = Field(
+    mentions: list[CountryMention] = Field(
         ...,
         description="An array of objects representing the country mentions and their sentiments.",
     )
@@ -105,7 +104,7 @@ class SpeechFiles:
     def __init__(self, base_path: str):
         self.base_path = base_path
 
-    def get_txt_files(self) -> Dict[str, List[Tuple[str, str]]]:
+    def get_txt_files(self) -> dict[str, list[tuple[str, str]]]:
         """Get dictionary of country codes mapped to list of (language, filepath) tuples"""
         files = glob.glob(os.path.join(self.base_path, "*.txt"))
         country_files = {}
@@ -151,7 +150,7 @@ class SpeechRepository:
         )
         return self.db.fetchone() is not None
 
-    def save_mentions(self, country_code: str, mentions: List[CountryMention]):
+    def save_mentions(self, country_code: str, mentions: list[CountryMention]):
         for mention in mentions:
             self.db.execute(
                 """INSERT INTO country_mentions 
