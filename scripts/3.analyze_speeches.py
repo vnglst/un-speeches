@@ -107,7 +107,7 @@ class SpeechFiles:
     def get_txt_files(self) -> dict[str, list[tuple[str, str]]]:
         """Get dictionary of country codes mapped to list of (language, filepath) tuples"""
         files = glob.glob(os.path.join(self.base_path, "*.txt"))
-        country_files = {}
+        country_files: dict[str, list[tuple[str, str]]] = {}
 
         for file in files:
             filename = os.path.basename(file)
